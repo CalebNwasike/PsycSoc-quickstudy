@@ -7,6 +7,7 @@ export default function QuizInterface({ terms }) {
   const [quizStarted, setQuizStarted] = useState(false);
   const [selectedCategories, setSelectedCategories] = useState([]); // Array of selected tag1 values
   const [selectedSubcategories, setSelectedSubcategories] = useState([]); // Array of selected tag2 values
+  const [selectedSubsections, setSelectedSubsections] = useState([]); // Array of selected subsection values
   const [useAllCategories, setUseAllCategories] = useState(false);
   
   // Quiz states
@@ -28,6 +29,13 @@ export default function QuizInterface({ terms }) {
   const [shownTerms, setShownTerms] = useState(new Set());
   const [quizComplete, setQuizComplete] = useState(false);
   
+  // Track wrong answer terms (for retake feature)
+  const [wrongAnswerTerms, setWrongAnswerTerms] = useState(new Set());
+  
+  // Quiz mode states
+  const [inverseMode, setInverseMode] = useState(false); // false = definition as question, true = term as question
+  const [retakeWrongMode, setRetakeWrongMode] = useState(false); // true when retaking wrong answers
+  
   // Get all unique categories
   // Get all unique categories
 const getAllCategories = () => {
@@ -36,8 +44,7 @@ const getAllCategories = () => {
     return cats.filter(cat => cat !== 'tag1' && cat !== 'tag2').sort();
   };
   // Get all unique subcategories (for selected categories or all)
-  // Get all unique subcategories (for selected categories or all)
-const getAllSubcategories = () => {
+  const getAllSubcategories = () => {
     const filtered = useAllCategories || selectedCategories.length === 0
       ? terms
       : terms.filter(t => selectedCategories.includes(t.tag1));
@@ -45,6 +52,28 @@ const getAllSubcategories = () => {
     // Filter out "tag2" if it exists
     return subs.filter(sub => sub !== 'tag1' && sub !== 'tag2').sort();
   };
+  
+  // Get all unique subsections (for selected categories and subcategories)
+  const getAllSubsections = () => {
+    let filtered = terms;
+    if (!useAllCategories && selectedCategories.length > 0) {
+      filtered = filtered.filter(t => selectedCategories.includes(t.tag1));
+    }
+    if (selectedSubcategories.length > 0) {
+      filtered = filtered.filter(t => selectedSubcategories.includes(t.tag2));
+    }
+    const subsections = [...new Set(filtered.map(t => t.subsection).filter(Boolean))];
+    return subsections.sort();
+  };
+  // Get terms to use for quiz (either all filtered terms or just wrong answers)
+  const getQuizTerms = () => {
+    if (retakeWrongMode && wrongAnswerTerms.size > 0) {
+      // Return only terms that were answered incorrectly
+      return filteredTerms.filter(term => wrongAnswerTerms.has(term.term));
+    }
+    return filteredTerms;
+  };
+  
   // Filter terms based on configuration
   const filteredTerms = terms.filter(term => {
     // Exclude terms with "tag1" or "tag2" as actual category/subcategory values
@@ -54,34 +83,63 @@ const getAllSubcategories = () => {
     }
     
     if (useAllCategories) {
-      // If "all categories" is selected, only filter by subcategories if any selected
-      if (selectedSubcategories.length === 0) {
+      // If "all categories" is selected
+      if (selectedSubcategories.length === 0 && selectedSubsections.length === 0) {
         return true; // All terms
       }
-      // If term has no subcategory, exclude it when filtering by subcategories
-      if (!term.tag2 || term.tag2.trim() === '') {
-        return false;
+      
+      // Filter by subcategories if selected
+      if (selectedSubcategories.length > 0) {
+        if (!term.tag2 || term.tag2.trim() === '') {
+          return false;
+        }
+        if (!selectedSubcategories.includes(term.tag2)) {
+          return false;
+        }
       }
-      return selectedSubcategories.includes(term.tag2);
+      
+      // Filter by subsections if selected
+      if (selectedSubsections.length > 0) {
+        if (!term.subsection || term.subsection.trim() === '') {
+          return false;
+        }
+        if (!selectedSubsections.includes(term.subsection)) {
+          return false;
+        }
+      }
+      
+      return true;
     } else {
       // Filter by selected categories
       const matchesCategory = selectedCategories.length === 0 || selectedCategories.includes(term.tag1);
+      if (!matchesCategory) return false;
       
-      // If no subcategories selected, include all terms from selected categories (even if they have no tag2)
-      if (selectedSubcategories.length === 0) {
-        return matchesCategory;
+      // Filter by subcategories if selected
+      if (selectedSubcategories.length > 0) {
+        if (!term.tag2 || term.tag2.trim() === '') {
+          // Terms with no subcategory (like People/Theories) should be included if their category matches
+          // But only if no subsections are selected (since they won't have subsections either)
+          if (selectedSubsections.length === 0) {
+            return true;
+          }
+          return false;
+        }
+        if (!selectedSubcategories.includes(term.tag2)) {
+          return false;
+        }
       }
       
-      // If subcategories are selected, only include terms that:
-      // 1. Match the category AND
-      // 2. Either have a matching subcategory OR have no subcategory (for People/Theories)
-      if (!term.tag2 || term.tag2.trim() === '') {
-        // Terms with no subcategory (like People/Theories) should be included if their category matches
-        return matchesCategory;
+      // Filter by subsections if selected
+      if (selectedSubsections.length > 0) {
+        if (!term.subsection || term.subsection.trim() === '') {
+          return false;
+        }
+        if (!selectedSubsections.includes(term.subsection)) {
+          return false;
+        }
       }
       
-      // Terms with subcategories must match both category and subcategory
-      return matchesCategory && selectedSubcategories.includes(term.tag2);
+      return true;
     }
   });
   // Toggle category selection
@@ -90,7 +148,7 @@ const getAllSubcategories = () => {
     
     setSelectedCategories(prev => {
       if (prev.includes(category)) {
-        // Remove category and clear its subcategories
+        // Remove category and clear its subcategories and subsections
         const newCats = prev.filter(c => c !== category);
         // Remove subcategories that belong to this category
         const categorySubs = terms
@@ -99,6 +157,14 @@ const getAllSubcategories = () => {
           .filter(Boolean);
         setSelectedSubcategories(prevSubs => 
           prevSubs.filter(sub => !categorySubs.includes(sub))
+        );
+        // Remove subsections that belong to this category
+        const categorySubsections = terms
+          .filter(t => t.tag1 === category)
+          .map(t => t.subsection)
+          .filter(Boolean);
+        setSelectedSubsections(prevSubsections =>
+          prevSubsections.filter(subsection => !categorySubsections.includes(subsection))
         );
         return newCats;
       } else {
@@ -111,9 +177,30 @@ const getAllSubcategories = () => {
   const toggleSubcategory = (subcategory) => {
     setSelectedSubcategories(prev => {
       if (prev.includes(subcategory)) {
-        return prev.filter(s => s !== subcategory);
+        // Remove subcategory and clear its subsections
+        const newSubs = prev.filter(s => s !== subcategory);
+        // Remove subsections that belong to this subcategory
+        const subcategorySubsections = terms
+          .filter(t => t.tag2 === subcategory)
+          .map(t => t.subsection)
+          .filter(Boolean);
+        setSelectedSubsections(prevSubsections =>
+          prevSubsections.filter(subsection => !subcategorySubsections.includes(subsection))
+        );
+        return newSubs;
       } else {
         return [...prev, subcategory];
+      }
+    });
+  };
+  
+  // Toggle subsection selection
+  const toggleSubsection = (subsection) => {
+    setSelectedSubsections(prev => {
+      if (prev.includes(subsection)) {
+        return prev.filter(s => s !== subsection);
+      } else {
+        return [...prev, subsection];
       }
     });
   };
@@ -128,19 +215,39 @@ const getAllSubcategories = () => {
   
   // Start quiz with current configuration
   const startQuiz = () => {
-    if (filteredTerms.length === 0) {
+    const quizTerms = getQuizTerms();
+    if (quizTerms.length === 0) {
       alert('Please select at least one category or subcategory to start the quiz.');
       return;
     }
     setQuizStarted(true);
+    setRetakeWrongMode(false);
     setShownTerms(new Set()); // Reset shown terms
     setQuizComplete(false); // Reset completion status
+    generateQuestion();
+  };
+  
+  // Start retake wrong answers quiz
+  const startRetakeWrong = () => {
+    if (wrongAnswerTerms.size === 0) return;
+    
+    setQuizStarted(true);
+    setRetakeWrongMode(true);
+    setShownTerms(new Set()); // Reset shown terms
+    setQuizComplete(false); // Reset completion status
+    setQuizStats({
+      correct: 0,
+      wrong: 0,
+      wrongByCategory: {},
+      questionNumber: 0
+    });
     generateQuestion();
   };
   
   // Reset quiz configuration
   const resetConfiguration = () => {
     setQuizStarted(false);
+    setRetakeWrongMode(false);
     setQuizStats({
       correct: 0,
       wrong: 0,
@@ -153,51 +260,93 @@ const getAllSubcategories = () => {
     setOptions([]);
     setSelectedAnswer(null);
     setShowResult(false);
+    // Note: Don't reset selectedCategories/Subcategories/Subsections - let user keep their selection
+    // Note: Don't reset wrongAnswerTerms - keep them for retake feature
   };
   
   // Find potential wrong answers for multiple choice
-  const findWrongAnswers = (correctTerm) => {
-    const isPeopleOrTheory = correctTerm.tag1 === 'People' || correctTerm.tag1 === 'Theories';
+  const findWrongAnswers = (correctTerm, isInverse = false) => {
+    const quizTerms = getQuizTerms();
     
-    let candidates;
-    if (isPeopleOrTheory) {
-      candidates = filteredTerms.filter(t => 
-        t.tag1 === correctTerm.tag1 && t.term !== correctTerm.term
-      );
-    } else {
-      candidates = filteredTerms.filter(t => 
-        t.tag1 === correctTerm.tag1 && 
-        t.tag2 === correctTerm.tag2 && 
-        t.term !== correctTerm.term
-      );
-    }
-    
-    if (candidates.length < 3) {
+    if (isInverse) {
+      // Inverse mode: term is question, definitions are answers
+      // Find wrong definitions (from other terms)
+      const isPeopleOrTheory = correctTerm.tag1 === 'People' || correctTerm.tag1 === 'Theories';
+      
+      let candidates;
       if (isPeopleOrTheory) {
-        candidates = filteredTerms.filter(t => t.term !== correctTerm.term);
-      } else {
-        candidates = filteredTerms.filter(t => 
+        candidates = quizTerms.filter(t => 
           t.tag1 === correctTerm.tag1 && t.term !== correctTerm.term
         );
+      } else {
+        candidates = quizTerms.filter(t => 
+          t.tag1 === correctTerm.tag1 && 
+          t.tag2 === correctTerm.tag2 && 
+          t.term !== correctTerm.term
+        );
       }
+      
+      if (candidates.length < 3) {
+        if (isPeopleOrTheory) {
+          candidates = quizTerms.filter(t => t.term !== correctTerm.term);
+        } else {
+          candidates = quizTerms.filter(t => 
+            t.tag1 === correctTerm.tag1 && t.term !== correctTerm.term
+          );
+        }
+      }
+      
+      const shuffled = [...candidates].sort(() => Math.random() - 0.5);
+      return shuffled.slice(0, 3).map(t => t.definition);
+    } else {
+      // Normal mode: definition is question, terms are answers
+      const isPeopleOrTheory = correctTerm.tag1 === 'People' || correctTerm.tag1 === 'Theories';
+      
+      let candidates;
+      if (isPeopleOrTheory) {
+        candidates = quizTerms.filter(t => 
+          t.tag1 === correctTerm.tag1 && t.term !== correctTerm.term
+        );
+      } else {
+        candidates = quizTerms.filter(t => 
+          t.tag1 === correctTerm.tag1 && 
+          t.tag2 === correctTerm.tag2 && 
+          t.term !== correctTerm.term
+        );
+      }
+      
+      if (candidates.length < 3) {
+        if (isPeopleOrTheory) {
+          candidates = quizTerms.filter(t => t.term !== correctTerm.term);
+        } else {
+          candidates = quizTerms.filter(t => 
+            t.tag1 === correctTerm.tag1 && t.term !== correctTerm.term
+          );
+        }
+      }
+      
+      const shuffled = [...candidates].sort(() => Math.random() - 0.5);
+      return shuffled.slice(0, 3).map(t => t.term);
     }
-    
-    const shuffled = [...candidates].sort(() => Math.random() - 0.5);
-    return shuffled.slice(0, 3).map(t => t.term);
   };
   
   // Generate a new question
   const generateQuestion = () => {
-    if (filteredTerms.length === 0) return;
+    const quizTerms = getQuizTerms();
+    
+    if (quizTerms.length === 0) {
+      setQuizComplete(true);
+      return;
+    }
     
     // Check if all terms have been shown
-    if (shownTerms.size >= filteredTerms.length) {
+    if (shownTerms.size >= quizTerms.length) {
       setQuizComplete(true);
       return;
     }
     
     // Get terms that haven't been shown yet
-    const availableTerms = filteredTerms.filter(term => !shownTerms.has(term.term));
+    const availableTerms = quizTerms.filter(term => !shownTerms.has(term.term));
     
     if (availableTerms.length === 0) {
       setQuizComplete(true);
@@ -211,12 +360,22 @@ const getAllSubcategories = () => {
     // Mark this term as shown
     setShownTerms(prev => new Set([...prev, questionTerm.term]));
     
-    const wrongAnswers = findWrongAnswers(questionTerm);
+    const wrongAnswers = findWrongAnswers(questionTerm, inverseMode);
     
-    const allOptions = [
-      questionTerm.term,
-      ...wrongAnswers
-    ];
+    let allOptions;
+    if (inverseMode) {
+      // Inverse: term is question, definitions are answers
+      allOptions = [
+        questionTerm.definition,
+        ...wrongAnswers
+      ];
+    } else {
+      // Normal: definition is question, terms are answers
+      allOptions = [
+        questionTerm.term,
+        ...wrongAnswers
+      ];
+    }
     
     // Fisher-Yates shuffle
     const shuffled = [...allOptions];
@@ -236,7 +395,17 @@ const getAllSubcategories = () => {
     if (showResult) return;
     
     setSelectedAnswer(answer);
-    const correct = answer === currentQuestion.term;
+    
+    // Check if answer is correct based on mode
+    let correct;
+    if (inverseMode) {
+      // Inverse: term is question, definition is answer
+      correct = answer === currentQuestion.definition;
+    } else {
+      // Normal: definition is question, term is answer
+      correct = answer === currentQuestion.term;
+    }
+    
     setIsCorrect(correct);
     setShowResult(true);
     
@@ -299,7 +468,7 @@ const getAllSubcategories = () => {
                 />
                 <span className="ml-3 text-lg font-semibold">All Categories</span>
               </label>
-              <p className="ml-8 text-sm text-gray-600 mt-1">
+              <p className="ml-8 text-sm text-gray-750 mt-1">
                 Quiz will include terms from all categories
               </p>
             </div>
@@ -358,6 +527,52 @@ const getAllSubcategories = () => {
               </div>
             </div>
             
+            {/* Subsection Selection */}
+            <div className="mb-6">
+              <h3 className="text-lg font-semibold mb-3">Select Subsections (Optional):</h3>
+              <p className="text-sm text-gray-600 mb-3">
+                Leave empty to include all subsections from selected subcategories
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-2 max-h-64 overflow-y-auto">
+                {getAllSubsections().map(subsection => (
+                  <label
+                    key={subsection}
+                    className={`flex items-center p-2 border-2 rounded-lg cursor-pointer transition-colors text-sm ${
+                      selectedSubsections.includes(subsection)
+                        ? 'border-purple-500 bg-purple-50'
+                        : 'border-gray-200 hover:border-gray-300'
+                    }`}
+                  >
+                    <input
+                      type="checkbox"
+                      checked={selectedSubsections.includes(subsection)}
+                      onChange={() => toggleSubsection(subsection)}
+                      className="w-4 h-4 text-purple-600 rounded"
+                    />
+                    <span className="ml-2">{subsection}</span>
+                  </label>
+                ))}
+              </div>
+            </div>
+            
+            {/* Inverse Mode Toggle */}
+            <div className="mb-6 pb-6 border-b">
+              <label className="flex items-center cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={inverseMode}
+                  onChange={(e) => setInverseMode(e.target.checked)}
+                  className="w-5 h-5 text-purple-600 rounded"
+                />
+                <span className="ml-3 text-lg font-semibold">Inverse Mode</span>
+              </label>
+              <p className="ml-8 text-sm text-gray-600 mt-1">
+                {inverseMode 
+                  ? 'Term will be shown as question, definitions as multiple choice answers'
+                  : 'Definition will be shown as question, terms as multiple choice answers (default)'}
+              </p>
+            </div>
+            
             {/* Summary */}
             <div className="bg-blue-50 p-4 rounded-lg mb-6">
               <p className="font-semibold text-blue-900">
@@ -388,28 +603,39 @@ const getAllSubcategories = () => {
     const wrongCount = quizStats.wrong;
     const correctCount = quizStats.correct;
     
+    // If in retake mode and all wrong answers are now correct, clear the wrong answers set
+    if (retakeWrongMode && wrongAnswerTerms.size === 0) {
+      // All wrong answers have been corrected
+    }
+    
     return (
       <div className="min-h-screen p-8 bg-zinc-50">
         <main className="max-w-4xl mx-auto">
           <div className="bg-white rounded-lg shadow-lg p-8 text-center">
             <h1 className="text-4xl font-bold mb-4 text-green-600">Quiz Complete! 🎉</h1>
-            <p className="text-xl text-gray-600 mb-8">You've answered all {filteredTerms.length} terms!</p>
+            <p className="text-xl text-gray-800 mb-8">
+              {retakeWrongMode 
+                ? wrongAnswerTerms.size === 0
+                  ? 'Perfect! All wrong answers are now correct! 🎯'
+                  : `You've completed the retake. ${wrongAnswerTerms.size} term${wrongAnswerTerms.size !== 1 ? 's still need' : ' still needs'} practice.`
+                : `You've answered all ${filteredTerms.length} terms!`}
+            </p>
             
             {/* Score Display */}
             <div className="bg-gradient-to-r from-blue-50 to-green-50 rounded-lg p-6 mb-6">
               <div className="text-6xl font-bold text-blue-600 mb-2">{accuracy}%</div>
-              <p className="text-lg text-gray-700">Overall Score</p>
+              <p className="text-lg text-gray-900">Overall Score</p>
             </div>
             
             {/* Detailed Stats */}
             <div className="grid grid-cols-2 gap-4 mb-8">
               <div className="bg-green-50 rounded-lg p-4">
-                <div className="text-3xl font-bold text-green-600 mb-1">{correctCount}</div>
-                <p className="text-sm text-gray-600">Correct</p>
+                <div className="text-3xl font-bold text-green-800 mb-1">{correctCount}</div>
+                <p className="text-sm text-gray-900">Correct</p>
               </div>
               <div className="bg-red-50 rounded-lg p-4">
-                <div className="text-3xl font-bold text-red-600 mb-1">{wrongCount}</div>
-                <p className="text-sm text-gray-600">Incorrect</p>
+                <div className="text-3xl font-bold text-red-800 mb-1">{wrongCount}</div>
+                <p className="text-sm text-gray-800">Incorrect</p>
               </div>
             </div>
             
@@ -432,29 +658,41 @@ const getAllSubcategories = () => {
             )}
             
             {/* Action Buttons */}
-            <div className="flex gap-4 justify-center">
-              <button
-                onClick={resetConfiguration}
-                className="px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors"
-              >
-                Start New Quiz
-              </button>
-              <button
-                onClick={() => {
-                  setQuizComplete(false);
-                  setShownTerms(new Set());
-                  setQuizStats({
-                    correct: 0,
-                    wrong: 0,
-                    wrongByCategory: {},
-                    questionNumber: 0
-                  });
-                  generateQuestion();
-                }}
-                className="px-6 py-3 bg-gray-200 text-gray-700 rounded-lg font-semibold hover:bg-gray-300 transition-colors"
-              >
-                Retake Same Quiz
-              </button>
+            <div className="flex flex-col gap-3 justify-center">
+              <div className="flex gap-4 justify-center">
+                <button
+                  onClick={resetConfiguration}
+                  className="px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+                >
+                  Start New Quiz
+                </button>
+                <button
+                  onClick={() => {
+                    setQuizComplete(false);
+                    setShownTerms(new Set());
+                    setQuizStats({
+                      correct: 0,
+                      wrong: 0,
+                      wrongByCategory: {},
+                      questionNumber: 0
+                    });
+                    generateQuestion();
+                  }}
+                  className="px-6 py-3 bg-gray-200 text-gray-700 rounded-lg font-semibold hover:bg-gray-300 transition-colors"
+                >
+                  Retake Same Quiz
+                </button>
+              </div>
+              
+              {/* Retake Wrong Answers Button - only show if there are wrong answers */}
+              {wrongAnswerTerms.size > 0 && (
+                <button
+                  onClick={startRetakeWrong}
+                  className="px-6 py-3 bg-red-600 text-white rounded-lg font-semibold hover:bg-red-700 transition-colors"
+                >
+                  Retake Wrong Answers Only ({wrongAnswerTerms.size} term{wrongAnswerTerms.size !== 1 ? 's' : ''})
+                </button>
+              )}
             </div>
           </div>
         </main>
@@ -493,7 +731,15 @@ const getAllSubcategories = () => {
     <div className="min-h-screen p-8 bg-zinc-50">
       <main className="max-w-4xl mx-auto">
         <div className="flex justify-between items-center mb-6">
-          <h1 className="text-3xl font-bold">MCAT Quiz Mode</h1>
+          <div>
+            <h1 className="text-3xl font-bold">MCAT Quiz Mode</h1>
+            {retakeWrongMode && (
+              <p className="text-sm text-red-600 mt-1">Retaking wrong answers only</p>
+            )}
+            {inverseMode && (
+              <p className="text-sm text-purple-600 mt-1">Inverse Mode: Term → Definition</p>
+            )}
+          </div>
           <button
             onClick={resetConfiguration}
             className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition-colors"
@@ -506,12 +752,12 @@ const getAllSubcategories = () => {
         <div className="bg-white rounded-lg shadow p-4 mb-6">
           <div className="flex justify-between items-center">
             <div>
-              <p className="text-sm text-gray-600">Questions: {quizStats.questionNumber}</p>
-              <p className="text-sm text-gray-600">
+              <p className="text-sm text-gray-800">Questions: {quizStats.questionNumber}</p>
+              <p className="text-sm text-gray-800">
                 Score: {quizStats.correct} / {totalAnswered} ({accuracy}%)
               </p>
-              <p className="text-xs text-gray-500 mt-1">
-                Terms in quiz: {filteredTerms.length}
+              <p className="text-xs text-gray-900 mt-1">
+                Terms in quiz: {getQuizTerms().length}
               </p>
             </div>
             {Object.keys(quizStats.wrongByCategory).length > 0 && (
@@ -533,7 +779,7 @@ const getAllSubcategories = () => {
         {/* Question Card */}
         <div className="bg-white rounded-lg shadow-lg p-8 mb-6">
           {/* Category Tags */}
-          <div className="flex gap-2 mb-4">
+          <div className="flex flex-wrap gap-2 mb-4">
             {currentQuestion.tag1 && (
               <span className="px-3 py-1 text-sm bg-blue-100 text-blue-800 rounded-full">
                 {currentQuestion.tag1}
@@ -544,12 +790,19 @@ const getAllSubcategories = () => {
                 {currentQuestion.tag2}
               </span>
             )}
+            {currentQuestion.subsection && (
+              <span className="px-3 py-1 text-sm bg-purple-100 text-purple-800 rounded-full">
+                {currentQuestion.subsection}
+              </span>
+            )}
           </div>
           
-          {/* Question (Definition) */}
+          {/* Question (Definition or Term based on mode) */}
           <div className="mb-6">
             <p className="text-sm text-gray-500 mb-2">Question:</p>
-            <p className="text-xl font-medium text-gray-800">{currentQuestion.definition}</p>
+            <p className="text-xl font-medium text-gray-900">
+              {inverseMode ? currentQuestion.term : currentQuestion.definition}
+            </p>
           </div>
           
           {/* Multiple Choice Options */}
@@ -557,10 +810,13 @@ const getAllSubcategories = () => {
             {options.map((option, index) => {
               let buttonClass = "w-full p-4 text-left border-2 rounded-lg transition-colors ";
               
+              // Determine correct answer based on mode
+              const correctAnswer = inverseMode ? currentQuestion.definition : currentQuestion.term;
+              
               if (showResult) {
-                if (option === currentQuestion.term) {
+                if (option === correctAnswer) {
                   buttonClass += "bg-green-100 border-green-500 text-green-800";
-                } else if (option === selectedAnswer && option !== currentQuestion.term) {
+                } else if (option === selectedAnswer && option !== correctAnswer) {
                   buttonClass += "bg-red-100 border-red-500 text-red-800";
                 } else {
                   buttonClass += "bg-gray-50 border-gray-300 text-gray-600";
@@ -593,7 +849,7 @@ const getAllSubcategories = () => {
               </p>
               {!isCorrect && (
                 <p className="text-sm text-red-700 mt-1">
-                  The correct answer is: <strong>{currentQuestion.term}</strong>
+                  The correct answer is: <strong>{inverseMode ? currentQuestion.definition : currentQuestion.term}</strong>
                 </p>
               )}
             </div>

@@ -1,452 +1,130 @@
-term,definition,tag1,tag2
-absolute poverty,"inability to meet a bare minimum of basic necessities, including clean drinking water, food, safe housing, and reliable access to healthcare",Sociology,Social Structure
-acetylcholine (ACh),"the neurotransmitter used at the neuromuscular junction, throughout the PNS and by the preganglionic neurons of the SNS",Psychology,Neuroscience
-acetylcholinesterase,the enzyme that breaks down ACh in the synaptic cleft,Psychology,Neuroscience
-achieved status,statuses that are considered to be due largely to an individual's efforts,Sociology,Social Structure
-acquisition,"in classical conditioning, the process of learning the association between a conditioned stimulus and response",Psychology,Learning
-action potential,"localized change in the neuron's membrane potential that propagates away from its point of origin. All-or-none processes mediated by the opening of voltage gated sodium and potassium channels when the membrane is brought to threshold potential; opening of sodium channels causes characteristic depolarization, while opening sodium channels repolarizes the membrane",Psychology,Development
-activation-synthesis theory,theory that dreams are simply byproducts of brain activation during REM sleep. Suggests that the content of dreams is not purposeful or meaningful,Theories,
-actor-observer bias/self-serving bias,tendency to blame our actions on the situation and blame the actions of others on their personalities,Psychology,Development
-addiction,a compulsion to do an act repeatedly; can consist of a psychological dependence and/or a physical dependence as evidenced by drug addiction withdrawal,Psychology,Disorders
-adrenal cortex,outer region of the adrenal gland. the adrenal cortex produces cortisol in response to long-term chronic stress and aldosterone in response to low blood pressure and blood osmolarity,Psychology,Neuroscience
-adrenal medulla,"inner region of the adrenal gland, and part of the SNS and releases epinephrine and norepinephrine into the bloodstream when stimulated. Epi and norepi. prolong and enhance the effect of the sympathetic stimulation on the body",Psychology,Neuroscience
-adrenocorticotropic hormone (ACTH),"a tropic hormone produced by the anterior pituitary gland that targets the adrenal cortex, stimulating it to release cortisol and aldosterone",Psychology,Neuroscience
-affect,a person's visible emotion in the moment,Psychology,Development
-affirmative action,policies that take factors like race and sex into consideration to benefit underrepresented groups in admissions or job hiring decisions; these policies have been used to benefit those believed to be current or past victims of discrimination,Sociology,Social Behavior
-aggregate,people who exist in the same space but do not interact or share a common sense of identity,Psychology,Development
-aggression,"behavior that is forceful, hostile, or attacking. in sociology, aggression is considered something that is intended to cause harm or promote social dominance within a group",Sociology,Social Behavior
 Mary Ainsworth,famous for her strange situation experiments where mothers would leave their infants in an unfamiliar environment to see how they would react. Studies suggested a distinction between securely attached infants and insecurely attached infants,People,
-algorithm,a step-by-step detailing the steps that aids with problem solving,Psychology,Learning
-alpha waves,"low amplitude, high frequency brain waves present in a relaxed state. alpha waves are the first indicator that a person is ready to drift off to sleep",Psychology,Neuroscience
-altruism,"a behavior that helps ensure the success or survival of the rest of the social group, possibly at the expense of the success or survival of the individual",Psychology,Learning
-Alzheimer's disease,"most prevalent forms of the dementia, characterized behaviorally by the inability to form new memories, known as anterograde amnesia",Psychology,Disorders
-amalgamation,occurs when majority and minority groups combine to form a new group,Sociology,Social Structure
-amygdala,almond-shaped structure deep within the brain that orchestrates emotional experiences,Psychology,Neuroscience
-anal stage,the second stage of Freud's five psychosexual stages; in this stage the child seeks sensual pleasure through control of elimination,Psychology,Development
-anterior pituitary gland,"adenohypophysis and is made of glandular tissue and it makes and secretes six different hormones: FSH, LH, ACTH, TSH, prolactin, and growth hormone. it is controlled by releasing and inhibiting factors from the hypothalamus",Psychology,Neuroscience
-anterograde amnesia,inability to form new memories,Psychology,Development
-antisocial personality disorder,"psychological disorder characterized by a history of serious behavior problems beginning in adolescence, including significant aggression against people or animals, deliberate property destruction, lying or theft, and serious rule violation",Psychology,Disorders
-anxiety disorder,"emotional state of unpleasant physical and mental arousal; a preparation to fight or flee. in a person with an anxiety disorder, the anxiety is intense, frequent, irrational (out of proportion), and uncontrollable; it causes significant distress or impairment of normal functioning",Psychology,Disorders
-aqueous humor,"thin, watery fluid found in the anterior segment of the eye (between lens and cornea). The aqueous humor is constantly produced and drained, and helps brings nutrients to the lens and cornea, as well as remove metabolic wastes",Psychology,Neuroscience
 Solomon Asch,Conducted research on conformity and group pressure by placing subjects in a room with several confederates and observing behavior of the subject when the confederates provided clearly wrong answers to questions,People,
-ascribed status,statuses that are assigned to a person by society regardless of the person's own efforts,Sociology,Social Structure
-assimilation,"process in which an individual forsakes aspects of his or her own cultural tradition to adopt those of a different culture. Generally, this individual is a member of a minority group who is attempting to conform to the culture of the dominant group",Sociology,Social Structure
-associative learning,"process of learning in which one event, object, or action is directly connected with another. Two general categories include classical and operant conditioning",Psychology,Learning
-Attenuation model of selective attention,"model of selective attention in which the mind has an attentuator, like a volume knob, that can tune up inputs to be attended and tune down unattended inputs, rather than totally eliminating them (accounts for the cocktail party effect)",Theories,
-attitude,"person's feelings and beliefs about other people or events around him, and his behavioral restrictions based on those underlying evaluations",Psychology,Learning
-attribution theory,theory that attempts to explain how individuals view behavior - both our own behavior and the behavior of others - by attributing behavior to either internal or external cues,Theories,
-auditory cortex,area of the temporal lobe responsible for processing sound information,Psychology,Neuroscience
-auditory tube,Eustachian tube that connects the middle ear cavity with the pharynx and it functions to equality middle ear pressure with atmospheric pressure so that pressure on both sides of the tympanic membrane is equal,Psychology,Neuroscience
+Albert Bandura,famous for his Bobo doll studies that demonstrated observational learning; also pioneered the idea of the importance of self-efficacy in promoting learning,People,
+Raymond Cattell,"psychologist interested in personality, who used factor analysis with hundreds of surface traits to identify which traits were related to each other. By this process, he identified sixteen source traits, and by factor analysis reduced fifteen of these into five global factors: extroversion, anxiety, receptivity, accommodation, and self-control",People,
+Emile Durkheim,"considered the father of sociology and a major proponent of functionalism, and he was the pioneer of modern social research and established the field of sociology as separate and distinct from psychology and political philosophy",People,
+Erik Erikson,"Erikson extended Freud's theory of developmental stages in two ways: added social and interpersonal factors, to supplement Freud's focus on unconscious conflicts within a person. And Erikson delineated additional developmental stages and conflicts in adolescence and adulthood, to supplement Freud's focus on early childhood. Erikson's stages include: trust vs. mistrust, autonomy vs. shame and doubt, initiative vs. guilt, industry vs. inferiority, identity vs. role confusion, intimacy vs. isolation, generativity vs. stagnation, and integrity vs. despair",People,
+Sigmund Freud,Austrian neurologist who is considered the founding father of psychoanalytic theory,People,
+Phineas Gage,"famous case of a man who suffered damage to his prefrontal cortex after a railroad tie blasted through his head. His symptoms, due to damage to this area, included impulsivity, an inability to stick to plans, and an inability to demonstrate empathy",People,
+Ludwig Gumplowicz,"expanded upon Marx's ideas about conflict theory by proposing that society is shaped by war and conquest, and that cultural and ethnic conflicts lead to certain groups becoming dominant over other groups",People,
+Kohlberg's stages of moral development,"Six identifiable developmental stages of moral reasoning, which form the basis of ethical behavior. The pre-conventional (level 1) contains the first stage (obedience and punishment orientation) and second stage (self-interest orientation). The conventional (level 2) contains the third stage (interpersonal accord and conformity) and fourth stage (authority and social-order maintaining orientation). The post-conventional (level 3) contains the fifth stage (social contract orientation) adn sixth stage (universal ethical principles).",People,
+Karl Marx,"closely identified with conflict theory, Marx argued that societies progress through class struggle between those who own and control production and those who labor and provide the manpower for production. He believed that capitalism produced internal tensions which would ultimately lead to self-destruction of capitalist society, to be replaced by socialism. Karl Marx, along with Emile Durkheim and Max Weber, is considered a founding father of sociology",People,
+Stanley Milgram,"conducted research on obedience where he asked subjects to administer a shock to what they thought was another subject (but was just an actor), and he monitored the degree of subjects' compliance or obedience",People,
+Carl Rogers,"the founder of humanistic psychology perspective, pioneered the person-centered approach to therapy",People,
+B.F. Skinner,"coined the term ""operant conditioning."" He is famous for his ""Skinner Box"" in which he used reinforcements to shape animal behavior",People,
+Max Weber,"Weber agreed with Marx's ideas about conflict theory, but he did not believe that the collapse of capitalism was inevitable; rather, he argued that there could be more than one source of conflict such as conflict over inequalities in political power and social status. Max Weber, along with Emile Durkheim and Karl Marx, is considered the founding father of sociology",People,
+Philip Zimbardo,"psychologist best known for his prison study which elucidated the extreme effects of role playing on human behavior and a group of 24 male students were isolated and asked to play the roles of prisoners and guards; the participants adapted to their roles well beyond Zimbardo's expectations. The ""guards"" enforced extreme measures, including psychological torture, and many of the ""prisoner"" passively accepted psychological abuse and readily harassed other ""prisoner"" who attempted to prevent it",People,
+action potential,"localized change in the neuron's membrane potential that propagates away from its point of origin. All-or-none processes mediated by the opening of voltage gated sodium and potassium channels when the membrane is brought to threshold potential; opening of sodium channels causes characteristic depolarization, while opening sodium channels repolarizes the membrane",Psychology,Development
+actor-observer bias/self-serving bias,tendency to blame our actions on the situation and blame the actions of others on their personalities,Psychology,Development
+affect,a person's visible emotion in the moment,Psychology,Development
+aggregate,people who exist in the same space but do not interact or share a common sense of identity,Psychology,Development
+anal stage,the second stage of Freud's five psychosexual stages; in this stage the child seeks sensual pleasure through control of elimination,Psychology,Development
+anterograde amnesia,inability to form new memories,Psychology,Development
 authoritarian parenting,parenting style in which parents impose strict rules that are expected to be followed unconditionally in an attempt to control children. This style is demanding and often relies on punishment,Psychology,Development
 authoritative parenting,"parenting style that places limits on behavior and consistently follows through on consequences, but also expresses warmth and nurturing and allows for two-way communication between parents and children",Psychology,Development
-autonomic ANS,division of the PNS that innervates and controls the visceral organs (everything but the skeletal muscles). It is also known as the involuntary nervous system and can be subdivided into sympathetic and parasympathetic branches,Psychology,Neuroscience
 availability heuristic,mental shortcut of making judgments on the frequency of something occurring based on how readily it is available in our memories,Psychology,Development
-avoidance learning,process by which one learns to perform a behavior in order to ensure that a negative or aversive stimulus will not be present,Psychology,Neuroscience
-avoidant personality disorder,"characterized by feelings of inadequacy, inferiority, and undesirability, and a preoccupation with fears of criticism",Psychology,Disorders
-axon,long projection off the cell body of a neuron down which an action potential can be propagated,Psychology,Neuroscience
-Babinski reflex,"in response to the sole of the foot being stroked, a baby's big toe moves upward or toward the top surface of the foot and the other toes fan out",Psychology,Neuroscience
-back stage,"dramaturgical approach where we can let down our guard and be ourselves, as opposed to front stage where we are playing a role for others",Sociology,Social Behavior
-Albert Bandura,famous for his Bobo doll studies that demonstrated observational learning; also pioneered the idea of the importance of self-efficacy in promoting learning,People,
-baroreceptor,"sensory receptor that responds to the changes in pressure, for example, there are baroreceptors on the carotid arteries and the aortic arch that monitor blood pressure",Psychology,Neuroscience
-basal nuclei,known as basal ganglia and these structures in the brain help to smooth coordinated movements by inhibiting excess movement,Psychology,Neuroscience
-basilar membrane,flexible membrane in the cochlea that supports the organ of Corti (structure that contains the hearing receptors). the fibers of the basilar membrane are short and stiff near the oval window and long and flexible near the apex of the cochlea. This difference in structure helps the basilar membrane to transduce pitch,Psychology,Neuroscience
-behavioral genetics,study the role of inheritance in interacting with experience to determine an individual's personality and behaviors,Psychology,Learning
-behavioral therapy,type of therapy uses conditioning to shape a client's behaviors in the desired direction,Psychology,Learning
-behaviorism,"according to this perspective, personality is a result of learned behavior patterns based on a person's environment. Behaviorism is deterministic, proposing that people begin as blank slates, and that environmental reinforcement and punishment completely determine an individual's subsequent behavior and personality",Psychology,Learning
-beliefs,convictions or principles that people within a culture hold,Sociology,Social Structure
 belief bias,tendency to draw conclusions based on what one already believes rather than sound logic,Psychology,Development
 belief perseverance,maintenance of beliefs in the face of evidence to the contrary,Psychology,Development
 bilateral descent,system of lineage in which the relatives on the mother's side and father's side are considered equally important,Psychology,Development
-biofeedback,"means of recording and feeding back information about subtle autonomic responses to an individual in an attempt to train the individual to control previously involuntary responses (for example, muscle tension, heart rate, respiratory rate)",Psychology,Neuroscience
-bipolar disorder,"cyclic mood episodes at both extremes/poles (depression and mania). In bipolar I disorder, and person has experienced at least one manic episode or mixed and in bipolar II, the manic phases are less extreme",Psychology,Disorders
-bipolar neuron,"a neuron with a single axon and a single dendrite, often projecting from opposite sides of the cell body. bipolar neurons are typically associated with sensory organs",Psychology,Disorders
-body dysmorphic disorder,"characterized with preoccupation with a slight physical anomaly or imagined defect in appearance, often involving the face, hairs, breasts, or genitalia",Psychology,Disorders
-borderline personality,"characterized by enduring or recurrent instability in impulse control, mood, and image of self and others. impulsive and reckless behavior, together with extreme mood swings, reactivity, and anger, can lead to unstable relationships and to damage both of the person with the disorder and of others in his or her life",Psychology,Learning
-bottom-up processing,type of sensory processing that begins with the sensory receptors and works up to the complex integration of information occurring in the brain; note that the brain in fact uses a combination of bottom-up processing and top-down processing,Psychology,Neuroscience
-Broca's area,"region of the brain located in the left-hemisphere of the frontal lobe. Involved with speech production and damage to this part of the brain results in Broca's aphasia, where individuals know what they want to say but are unable to express it verbally",Psychology,Neuroscience
 bystander effect,fact that a person is less likely to provide help when there are other people around,Psychology,Development
-Cannon-Bard Theory,theory of emotion that asserts that the physiological and cognitive aspects of emotion occur simultaneously and collectively lead to the behavioral reaction,Theories,
-capitalism,an economic system in which resources and production are mainly privately owned and goods/services are produced for profit,Sociology,Social Structure
-caste system,closed social stratification where people can do nothing to change the category that they are born into,Sociology,Social Structure
-catatonic-type SCZ,psychological disorder characterized by psychosis in the form of catatonic behavior (including extremely retarded or excited motor activity),Psychology,Learning
-category,people who share similar characteristics but are not otherwise tied together as a group,Sociology,Social Structure
-Raymond Cattell,"psychologist interested in personality, who used factor analysis with hundreds of surface traits to identify which traits were related to each other. By this process, he identified sixteen source traits, and by factor analysis reduced fifteen of these into five global factors: extroversion, anxiety, receptivity, accommodation, and self-control",People,
-central executive,"Part of Alan Baddeley's model of working memory that oversees the visuospatial sketchpad, phonological loop, and episodic buffer. Responsible for shifting and dividing attention",Psychology,Learning
-central nervous system,subdivision of the nervous system consisting of the brain and the spinal cord,Psychology,Neuroscience
 central route,cognitive route of persuasion based on the content and deeper aspects of an argument,Psychology,Development
-cerebellum,region of the brain that coordinates and smoothes skeletal muscle activity,Psychology,Neuroscience
-cerebral cortex,"thin (4 mm) layer of gray matter on the surface of the cerebral hemispheres. it is the conscious mind, and is functionally divided into four lobes: frontal, parietal, temporal, and occipital",Psychology,Neuroscience
-cerebrospinal fluid (CSF),a clear fluid that circulates around and through the brain and spinal cord. CSF helps to physically support the brain and acts as a shock absorber. It also exchanges nutrients and wastes with the brain and spinal cord.,Psychology,Neuroscience
 charismatic authority,"form of leadership where devotion is reliant upon an individual with exceptional charisma (persuasiveness, charm, and ability to connect with people)",Psychology,Development
-chemical synapse,"type of synapse at which a chemical (NT) is released from the axon of a neuron into the synaptic cleft, where it binds to receptors on the next structure (either another neuron or an organ)",Psychology,Neuroscience
-chemoreceptor,"sensory receptor that responds to specific chemicals. Some examples are gustatory, olfactory, and central chemoreceptors which respond to changes in CSF pH",Psychology,Neuroscience
-choroid,"darkly-pigmented middle layer of the eyeball, found between the sclera (outer layer) and the retina (inner layer)",Psychology,Neuroscience
-chunking,memory technique in which information to be remembered is organized into discrete groups of data. this clustering allows more information to be remembered overall,Psychology,Learning
-church,"in sociology, a type of religious organization that is well-integrated into society and attempts to find an all-encompassing worldview for followers",Sociology,Social Structure
-ciliary muscle,muscle that helps focus light on the retina by controlling the curvature of the lens of the eye,Psychology,Neuroscience
 circadian rhythm,waxing and waning of alertness throughout the 24 hour day,Psychology,Development
-class system,"social stratification where people are grouped together by similar wealth, income, education, and the like, but the classes are open, meaning that people can strive to reach a higher class or fall into a lower one",Sociology,Social Structure
-classical conditioning,process in which two stimuli are paired in a way that changes a response to one of them,Psychology,Neuroscience
-cochlea,curled structure in the inner ear that contains the membranes and hair cells used to transduce sounds waves into action potentials,Psychology,Neuroscience
 cocktail party effect,"phenomenon of information of personal importance from previously unattended channels ""catching"" one's attention",Psychology,Development
-coercive organizations,organization in which members do not have a choice in joining,Sociology,Social Structure
-cognitive behavioral therapy (CBT),therapy that addresses thoughts and behaviors that are maladaptive by using goal-oriented and systematic techniques,Psychology,Learning
-cognitive dissonance theory,"explains that we feel tension (dissonance) whenever we hold two thoughts or beliefs (cognition) that are incompatible, or when attitudes and behaviors don't match. When this occurs, we try to reduce this unpleasant feeling of tension by making our views of the world match how we feel or what we've done",Theories,
-cognitive psychology,"tradition of psychology that focuses on the brain, cognitions, and thoughts as mediating learning and stimulus-response behaviors",Psychology,Learning
 concrete operational stage,Piaget's third stage of his developmental theory where children aged 7-11 learn to think logically and learn the principle of conservation as well as mathematical concepts,Psychology,Development
-conditioned response,a previously unconditioned response to an unconditioned stimulus that has become a learned response to a conditioned stimulus,Psychology,Neuroscience
-conditioned stimulus,originally a neutral stimulus that is paired with an unconditioned stimulus until it can produce the conditioned response without the unconditioned stimulus being present,Psychology,Neuroscience
-cones,photoreceptors in the retina of the eye that respond to bright light and provide color vision,Psychology,Neuroscience
 confederates,"person who is working with the experimenter and posing as a part of the experiment, but the subjects are not aware of this affiliation",Psychology,Development
-confirmation bias,tendency to search only for information that confirms a preconceived conclusion,Psychology,Neuroscience
-conflict theory,"views society as being in competition for limited resources and society is a place where there will be inequality in resources, so individuals will compete for social, political, and material resources, like money, land, power, and leisure",Theories,
-conformity,phenomenon of adjusting behavior or thinking based on the behavior or thinking of others,Psychology,Learning
 consciousness,"awareness of self, internal states, and the environment",Psychology,Development
-conversion disorder,"disorder characterized by a change in sensory or motor function that has no discernible physical or physiological cause, and which seems to be significantly affected by psychological factors. The symptoms of conversion disorder begin or worsen after an emotional conflict or other stressor",Psychology,Disorders
-cornea,"clear portion of the tough outer layer of the eye-ball, found over the iris and the pupil",Psychology,Neuroscience
-corpus callosum,largest bundle of white matter (axons) connecting the two cerebral hemispheres,Psychology,Neuroscience
-cortisol,"steroid hormone is released during chronic stress; it shifts the body's use of fuel from glucose toward fats and proteins, thus ""sparing"" glucose for the brain's use. Prolonged release of cortisol is associated with suppressed immunity and increased susceptibility to illness",Psychology,Neuroscience
-crude birth rate,annual number of live births per thousand people in a population,Sociology,Social Structure
-cult (new religious movement),religious organization that is far outside society's norms and often involves a very different lifestyle,Sociology,Social Structure
-culture,"shared way of life, including beliefs and practices that a group shares",Sociology,Social Structure
-cultural capital,non-financial social assets that promote social mobility,Sociology,Social Structure
-cultural relativism,judging another culture based on its own cultural standards,Sociology,Social Structure
-cultural universals,"patterns or traits that are common to all people; cultural universals tend to pertain to basic human survival and needs, such as securing food and shelter, and also pertain to events that every human experiences, including birth, death and illness",Sociology,Social Structure
-cyclothymic disorder,"disorder similar to bipolar disorder but the moods are less extreme and the person has experienced cyclic moods, including many hypomanic episodes, as well as many episodes of depressed mood that are milder than a major depressive episode for at least two years",Psychology,Disorders
-death instinct,"according to the psychoanalytic theory, the death instinct drives aggressive behaviors fueled by an unconscious wish to die or to hurt oneself or others",Psychology,Learning
-deindividuation,an explanation of people's startling and often uncharacteristic behavior when situations provide a high degree of arousal and a very low sense of responsibility,Psychology,Neuroscience
-delusion,"a false belief that is not due to culture, and is not relinquished despite evidence that it is false",Sociology,Social Structure
-demography,"the study of human population dynamics, including the size, structure, and distribution of a population, and changes in the population over time due to birth, death, and migration",Sociology,Social Structure
-dendrite,projection off the cell body of a neuron that receives nerve impulses from a different neuron and sends the impulse to the cell body. Neurons can have one or several dendrites,Psychology,Neuroscience
-dependent personality disorder,characterized by a need to be taken care of by others and an unrealistic fear of being unable to take care of himself or herself,Psychology,Disorders
-depersonalization disorder,"characterized by a recurring or persistent feeling of being cut off or detached from one's body or mental processes, as if observing one's self from the outside",Psychology,Disorders
 depolarization,movement of the membrane potential of a cell away from the resting potential to a more positive membrane potential,Psychology,Development
-depressant,"class of drugs that depress or slow down neural activity, includes alcohol, barbiturates (tranquilizers), and opiates",Sociology,Social Structure
 depth of processing,idea that information that is thought about at a deeper level is better remembered,Psychology,Development
-deviance,violation of a society's standards of conduct or expectations,Sociology,Social Structure
-Diagnostic and Statistical Manual of Mental Disorders (DSM),universal authority on the classification and diagnosis of psychological disorders; the current latest edition is the fifth edition of the DSM,Psychology,Disorders
-diencephalon,portion of the forebrain that includes the thalamus and hypothalamus,Psychology,Neuroscience
 difference threshold (just noticeable difference (JND)),threshold is a minimum noticeable difference between any two sensory stimuli (50%),Psychology,Development
 discrimination in brain,occurs when the conditioned stimulus is differentiated from another stimuli,Psychology,Development
 discrimination,"unjust treatment of a group, based on group characteristics (such as age, sex, race, ethnicity, disability)",Psychology,Development
-dishabituation,restoration to full strength of a response to a stimulus that had previously become weakened through habituation,Psychology,Neuroscience
-disorganized type SCZ,"characterized by psychosis in the form of flat or inappropriate affect, disorganized speech, and disorganized behavior",Psychology,Neuroscience
 dissociative amnesia,"characterized by at least one episode of suddenly forgetting some important personal information, usually related to severe stress or trauma",Psychology,Development
-dissociative disorder,"characterized by a person's thoughts, feelings, perceptions, memories, or behaviors being separated from conscious awareness and control, in a way that is not explainable as mere forgetfulness",Psychology,Disorders
 dissociative fugue,"disorder when someone suddenly goes on a journey, during which he or she cannot recall personal history prior to the journey",Psychology,Development
-dissociative identity disorder,"characterized by alternating between two or more distinct personality states (identities), only one of which interacts with other people at any one time",Psychology,Disorders
 divided attention,ability to focus on multiple tasks simultaneously,Psychology,Development
-downward mobility,decrease in social class,Sociology,Social Structure
-dramaturgical approach,"assumes that people are theatrical performers and that everyday life is a stage; just as actors project a certain on-screen image, people in society choose what kind of image they want to communicate verbally and nonverbally to others. Also called the dramaturgical perspective",Sociology,Social Structure
-drive,"an urge originating from a physiological discomfort such as hunger, thirst, or sleepiness. Drives can be useful for alerting an organism that it is no longer in a state of homeostasis, an internal state of equilibrium",Psychology,Neuroscience
-Drive Reduction Theory,theory about the impact of motivation on human behavior that suggests that a physiological need (a drive) creates an aroused state that motivated the organisms to reduce that need by engaging in some behavior,Theories,
 dual-coding hypothesis,hypothesis that is easier to remember words with associated images than either words or images alone,Psychology,Development
-Emile Durkheim,"considered the father of sociology and a major proponent of functionalism, and he was the pioneer of modern social research and established the field of sociology as separate and distinct from psychology and political philosophy",People,
 dynamic equilibrium,occurs when complex societies contain many different but interdependent parts working together to maintain stability,Psychology,Development
 dyssomnias,"broad category of disorders involving abnormalities in the amount, quality, or timing of sleep including insomnia, narcolepsy, and sleep apnea",Psychology,Development
-dysthymic disorder,"characterized as a less intense, chronic form of depression and a person has felt milder symptoms of depression most days for at least two years, with symptoms never absent for more than two months, and without experiencing a major depressive episode",Psychology,Disorders
-eccelesia,"dominant religious organization that includes most members of society, is recognized as the national or official religion, and tolerates no other religions",Sociology,Social Structure
-echoic memory,"memory for sound, which lasts for about 3-4 seconds",Psychology,Learning
-effector,organ that carries out the command sent along a particular motor neuron,Psychology,Neuroscience
-efferent neurons,neuron that carries information (action potentials) away from the CNS; a motor neuron,Psychology,Neuroscience
-egalitarian family,family system where spouses are treated as equals and may be involved in more negotiation when making decisions,Sociology,Social Structure
 ego,"in freud's psychoanalytic theory, the ego is ruled by the reality principle, and uses logical thinking and planning to control consciousness and the id (the unconscious driving force ruled by the pleasure principle)",Psychology,Development
 ego defense mechanisms,"to cope with this anxiety and protect the ego, all people develop ego defense mechanisms that unconsciously deny or distort reality. ego defense mechanisms are therefore normal, and become unhealthy only when taken to extremes",Psychology,Development
-elaboration likelihood model,"model that explains when people may be persuaded by just the content of an argument, and when they may be persuaded by more superficial characteristics such as the appearance of a person delivering the message or the length of the argument",Theories,
 Electra complex,"complex that occurs during the phallic stage (third of Frued's psychosexual stages) when a female child is sexually attracted to her father and hostile toward her mother, who is seen as a rival",Psychology,Development
-electrical synapse,"type of synapse in which the cells are connected by gap junctions, allowing ions (and therefore the action potentials) to spread easily from cell to cell",Psychology,Neuroscience
-Electroencephalogram (EEG),recording of electrical impulses in the brain,Psychology,Neuroscience
-electromyogram (EMG),recording of skeletal muscle movements,Psychology,Neuroscience
-electrooculogram (EOG),recording of eye movements,Psychology,Neuroscience
 empathy,ability to identify with others' emotions,Psychology,Development
-encoding,process of transferring sensory information into the memory system,Psychology,Learning
-endocrine gland,ductless gland that secretes hormones into the blood,Psychology,Neuroscience
-endocrine system,system of ductless glands that secrete chemical messengers (hormones) into the blood,Psychology,Neuroscience
-endogamy,practice of marrying within a particular group,Sociology,Social Structure
 environmental injustice,when people in poorer communities are more likely to be subjected to negative environmental impacts to their health and well-being,Psychology,Development
-epinephrine,hormone produced and secreted by the adrenal medulla that prolongs and increases the effects of the SNS,Psychology,Neuroscience
-episodic buffer,part of Alan Baddeley's model of working memory that interacts with information in long-term memory,Psychology,Learning
-episodic memory,autobiographical memory for information of personal importance,Psychology,Learning
-EPSP,"excitatory postsynaptic potential; a slight depolarization of a postsynaptic cell, bringing the membrane potential of a cell closer to the threshold for an action potential",Psychology,Neuroscience
-Erik Erikson,"Erikson extended Freud's theory of developmental stages in two ways: added social and interpersonal factors, to supplement Freud's focus on unconscious conflicts within a person. And Erikson delineated additional developmental stages and conflicts in adolescence and adulthood, to supplement Freud's focus on early childhood. Erikson's stages include: trust vs. mistrust, autonomy vs. shame and doubt, initiative vs. guilt, industry vs. inferiority, identity vs. role confusion, intimacy vs. isolation, generativity vs. stagnation, and integrity vs. despair",People,
-escape learning,"through operant conditioning, this is the process of learning to engage in a particular behavior in order to get away from a negative or aversive stimulus",Psychology,Learning
 estrogen,"primary female sex hormone. Estrogen stimulates the development of the female secondary sex characteristics during puberty maintains those characteristics during adulthood, stimulates the development of new uterine lining after menstruation, and stimulates mammary gland development during pregnancy",Psychology,Development
-ethnicity,socially defined concept referring to whether or not people identify with each other based on shared social experience or ancestry,Sociology,Social Structure
-ethnocentricism,tendency to judge people from another culture by the standards of one's own culture,Sociology,Social Structure
-executive functions,"higher order thinking processes that include planning, organizing, inhibition, and decision making",Psychology,Neuroscience
-exocrine gland,"gland that secretes its products into a duct, which ultimately carries the product to the surface of the body or into a body cavity. An example of exocrine glands are sweat glands",Psychology,Neuroscience
-exogamy,a requirement to marry outside a particular group with it being the norm in almost all cultures to prohibit sexual relationships between certain relatives,Sociology,Social Structure
 explicit (declarative) memory,memories that can be consciously recalled such as factual knowledge,Psychology,Development
 external locus of control,"belief that one does not have control over outcomes, but they are controlled by outside forces",Psychology,Development
-extinction,"classical conditioning, unpairing of conditioned and unconditioned stimuli, accomplished by introducing the conditioned stimulus repeatedly in the absences of the unconditioned stimulus",Psychology,Learning
 false consensus,occurs when we assume that everyone else agrees with what we do (even though they may not),Psychology,Development
-false memory,inaccurate memory created by the power of the imagination or suggestion,Psychology,Learning
-feature detection theory,"theory of visual perception that proposes that certain neurons fire for individual and specific features of a visual stimulus, such as shape, color, line, movements, etc.",Theories,
-fecundity,potential reproductive capacity of a female in a population,Sociology,Social Structure
-feral children,neglected or abandoned children who grow up without human contact or care; much of our knowledge about socialization comes from these individuals who were not socialized,Sociology,Social Structure
-filter model,model of selective attention that suggests that information from a sensory buffer is put through a filter that allows only selected inputs through,Theories,
-Five-Factor Model (Costa and McCrae's Five Factor Model),"a model developed to explain personality using five overarching personality traits, which include: extroversion, neuroticism, openness to experience, agreeableness, and conscientiousness",Theories,
-fixed-interval schedule,reinforcement schedule in which reward is offered after a set period of time has passed,Psychology,Learning
-fixed-ratio schedule,reinforcement schedule in which reward is offered after a set number of instances of a behavior,Psychology,Learning
-folkways,"norms that are more informal, yet shape everyday behavior (styles of dress, ways of greeting)",Psychology,Learning
-food desert,"an area, typically in a highly populated lower income urban environment, where healthy, fresh food is difficult to find",Sociology,Social Structure
 foot-in-the-door phenomenon,"strategy that involves enticing people to take small actions, and then gradually asking for larger and larger commitments",Psychology,Development
 formal operational stage,"Piaget's fourth stage of his developmental theory from age 12- adulthood. During this stage, people learn abstract and moral reasoning",Psychology,Development
-Sigmund Freud,Austrian neurologist who is considered the founding father of psychoanalytic theory,People,
-front stage,"in the dramaturgical perspective, this is where we play a role and use impression management to craft the way we come across to other people",Sociology,Social Behavior
 frustration-aggression principle,"suggests that when someone is blocked from achieving a goal, this frustration can trigger anger, which can lead to aggression",Psychology,Development
 functional fixedness,tendency to perceive the functions of objects as fixed and unchanging,Psychology,Development
-functionalism (structural functionalism),"oldest of the main theories of sociology, this theory conceptualizes society as a living organism with many different parts and organs, each of which has a distinct purpose",Theories,
-fundamental attribution error,when we tend to underestimate the impact of the situation and overestimate the impact of a person's character or personality on their behavior,Psychology,Learning
 fundamentalists,people who observe strict adherence to religious beliefs,Psychology,Development
-Phineas Gage,"famous case of a man who suffered damage to his prefrontal cortex after a railroad tie blasted through his head. His symptoms, due to damage to this area, included impulsivity, an inability to stick to plans, and an inability to demonstrate empathy",People,
-game theory,"theory used to try and predict large, complex systems, such as the overall behavior of a population",Theories,
-ganglion,clump of gray matter (unmyelinated neuron cell bodies) found in the PNS,Psychology,Neuroscience
 gender bias in medicine,occurs when women and men receive different treatment for the same disease or illness,Psychology,Development
-general fertility rate,annual number of live births per 1000 women of childbearing age within a population,Sociology,Social Structure
-general intelligence,foundational base of intelligence that supports more specialized abilities,Psychology,Learning
-generalization,"in classical conditioning, the process by which stimuli similar to conditioned stimulus also become conditioned stimulus that elicit the conditioned response",Psychology,Learning
-generalized anxiety disorder (GAD),"characterized by tension or anxiety much of the time about many issues, but without the presences of panic attacks",Psychology,Disorders
-generalized other,"when a person tries to imagine what is expected of them from society, they are taking on the perspective of the generalized other",Sociology,Social Structure
 genital stage,"fifth of Freud's five psychosexual stages, begins in adolescence, when sexual themes resurface and a person's life/sexual energy fuels activities such as friendships, art, sports, and careers",Psychology,Development
-genotype,genetic makeup of an organism,Psychology,Neuroscience
-gestalt psychology,"theory that the brain processes information in a holistic manner; specifically, for visual information, the brain tends to make assumptions in order to detect the whole, instead of serially processing all of the individual parts",Psychology,Neuroscience
-global inequality,extent to which income and wealth is distributed in an uneven manner among the world's population,Sociology,Social Structure
-global stratification,"a comparison of the wealth, economic stability, and power of various countries",Sociology,Social Structure
-glucagon,"peptide hormone produced and secreted by the alpha celsl of the pancreas. it primarily targets the liver, stimulating the breakdown of glycogen, thus increasing blood glucose levels",Psychology,Neuroscience
-gonadotropins,anterior pituitary tropic hormones; follicle stimulating hormone (FSH) and leutenizing hormone (LH) stimulate the gonads (ovaries and testes) to produce gametes and to secrete sex steroids,Psychology,Neuroscience
-gray matter,unmyelinated neuron cell bodies and short unmyelinated axons,Psychology,Neuroscience
 group,"collection of any number of people (as few as two) who regularly interact and identify with each other, sharing similar norms, values, and expectations",Psychology,Development
-group polarization,phenomenon where groups tend to intensify the preexisting views of their members until the average view is more extreme than in initially was,Sociology,Social Structure
-group pressure (peer pressure),"pressure exerted by a group that causes one to change behaviors, values, attitudes, or beliefs",Psychology,Learning
-groupthink,"phenomenon where, within a group, the desire for harmony or conformity results in an easy consensus, even if the final decision is not the best one",Sociology,Social Behavior
 growth hormone,"hormone released by the anterior pituitary that targets all cells in the body. GH stimulates whole body growth in children and adolescents, and increases cell turnover rate in adults",Psychology,Development
-Ludwig Gumplowicz,"expanded upon Marx's ideas about conflict theory by proposing that society is shaped by war and conquest, and that cultural and ethnic conflicts lead to certain groups becoming dominant over other groups",People,
-gustatory receptors,chemoreceptors on the tongue that respond to chemicals in food,Psychology,Neuroscience
 habit,action that is performed repeatedly until it becomes automatic,Psychology,Development
-habituation,decrease in response to a stimulus after repeated presentations,Psychology,Neuroscience
-hair cells,"sensory receptors found in the inner ear. cochlear hair cells respond to vibrations in the cochlea caused by sound waves, and vestibular hair cells respond to changes in position and acceleration (used for balance)",Psychology,Neuroscience
 hallucination,false sensory perception that occurs while a person is conscious (not during sleep or delirium),Psychology,Development
-hallucinogens,"class of drugs also know as psychedelics that distort perceptions in the absence of any sensory input, creating hallucinations or altered sensory perceptions; includes LSD and marijuana",Sociology,Social Structure
 halo effect,"tendency to believe that people have inherently good or bad natures, rather than looking at individual characteristics",Psychology,Development
-Harry and Margaret Harlow,Researchers known for their controversial experiments with monkeys in which they showed that baby monkeys are drawn to mothers that provide comfort rather than simply food. Also showed that monkeys raised in isolation developed severe mental and social deficits,Sociology,Social Structure
-healthcare disparities,"population-specific differences in the presences of disease, health outcomes, and quality of healthcare across different social groups",Sociology,Social Structure
-heuristics,mental shortcuts used for problem solving and using them sacrifices accuracy for speed,Psychology,Learning
-hippocampus,"brain structure located in the medial temporal lobe of the brain and plays a key role in forming memories. Damage to this part of the brain can lead to an inability to form new memories, or anterograde amnesia",Psychology,Disorders
-histrionic personality disorder,"characterized by a strong desire to be the center of attention, and seeking to attract attention through personal appearance and seductive behavior",Psychology,Disorders
-humanistic psychology,"perspective developed partially in response to Freud's psychoanalytic theory, which emphasizes an individual's inherent drive toward self-actualization. Carl Rogers is most associated with humanistic psychology",Psychology,Neuroscience
-hypnotism,"structured social interaction in which an individual is instructed to focus attention a particular way, relax, and let go (more susceptible to accepting suggestions)",Sociology,Social Behavior
-hypochondriasis,characterized by a preoccupation with a fear of having a serious illness,Psychology,Neuroscience
-hypophysis,pituitary gland,Psychology,Neuroscience
-hypothalamus,"brain structure located above the brain stem that is involved in many autonomic processes including body temperature, hunger, thirst, fatigue, and sleep. It is also involved in the physiological aspects of emotion, including sweating and increased heart rate",Psychology,Neuroscience
-iconic memory,"brief photographic memory for visual information, which decays in a few tenths of a second",Psychology,Learning
 id,"according to freud's psychoanalytic theory, the largely unconscious id is the source of energy and instincts. Ruled by the pleasure principle, the id seeks to reduce tension, avoid pain, and gain pleasure. It doesn't use logical or moral reasoning, and it doesn't distinguish mental images from external objects and according to freud, young children function almost entirely from the id",Psychology,Development
-ideal self,"constructed out of life experiences, societal expectations, and admirable traits from role models. The ideal self is the person you ought to be, while the real self is the person you actually are",Sociology,Social Structure
 identity formation (individuation),development of a distinct individual personality,Psychology,Development
-illusory correlation,"perceived relationship between two things (people, events, or behaviors) even when none exists",Psychology,Learning
-implicit (procedural) memory,memory that involves conditioned associations and knowledge of how to do something,Psychology,Learning
 impression management or self-presentation,the conscious or unconscious process whereby people attempt to manage their own images by influencing the perceptions of others. This is achieved by controlling the amount or type of information or the social interaction,Psychology,Development
-in-group,a group that an individual belongs to and believes to be an integral part of who they are,Sociology,Social Structure
-incentive theory,theory that suggests that incentives (objects and events in the environment that either help induce or discourage certain behaviors) motivate human behavior,Theories,
-inclusive fitness,"theory that suggests that cooperation among organisms (including altruistic behaviors) promotes genetic success, meaning that even if not all of the organisms survive to reproduce, some of their genes will still be passed to the next generation",Psychology,Neuroscience
 incongruity,emotional result when the real self falls short of the ideal self,Psychology,Development
-infantile amnesia,"lack of explicit memory for events that occurred before the age of roughly 3.5 years. While people are unable to recall memories from this part of their life, learning and memory still do occur even though the cause is unknown",Psychology,Learning
-information-processing models,"models for cognition that assume that information from the environment is processed by our computer-like minds through a series of steps including attention, perception, and storage into memory",Theories,
-informational social influence,the process of complying because we want to do the right thing and we feel like others know something I don't know,Sociology,Social Structure
 insecure attachment,"style of relating to others that forms when an infant has caregivers who are inconsistently responsive or unresponsive to needs. In Ainsworth's experiments, insecurely attached infants were found to be less likely to explore their surroundings in the presence of their mother. They may be extremely upset or demonstrate indifference when the mother returned to the room",Psychology,Development
-insight learning,sudden flash of inspiration that provides solution to a problem (AHA moment where previously learned ideas or behaviors are suddenly combined in unique ways),Psychology,Neuroscience
-insomnia,"most common sleep disorder, characterized by difficulty falling or stay asleep",Psychology,Disorders
-instinct,behaviors that are unlearned and present in fixed patterns throughout a species,Psychology,Neuroscience
-institutional discrimination,"refers to unjust and discriminatory practices employed by large organizations that have been codified into operations procedures, processes, or institutional objectives",Sociology,Social Behavior
-instrumental conditioning,operant conditioning,Psychology,Learning
 intellectual disability,classification for individuals who have an IQ below 70 and functional impairment in their everyday lives (called mental retardation),Psychology,Development
-intelligence,"ability to learn from experience, problem solve, and use knowledge to adapt to new situations",Psychology,Neuroscience
-intergenerational mobility,change (increase or decrease) in social class between parents and children within a family,Sociology,Social Structure
 internal locus of control,belief of an individual that she is able to influence outcomes through her own efforts and actions,Psychology,Development
-interneuron,"neuron found completely within the CNS. Interneurons typically connect sensory and motor neurons, especially in reflex arcs",Psychology,Neuroscience
-intragenerational mobility,describes differences in social class between different members of the same generation,Sociology,Social Structure
-IPSP,"inhibitory postsynaptic potential; a slight hyperpolarization of a postsynaptic cell, moving the membrane potential of that cell further from threshold",Psychology,Neuroscience
-iris,"pigmented membrane found just in front of the lens of the eye. In the center of the iris is the pupil, a hole through which light enters the eyeball and the iris regulates the diameter of the pupil in response to the brightness of light",Psychology,Neuroscience
-James-Lange Theory,theory of emotion that claims that emotional experience is the result of physiological and behavioral responses,Theories,
 just world phenomenon,"tendency to believe that the world is fair and people get what they deserve. When bad things happen to others, it is the result of their actions or their failure to act, and when good things happen to us, it is because we deserved it",Psychology,Development
-justification of effort,"when people modify their attitudes to match their behaviors, specifically those involving effort",Psychology,Learning
 K-complex,large and slow wave with a duration of a half second that occurs in Stage 2 sleep,Psychology,Development
-kinship,"familial relationships including blood ties, family ties, and common ancestry",Sociology,Social Structure
-Kohlberg's stages of moral development,"Six identifiable developmental stages of moral reasoning, which form the basis of ethical behavior. The pre-conventional (level 1) contains the first stage (obedience and punishment orientation) and second stage (self-interest orientation). The conventional (level 2) contains the third stage (interpersonal accord and conformity) and fourth stage (authority and social-order maintaining orientation). The post-conventional (level 3) contains the fifth stage (social contract orientation) adn sixth stage (universal ethical principles).",People,
 language,symbolic system that is codified for communication,Psychology,Development
 language acquisition,process by which infants learn to understand and speak their native language,Psychology,Development
 language acquisition device,"innate feature unique to the human mind that allows people to gain mastery of language from limited exposure during sensitive developmental years in early childhood, as hypothesized by Noam Chomsky",Psychology,Development
-latency stage,"fourth of Freud's five psychosexual stages; in this stage sexual interest subsides and is replaced by interests in other areas such as school, friends, and sports",Sociology,Social Structure
 latent content,"according to Freud, the unconscious drives and wishes that are difficult to express and underlie dreams",Psychology,Development
-latent functions,"unintended or less recognizable consequences or a social structure; can be considered beneficial, neutral, or harmful",Sociology,Social Structure
-latent learning,learning that takes place in the absence of any observable behavior to show that it has occurred. This learning can later manifest and be demonstrated as observable behavior when it is required,Psychology,Learning
-learned helplessness,"condition where one has learned to behave helplessly, failing to respond even though there are opportunities to avoid unpleasant circumstances or gain positive rewards",Psychology,Neuroscience
-libido,"according to psychoanalytic theory, the libido is the life instinct, which drives behaviors focused on survival, growth, creativity, pain avoidance, and seeking pleasure",Psychology,Learning
-life expectancy,number of years that an individual at a given age can expect to live at present mortality rates,Psychology,Neuroscience
 linguistic relativity hypothesis,asserts that the language one speaks determines their thoughts and perceptions of the world,Psychology,Development
 long-term memory,"information that is retained long-term, potentially indefinitely; it is believed to have an infinite capacity",Psychology,Development
-long-term potentiation,persistent increase in synaptic strength between two neurons that occurs following brief periods of their stimulation. Leads to increase sensitivity of neurons recently stimulated. Believed to play a role in learning and the consolidation of memory from short-term memory to long-term memory,Psychology,Learning
 looking glass self,"idea that a person's sense of self develops from interpersonal interactions with others in society and the perceptions of others. According to this idea, people shape their self-concepts based on their understanding of how others perceive them",Psychology,Development
 Lutenizing Hormone (LH),"tropic hormone produced by the anterior pituitary gland that targets the gonads. In females, LH triggers ovulation and the development of the corpus luteum during the menstrual cycle; in males, LH stimulates the production and release of testosterone",Psychology,Development
-major depressive disorder,"characterized by one or more major depressive episodes, where a person has felt worse than usual for most of the day, nearly every day, for at least two weeks",Psychology,Disorders
 manic episode,"experience of an abnormal euphoric, unrestrained, or irritable mood, with at least three of the following symptoms: grandiose, exaggerated, or delusional self-esteem, high energy with little need for sleep, increased talkativeness and pressured speech, poor judgment; increased psychomotor and goal directed activity, and distractability with flight of ideas or racing thoughts",Psychology,Development
 manifest content,"according to Freud, the overt storylines of dreams",Psychology,Development
-manifest functions,intended and obvious consequences of a social structure,Sociology,Social Structure
-Karl Marx,"closely identified with conflict theory, Marx argued that societies progress through class struggle between those who own and control production and those who labor and provide the manpower for production. He believed that capitalism produced internal tensions which would ultimately lead to self-destruction of capitalist society, to be replaced by socialism. Karl Marx, along with Emile Durkheim and Max Weber, is considered a founding father of sociology",People,
-Maslow's Hierarchy of Needs,"Abraham Maslow sought to explain human behavior by creating a heirarchy of needs (pyramid). At the base of this pyramid are physiological needs, or the basic elements necessary to sustain human life. In order, the rest of the needs include: safety, love and belongingness, esteem, and self-actualization. Lower level needs must be met before higher level needs",Theories,
-master status,the one status that dominates the other statuses and determines that individual's general position,Sociology,Social Structure
-material culture,"consists of the physical objects that are particular to a culture, which helps to explain the relationship between artifacts and social relations",Sociology,Social Structure
-matriarchy,social system where females (especially mothers within families) are the primary authority figures,Sociology,Social Structure
 matrilineal descent,system of lineage in which the relatives on the mother's side are considered most important; an individual belongs to their mother's lineage,Psychology,Development
-mechanoreceptor,"sensory receptor that responds to mechanical disturbances, such as shape changes (being squashed, bent, pulled). Mechanoreceptors include touch receptors in the skin, hair cells in the ear, muscle spindles, and others",Sociology,Social Structure
 meditation,mindfulness technique for training attention in a particular way; may involve intense focus on one object of attention or broad attention to a field of awareness,Psychology,Development
-medulla oblongata,"portion of the hindbrain that controls respiratory rate and blood pressure, and specialized digestive and respiratory functions such as vomiting, sneezing, and coughing",Psychology,Neuroscience
-melatonin,hormone produced by the pineal gland that affects sleep/wake cycles and seasonal functions,Psychology,Neuroscience
-meninges,"protective connective tissue wrappings of the central nervous system (dura mater, arachnoid mater, and pia mater)",Psychology,Neuroscience
 mental set,"tendency to fixate on ideas and solutions that have worked in the past, even if they may not apply to the current situation",Psychology,Development
 mere exposure effect,phenomenon where people develop a preference for things because they have been exposed to them (sometimes repeatedly),Psychology,Development
 mere presence,"most basic level of interaction between individuals; when people are simply in each other's presence, either completing similar activities or just minding their own business",Psychology,Development
-meritocracy,social stratification where people's social standing are judged based on merit (or personal effort) alone; this is an idealized system -- no society solely stratifies based on effort,Sociology,Social Structure
-method of loci,"memory device that involves imagining moving through a familiar place, such as your home, and in each place, leaving a visual representation or a topic to be remembered",Psychology,Learning
-midbrain,portion of the brain responsible for visual and auditory startle reflexes,Psychology,Neuroscience
-Stanley Milgram,"conducted research on obedience where he asked subjects to administer a shock to what they thought was another subject (but was just an actor), and he monitored the degree of subjects' compliance or obedience",People,
 Mindfulness-based stress reduction (MBSR),"Protocol involving mindfulness meditation shown to be effective for helping individuals with pain, stress, and anxiety",Psychology,Development
-mindguarding,"pressure to conform within a group causes individuals to censor their own opinions in favor of consensus, which creates an illusion of unanimity",Sociology,Social Structure
-mirror neurons,neurons that fire when a particular behavior or emotion is observed in another. May be responsible for vicarious emotions and a foundation for empathy,Psychology,Neuroscience
-misinformation effect,"tendency to misremember an event, particularly when misleading information is presented between the event and the mental encoding of the event",Psychology,Learning
-mnemonic,any memory technique used to promote the retention and retrieval of information,Psychology,Learning
-modeling,mechanism behind observational learning in which an observer sees a behavior being performed by another person. This model is utilized to allow the observer to later imitate the behavior,Theories,
 monogamy,form of marriage in which two individuals are married only to each other,Psychology,Development
 mood,person's sustained internal emotion that colors his/her view of life,Psychology,Development
-mood-dependent memory,"when learning occurs during a particular emotional state, it is most easily recalled when one is again in that emotional state",Psychology,Learning
-mood disorder,"characterized by a persistent pattern of abnormal mood serious enough to cause significant personal distress and/or significant impairment to social, occupational, or personal functioning",Psychology,Disorders
-mores,norms that are highly important for the benefit of society and so are often strictly enforced. Mores are generally (but not always) formal norms,Sociology,Social Structure
 moro reflex,"startle reflex, in response to a loud sound or sudden movement, and infant will startle; the baby throws back its head and extends its arms and legs, cries, then pulls the arms and legs back in. This reflex is present at birth, and lasts until about six months",Psychology,Development
-mortality,death rate in a population,Sociology,Social Structure
-multiculturalism (pluralism),"perspective that endorses equal standing for all cultural traditions. It promotes the idea of cultures coming together in a true melting pot, rather than in a hierarchy",Sociology,Social Structure
-multipolar neuron,neuron with a single axon and multiple dendrites; the most common type of neuron is the nervous system,Psychology,Neuroscience
-myelin,insulating layer of membranes wrapped around the axons of almost all neurons in the body. Myelin is essentially the plasma membranes of specialized cells. In the PNS they are Schwann cells and in the CNS they are oligodendrocytes,Psychology,Neuroscience
-narcisstic personality disorder,"psychological disorder characterized by feeling of grandiosity, with fantasies of beauty, brilliance, and power",Psychology,Disorders
-narcolepsy,"sleep disorder in which the individual experiences periodic, overwhelming sleepiness during waking periods that usually last less than five minutes",Psychology,Disorders
 negative feedback,"biological process that works by maintaining stability or homeostasis; a system produces a result, which feeds back to stop the system and maintain the result within tightly controlled bounds",Psychology,Development
-negative punishment,removal of a positive or rewarding stimulus following a behavior. Tends to increase the frequency of that behavior,Psychology,Learning
-negative reinforcement,removal of a negative or aversive stimulus following a behavior and tends to increase the frequency of that behavior,Psychology,Learning
-neutral stimulus,stimulus that doesn't elicit any intrinsic response in the absence of outside interference,Psychology,Neuroscience
-neural plasticity,"process that refers to the malleability of the brain's pathways and synapses based on behavior, the environment, and neural processes",Psychology,Neuroscience
-neuron,basic functional and structural unit of the nervous system. Neuron is highly specialized cell designed to transmit action potentials,Psychology,Neuroscience
-neurotransmitter,"chemical released by the axon of a neuron in response to an action potential that binds to receptors on the postsynaptic cell and causes that cell to either depolarize slightly (EPSP) or hyperpolarize slightly (IPSP). Examples are ACth, norepinephrine, GABA, dopamine, and others.",Psychology,Neuroscience
-night terror,"usually occur during stage 3 sleep, unlike nightmares. The individual may sit up or walk around, babble, and appear terrified, although none of it is remembered the next morning",Psychology,Disorders
-nocireceptors,pain receptors that are found everywhere in the body except the brain,Psychology,Neuroscience
-nodes of Ranvier,"gaps in the myelin sheath of the axons of peripheral neurons. Action potentials can ""jump"" from node to node, thus increasing the speed the conduction (saltatory conduction).",Psychology,Neuroscience
-nonassociative learning,learning that occurs in the absence of associating specific stimuli or events. Two types are habituation and sensitization,Psychology,Learning
 nonverbal communication,involves all of the methods for communication that we use that do not include words,Psychology,Development
-norepinephrine (NE),neurotransmitter used by the sympathetic division of the autonomic nervous system at the post-ganglionic (organ-level) synapse,Psychology,Neuroscience
-normative social influence,when the motivation for compliance is a desire for the approval of others and to avoid rejection,Sociology,Social Structure
-normative organizations,an organization where membership is based on morally relevant goals,Sociology,Social Structure
-norms,visible and invisible rules of social conduct within a society. Norms help define what types of behaviors are acceptable and in accordance with a society's values and beliefs. Formal norms are generally written down; laws are examples of formal norms. Informal norms are generally understood but are less precise and often carry no specific punishments,Psychology,Learning
-nucleus accumbens,"structure located in the brainstem and part of the dopaminergic reward pathway. Releases dopamine in response to many drugs, contributing to addictive behavior",Psychology,Neuroscience
 object permanence,understanding that things continue to exist once they are out of sight,Psychology,Development
-"observational learning (vicarious, social learning)","type of learning that occurs when a person watches another person's behavior and its consequences, thereby learning rules, strategies, and expected outcomes in different situations",Psychology,Learning
-obsessive-compulsive disorder (OCD),"characterized by obsessions (repeated, intrusive, uncontrollable thoughts or impulses that cause distress or anxiety), compulsions (repeated physical or mental behaviors that are done in response to an obsession or in accordance with a set of strict rules, in order to reduce distress or prevent something dreaded from occurring), or both",Psychology,Disorders
-obsessive-compulsive personality disorder (OCPD),characterized by accumulation of money of worthless objects,Psychology,Disorders
 Oedipus complex,"complex occurs during phallic stage (3rd stage) of Freud's five psychosexual stages) when a male child is sexually attracted to his mother and hostile toward his father, who is seen as a rival",Psychology,Development
-olfactory receptors,chemoreceptors in the upper nasal cavity that respond to odor chemicals,Psychology,Neuroscience
-operant conditioning,"instrumental conditioning - a form of associative learning based on consequences, in which rewards increase the frequency of behaviors associated with them and punishments decrease their frequency",Psychology,Learning
-optic disk,"blind spot of the eye, this is where the axons of the ganglion cells exit the retina to form the optic nerve. There are no photoreceptors in the optic disk",Psychology,Neuroscience
-optic nerve,nerve extending from the back of the eyeball to the brain that carries visual information and is made up of axons of the ganglion cells of the retina,Psychology,Neuroscience
 optimism bias,belief that bad things happen to other people but not to us,Psychology,Development
 oral stage,"first of Freud's psychosexual stages, in which the child seeks sensual pleasure through oral activities such as sucking and chewing",Psychology,Development
-organ of Corti,"structure in the Cochlea of the inner ear made up of the basilar membrane, the auditory hair cells, and the tectorial membrane. The organ of Corti is the site where auditory sensation is detected and transduced to action potentials",Psychology,Neuroscience
-organization,"large group, more impersonal than a network, that comes together to pursue particular activities and meet goals efficiently",Sociology,Social Structure
-ossicles,"three small bones found in the middle ear (malleus, incus, stapes) that help to amplify the sound vibration from sound waves. The malleus is attached to the tympanic membrane and the stapes is attached to the oval window of the cochlea",Psychology,Neuroscience
-out-group,group that an individual does not belong to,Sociology,Social Structure
-outer ear,portion of the ear consisting of the pinna and the external auditory canal. The outer ear is separated from the middle ear by the tympanic membrane (the ear drum),Psychology,Neuroscience
-oval window,membrane that separates the middle ear from the inner ear,Psychology,Neuroscience
 overconfidence,overestimations of the accuracy of one's knowledge and judgments,Psychology,Development
-pain disorder,characterized by clinically important pain whose onset or severity seems significantly affected by psychological factors,Psychology,Disorders
-palmar grasp reflex,"in response to stroking a baby's palm, the baby's hand will grasp and the reflex lasts a few months",Psychology,Neuroscience
-panic disorder,"characterized by panic attacks, which can be cued by a certain situation, but are more often uncued or ""spontaneous,"" occurring frequently and unexpectedly",Psychology,Disorders
 parallel processing,system whereby many aspects of a stimulus are processed simultaneously instead of in a step-by-step or serial fashion,Psychology,Development
-posterior pituitary gland,"neurohypophysis, made of nervous tissue (neurons) and stores and secretes two hormones made by the hypothalamus: oxytocin and ADH. The posterior pituitary is controlled by action potentials from the hypothalamus",Psychology,Neuroscience
-postganglionic neuron,"autonomic division of the PNS, a neuron that has its cells body located in an autonomic ganglion (where a preganglionic neuron synapses with it), and whose axon synapses with the target organ",Psychology,Neuroscience
-prefrontal cortex,"aneterior part of the frontal lobes of the brain involved in complex behaviors such as planning, sequencing, social responses, and decision making. Directs behavioral aspects of emotion including approach and avoidance behaviors. Damage to this area may lead to inappropriate social behavior, impulsivity, and trouble with initiation",Psychology,Neuroscience
-preganglionic neuron,"autonomic division of the PNS, and the neuron has its cell body located in the CNS, and whose axon extends into the PNS to synapse with a second neuron at an autonomic ganglion (second neuron's axon synapses with the target organ)",Psychology,Neuroscience
-prejudice,"thoughts, attitudes, and feelings someone holds about a group that are not based on actual experience; a prejudgment or biased thinking about a group and its members",Sociology,Social Behavior
 preoperational stage,"Piaget's second stage in his developmental theory from ages 2 to 7. During this stage, the children learn to pretend play and the idea that a symbol can represent something else and they remain egocentric",Psychology,Development
 primary groups,"groups that play a more important role in an individual's life (often meeting emotional needs); these groups are usually smaller and include those with whom the individual engages with in person, in long-term, emotional ways",Psychology,Development
 primacy effect,tendency to better recall the first items in a list,Psychology,Development
 primary reinforcers,unconditioned consequences that are insanely satisfying or desirable and may be biologically driven,Psychology,Development
-priming,"effect of implicit memory whereby exposure to a given stimulus ""primes"" or prepares the brain to respond to a later stimulus",Psychology,Learning
-principle of aggregation,"idea that an attitude affects a person's aggregate or average behavior, but cannot necessarily predict each isolated act",Psychology,Learning
-prison study (Stanford prison study),"experiment conducted by Philip Zimbardo designed to elucidate the extreme effects of role-playing on human behavior. 24 male students were isolated and asked to play the roles of prisoners and guards; the participants adapted to their roles well beyond Zimbardo's expectations. The ""guards"" enforced extreme measures, including psychological torture, and many of the prisoners passively accepted psychological abuse and readily harassed other prisoners who attempted to prevent it",Psychology,Learning
-proactive interference,type of memory interference that occurs when previously learned information interferes with the recall of information learned more recently,Psychology,Learning
-progesterone,steroid hormone produced by the corpus luteum in the ovary during the second half of the menstrual cycle. Progesterone maintains and enhances the uterine lining for the possible implantation of a fertilized ovum. It is the primary hormone secreted during pregnancy,Psychology,Neuroscience
 projection bias,"occurs when we assume others have the same beliefs we do, due to our tendency to look for similarities between ourselves and others",Psychology,Development
-prolactin,"hormone secreted by the anterior pituitary that targets the mammary glands, stimulating them to produce milk",Psychology,Neuroscience
-proprioceptor,"receptor that responds to changes in the body position, such as stretch on a tendon, or contraction of a muscle. The receptors allow us to be consciously aware of the position of our body parts",Psychology,Neuroscience
 prospective memory,remembering to do something in the future,Psychology,Development
-psychoanalytic theory,"according to this theory, personality is shaped by a person's unconscious motives, and to gain insight into the emotional issues and conflicts that are causing difficulties",Theories,
-psychological disorder,"set of behaviors and/or psychological symptoms that are not in keeping with cultural norms, and that are severe enough to cause significant personal distress and/or significant impairment to social, occupational, or personal functioning",Psychology,Disorders
 psychological fixation,"according to Freud, adult personality is largely determined during the first three psychosexual stages. If parents either frustrate or overindulge the child's expression of sensual pleasure at a certain stage so that the child doesn't resolve that stage's developmental conflicts, the child becomes fixated at that stage, and will, as an adult, continue to seek sensual pleasure through behaviors related to that stage",Psychology,Development
 psychosexual stages,"According to Freud's psychoanalytic theory, individuals progress through five psychoseuxal stages, one corresponding to the part of the body that is the focus of sensual pleasure. The five stages are oral, anal, phallic, latent, and genital",Psychology,Development
-punishment,"in operant conditioning, a consequence that decreases the likelihood that a preceding behavior will be repeated and types include positive and negative punishment",Psychology,Learning
-pupil,hole in the center of the iris of the that allows light to enter the eyeball. The diameter of the pupil is controlled by the iris in response to the brightness of the eye,Psychology,Neuroscience
 race,"biological, anthropological, or genetic origin of an individual, and includes the following U.S. Census categories: White, Black, or African American, American Indian, or Alaska Native, Asian, and Native Hawaiian or Other Pacific Islander",Psychology,Development
 racism,"prejudices and discriminatory actions that are based on race (or ethnicity), or hold that one race (or ethnicity) is inferior to another",Psychology,Development
-rapid-eye movement (REM),bursts of quick eye movements present in the last stage of sleep,Psychology,Neuroscience
-rational - legal authority,form of leadership that is organized around rational legal rules,Psychology,Neuroscience
-recall,"retrieving information from memory and involves retrieval without any cues, whereas cued recall prompts retrieval with a cue",Psychology,Learning
 recency effect,tendency to recall the last items presented in a list,Psychology,Development
-reciprocal determination,"reciprocal interaction between a person's behaviors (conscious actions), personal factors (cognitions, motivations, personality), and environmental factors",Psychology,Learning
-recognition,"retrieving information from memory with the use of cues, such as multiple-choice format",Psychology,Learning
-reference group,"group that serves as a standard measure that people compare themselves to, such as a peer group",Sociology,Social Structure
-reflex,automatic behaviors that occur without thinking,Psychology,Learning
-reflex arc,"relatively direct connection between a sensory neuron and a motor neuron that allows an extremely rapid response to a stimulus, often without conscious brain involvement",Psychology,Neuroscience
-rehearsal,technique of repeating verbal information in one's phonological loop to promote the encoding of sensory information into memory,Psychology,Learning
-reinforcement,consequence that increases the likelihood that a preceding behavior will be repeated. Two types are positive and negative reinforcement,Psychology,Learning
-reinforcement schedule,"frequency and regularity with which rewards are offered. Schedules can be based on a number of target behaviors (ratio) or on a time interval (interval). Types include fixed-ratio, variable-ratio, fixed-interval, and variable interval",Psychology,Learning
-relative poverty,an inability to meet the average standard of living within a society,Sociology,Social Structure
 relative refractory period,"period of time following an action potential when it is possible, but difficult, for the neuron to fire a second action potential, due to the fact that the membrane is further from threshold potential (hyperpolarized)",Psychology,Development
-relearning,process of learning material that was originally learned,Psychology,Learning
-religiosity,extent that religion influences a person's life,Sociology,Social Structure
 REM stage,"Final stage of sleep characterized by rapid eye movements (REM) and beta waves, which are seen in individuals when they are awake. Despite these wave patterns, however, the sleeper is paralyzed aside from small twitches, leading to the descriptions of this stage as ""paradoxical sleep."" This is generally when dreams occur.",Psychology,Development
-replacement level fertility,number of children that a woman or couple must have in order to replace the number of the people in the population who die,Sociology,Social Structure
 representativeness heuristic,mental shortcut where one judges the likelihood of things based on typical mental representations or examples of those things,Psychology,Development
-residential segregation,"separation of groups into different neighborhoods; separation most often occurs due to racial difference, ethnic differences, and/or socieconomic. Residential segregation is not based on laws, but rather enduring social patterns, which are attributed to suburbanization, discrimination, and personal preferences",Sociology,Social Behavior
 residual-type SCZ,"where acute phase of SCZ has resolved and the criteria for SCZ are no longer met, but some symptoms are still present in mild forms",Psychology,Development
-resource model of attention,"since attention is a limited resource, if multiple tasks do not exceed this limit, they can be done simultaneously. If they do, they they interfere with each other an dare difficult to do simultaneously",Theories,
-retention interval,amount of time elapsed since information was learned and when it must be recalled,Psychology,Neuroscience
-reticular formation,Reticular Activating System and structures in the brainstem that are important for alterness and arousal (as in wakefulness),Psychology,Neuroscience
-retina,"innermost layer of the eyeball and is made up of photoreceptors, bipolar cells, and a layer of ganglion cells",Psychology,Neuroscience
-retroactive interference,type of memory interference that occurs when newly learned information interferes with the recall of information learned previously,Psychology,Learning
 retrograde amnesia,occurs when one is unable to recall information that was previously encoded,Psychology,Development
-rods,photoreceptors of the retina of the eye that respond to dim light and provide us with black and white vision,Psychology,Neuroscience
-Carl Rogers,"the founder of humanistic psychology perspective, pioneered the person-centered approach to therapy",People,
-role conflict,occurs when there is a conflict in society's expectations for multiple statuses held by the same person (example: male nurse),Sociology,Social Structure
-role exit,process of disengaging from a role that has become closely tied to one's self-identity to take on a new role,Sociology,Social Structure
-role strain,occurs when a single status results in conflicting expectations (for example a homosexual man may feel pressure to avoid being too gay or not being gay enough),Sociology,Social Structure
-rooting reflex,"in response to touching or stroking one of a baby's cheeks, the baby will turn its head in the direction of the stroke and open its mouth to ""root"" for a nipple",Psychology,Neuroscience
-saltatory conduction,rapid form of action potential conduction along the axod of a neuron in which the action potential appears to jump from node of Ranvier to node of Ranvier,Psychology,Neuroscience
-sanctions,rewards and punishments for behaviors that are in accord with or against norms,Psychology,Learning
 Sapir-Whorf Hypothesis,"hypothesis asserts that people understand their world through language and that language, in turn, shapes how people experience their world",Psychology,Development
-scapegoat,"people or group who are unfairly blamed for something, or at whom displaced aggression is directed",Sociology,Social Behavior
-Schacter-Singer theory,theory of emotion that asserts that the experience of physiological arousal occurs first and is followed by a conscious cognitive interpretation or appraisal that allows for the identification of the experience emotion,Theories,
 schemas,mental frameworks or blueprints that shape and are shaped by experience,Psychology,Development
-schizoaffective disorder,"characterized by the combination of mood and psychotic symptoms: in this disorder, both the symptoms of SZC and Major depressive, manic, or mixed episode are experienced for at least one month",Psychology,Disorders
-schizoid personality disorder,"characterized by little interest or involvement in close relationships, even those with family members",Psychology,Disorders
 SCZ,"disorder that is chronic and incapacitating and is characterized by psychosis and material impairment in social, occupational, or personal functioning",Psychology,Development
-schizophreniform disorder,"characterized by symptoms of SCZ present for a period of one to six months, during which the symptoms may or may not have interfered with functioning",Psychology,Disorders
-schizotypal personality disorder,"characterized by several traits that cause problems interpersonally, including constricted or inappropriate affect; magical or paranoid thinking; and odd beliefs, speech, behavior, appearance, and perceptions",Psychology,Disorders
-Schwann cell,one of the two peripheral nervous system supporting (glial) cells. Schwann cells form the myelin sheath on axons of peripheral neurons,Psychology,Neuroscience
-sclera,white portion of the tough outer layer of the eyeball,Psychology,Neuroscience
-secondary group,"larger and more impersonal group than a primary group, which usually interacts for specific reasons for relatively short periods of time; these groups serve pragmatic needs",Sociology,Social Structure
-secondary reinforcers,"conditioned reinforcers that are learned through their direct or indirect relationship with primary reinforcers. For example, money is a secondary reinforcer; it is not innately rewarding but we have learned that it can provide access to primary reinforcers",Psychology,Neuroscience
-sect,religious organization that is distinct from the parent religion from which it was formed,Sociology,Social Structure
 secure attachment,"style of relating to others that forms when an infant has caregivers who are sensitive and responsive to needs. In Ainsworth's experiments, securely attached infants were found to be willing to explore surroundings in the presence of the mother. They were upset but consolable when the mother left and then returned to the room",Psychology,Development
 selective attention,process by which one input is selected to focus on out of the field of possibilities in the environment,Psychology,Development
 selective priming,being predisposed to observe something because it has previously been encountered frequently or is expected,Psychology,Development
 self-actualization (actualizing tendency),"according to humanistic psychology, individuals have an innate drive to maintain and enhance themselves, or realize their human potential, as long as no obstacle intervenes",Psychology,Development
-self-concept (self-identity),"broadly defined as the sum of an individuals' knowledge and understanding of his-or her-self including physical, psychological, and social attributes, which can be influenced by the individual's attitudes, habits, beliefs, and ideas",Sociology,Social Behavior
 self-consciousness,awareness of one's self,Psychology,Development
 self-efficacy,belief in one's own competence and effectiveness,Psychology,Development
 self-esteem,one's overall self-evaluation of one's self-worth,Psychology,Development
@@ -455,26 +133,380 @@ self-handicapping,strategy in which people create obstacles and excuses to avoid
 self-reference effect,tendency to better remember information relevant to ourselves,Psychology,Development
 self-schemas,beliefs and ideas people have about themselves,Psychology,Development
 self-serving bias,tendency to attribute our successes to ourselves and our failures to others or the external environment,Psychology,Development
-semantic memory,memory for factual information,Psychology,Learning
-semicircular canals,three loop-like structures in the inner ear that contain sensory receptors to monitor balance,Psychology,Neuroscience
-sensitization,an increase in the strength of a response with repeated presentations of a stimulus,Psychology,Neuroscience
 sensorimotor stage,first stage of piaget's developmental theory from birth to age 2 where babies learn object permanence and demonstrate stranger anxiety,Psychology,Development
-sensory memory,initial recording of sensory information in the memory system; sensory memory is a very brief snapshots that quickly decay,Psychology,Learning
 serial position effect,"includes primacy and recency effect and when information is presented serially in a list format, individuals are more likely to recall the first and last items presented",Psychology,Development
-shaping,"in operant conditioning, the process of reinforcing intermediate, proximal behaviors until a final, desired behavior is achieved",Psychology,Learning
-short-term memory,memory that is limited in duration and in capacity,Psychology,Learning
-signal detection theory,"theory that attempts to predict how and when someone will detect the presence of a given sensory stimuli (""signal"") amidst all of the other sensory stimuli in the background (considered the noise). There are four possible outcomes: a hit (signal is present and was detected), a miss (signal was present but not detected), a false alarm (signal was not present but the person thought it was), and a correct rejection (signal was not present and the person did not think it was).",Theories,
-B.F. Skinner,"coined the term ""operant conditioning."" He is famous for his ""Skinner Box"" in which he used reinforcements to shape animal behavior",People,
-sleep apnea,sleep disorder in which the individual intermittently stops breathing during sleep and may wake up gasping for breath,Psychology,Disorders
 sleep cycle,"one sleep cycle consists of a progression through sleep stages 1-4 in sequence, followed by an ascension from 4 to 1 and then a transition into REM sleep and it typically takes about 90 minutes",Psychology,Development
 sleep spindle,bursts of waves present in stage 2 sleep,Psychology,Development
-social behaviorism,idea that the mind and self emerge through the process of communicating with others,Sociology,Social Structure
-social capital,potential for social networks to allow for upward social mobility,Sociology,Social Structure
-social cognition,ability of brain to store and process information regarding social perception,Psychology,Neuroscience
+social support,perception that one is cared for and part of a social network; supportive resources can be tangible or emotional,Psychology,Development
+soma,cell body of a neuron,Psychology,Development
+somnambulism,sleepwalking,Psychology,Development
+stranger anxiety,developmentally typical anxiety displayed by children from approximately 8 to 12 months of age toward close contact with strangers. May be expressed by crying and clinging to familiar caregivers,Psychology,Development
+temperament,dispositional emotional excitability. Tends to be fairly stable through life span,Psychology,Development
+telencephalon,cerebral hemispheres,Psychology,Development
+theta waves,waves of low to moderate intensity and intermediate frequency present during stage 1 of sleep,Psychology,Development
+trait,"internal, stable, and enduring aspects of personality that should be consistent across most situations",Psychology,Development
+trial and error,strategy of problem-solving that involves trying different alternatives sequentially until success is achieved,Psychology,Development
+undifferentiated-type SCZ,"characterized by the basic criteria, but symptoms that don't fit into one of the other subtypes",Psychology,Development
+universal grammar,"basic rules of language, presumed to be innate, that allow the human mind to gain mastery of language from limited exposure during sensitive developmental years in early childohod",Psychology,Development
+vitreous humor,"thick, gelatinous fluid found in the posterior segment of the eye (between the lens and the retina). The vitreous humor is only produced during a fetal development and helps maintain intraocular pressure (pressure inside the eye)",Psychology,Development
+Weber's Law,law pertains to sensory perception and dictates that two stimuli must differ by a constant proportion in order for their difference to be perceptible,Psychology,Development
+addiction,a compulsion to do an act repeatedly; can consist of a psychological dependence and/or a physical dependence as evidenced by drug addiction withdrawal,Psychology,Disorders
+Alzheimer's disease,"most prevalent forms of the dementia, characterized behaviorally by the inability to form new memories, known as anterograde amnesia",Psychology,Disorders
+antisocial personality disorder,"psychological disorder characterized by a history of serious behavior problems beginning in adolescence, including significant aggression against people or animals, deliberate property destruction, lying or theft, and serious rule violation",Psychology,Disorders
+anxiety disorder,"emotional state of unpleasant physical and mental arousal; a preparation to fight or flee. in a person with an anxiety disorder, the anxiety is intense, frequent, irrational (out of proportion), and uncontrollable; it causes significant distress or impairment of normal functioning",Psychology,Disorders
+avoidant personality disorder,"characterized by feelings of inadequacy, inferiority, and undesirability, and a preoccupation with fears of criticism",Psychology,Disorders
+bipolar disorder,"cyclic mood episodes at both extremes/poles (depression and mania). In bipolar I disorder, and person has experienced at least one manic episode or mixed and in bipolar II, the manic phases are less extreme",Psychology,Disorders
+bipolar neuron,"a neuron with a single axon and a single dendrite, often projecting from opposite sides of the cell body. bipolar neurons are typically associated with sensory organs",Psychology,Disorders
+body dysmorphic disorder,"characterized with preoccupation with a slight physical anomaly or imagined defect in appearance, often involving the face, hairs, breasts, or genitalia",Psychology,Disorders
+conversion disorder,"disorder characterized by a change in sensory or motor function that has no discernible physical or physiological cause, and which seems to be significantly affected by psychological factors. The symptoms of conversion disorder begin or worsen after an emotional conflict or other stressor",Psychology,Disorders
+cyclothymic disorder,"disorder similar to bipolar disorder but the moods are less extreme and the person has experienced cyclic moods, including many hypomanic episodes, as well as many episodes of depressed mood that are milder than a major depressive episode for at least two years",Psychology,Disorders
+dependent personality disorder,characterized by a need to be taken care of by others and an unrealistic fear of being unable to take care of himself or herself,Psychology,Disorders
+depersonalization disorder,"characterized by a recurring or persistent feeling of being cut off or detached from one's body or mental processes, as if observing one's self from the outside",Psychology,Disorders
+Diagnostic and Statistical Manual of Mental Disorders (DSM),universal authority on the classification and diagnosis of psychological disorders; the current latest edition is the fifth edition of the DSM,Psychology,Disorders
+dissociative disorder,"characterized by a person's thoughts, feelings, perceptions, memories, or behaviors being separated from conscious awareness and control, in a way that is not explainable as mere forgetfulness",Psychology,Disorders
+dissociative identity disorder,"characterized by alternating between two or more distinct personality states (identities), only one of which interacts with other people at any one time",Psychology,Disorders
+dysthymic disorder,"characterized as a less intense, chronic form of depression and a person has felt milder symptoms of depression most days for at least two years, with symptoms never absent for more than two months, and without experiencing a major depressive episode",Psychology,Disorders
+generalized anxiety disorder (GAD),"characterized by tension or anxiety much of the time about many issues, but without the presences of panic attacks",Psychology,Disorders
+hippocampus,"brain structure located in the medial temporal lobe of the brain and plays a key role in forming memories. Damage to this part of the brain can lead to an inability to form new memories, or anterograde amnesia",Psychology,Disorders
+histrionic personality disorder,"characterized by a strong desire to be the center of attention, and seeking to attract attention through personal appearance and seductive behavior",Psychology,Disorders
+insomnia,"most common sleep disorder, characterized by difficulty falling or stay asleep",Psychology,Disorders
+major depressive disorder,"characterized by one or more major depressive episodes, where a person has felt worse than usual for most of the day, nearly every day, for at least two weeks",Psychology,Disorders
+mood disorder,"characterized by a persistent pattern of abnormal mood serious enough to cause significant personal distress and/or significant impairment to social, occupational, or personal functioning",Psychology,Disorders
+narcisstic personality disorder,"psychological disorder characterized by feeling of grandiosity, with fantasies of beauty, brilliance, and power",Psychology,Disorders
+narcolepsy,"sleep disorder in which the individual experiences periodic, overwhelming sleepiness during waking periods that usually last less than five minutes",Psychology,Disorders
+night terror,"usually occur during stage 3 sleep, unlike nightmares. The individual may sit up or walk around, babble, and appear terrified, although none of it is remembered the next morning",Psychology,Disorders
+obsessive-compulsive disorder (OCD),"characterized by obsessions (repeated, intrusive, uncontrollable thoughts or impulses that cause distress or anxiety), compulsions (repeated physical or mental behaviors that are done in response to an obsession or in accordance with a set of strict rules, in order to reduce distress or prevent something dreaded from occurring), or both",Psychology,Disorders
+obsessive-compulsive personality disorder (OCPD),characterized by accumulation of money of worthless objects,Psychology,Disorders
+pain disorder,characterized by clinically important pain whose onset or severity seems significantly affected by psychological factors,Psychology,Disorders
+panic disorder,"characterized by panic attacks, which can be cued by a certain situation, but are more often uncued or ""spontaneous,"" occurring frequently and unexpectedly",Psychology,Disorders
+psychological disorder,"set of behaviors and/or psychological symptoms that are not in keeping with cultural norms, and that are severe enough to cause significant personal distress and/or significant impairment to social, occupational, or personal functioning",Psychology,Disorders
+schizoaffective disorder,"characterized by the combination of mood and psychotic symptoms: in this disorder, both the symptoms of SZC and Major depressive, manic, or mixed episode are experienced for at least one month",Psychology,Disorders
+schizoid personality disorder,"characterized by little interest or involvement in close relationships, even those with family members",Psychology,Disorders
+schizophreniform disorder,"characterized by symptoms of SCZ present for a period of one to six months, during which the symptoms may or may not have interfered with functioning",Psychology,Disorders
+schizotypal personality disorder,"characterized by several traits that cause problems interpersonally, including constricted or inappropriate affect; magical or paranoid thinking; and odd beliefs, speech, behavior, appearance, and perceptions",Psychology,Disorders
+sleep apnea,sleep disorder in which the individual intermittently stops breathing during sleep and may wake up gasping for breath,Psychology,Disorders
+specific phobia,"persistent, strong, and unreasonable fear of a certain object or situation. Specific phobias are classified into 4 types: situational, natural environment, blood-injection, animal",Psychology,Disorders
+somatization disorder,"characterized by a variety of physical symptoms over an extended period of time, including: pain, GI, sexual, and pseudoneurological symptoms",Psychology,Disorders
+somatoform disorder,"characterized primarily by physical symptoms and concerns, which many mimic physical (somatic) disease. However, the symptoms are not explainable medically and do not improve with medical treatment",Psychology,Disorders
+withdrawal,uncomfortable and often painful experience that may accompany the discontinuing of a drug. Withdrawal is immediately alleviated if the user takes the substance (thus reinforcing the addiction) or dissipates slowly over time (like in the case of detoxification),Psychology,Disorders
+acquisition,"in classical conditioning, the process of learning the association between a conditioned stimulus and response",Psychology,Learning
+algorithm,a step-by-step detailing the steps that aids with problem solving,Psychology,Learning
+altruism,"a behavior that helps ensure the success or survival of the rest of the social group, possibly at the expense of the success or survival of the individual",Psychology,Learning
+associative learning,"process of learning in which one event, object, or action is directly connected with another. Two general categories include classical and operant conditioning",Psychology,Learning
+attitude,"person's feelings and beliefs about other people or events around him, and his behavioral restrictions based on those underlying evaluations",Psychology,Learning
+behavioral genetics,study the role of inheritance in interacting with experience to determine an individual's personality and behaviors,Psychology,Learning
+behavioral therapy,type of therapy uses conditioning to shape a client's behaviors in the desired direction,Psychology,Learning
+behaviorism,"according to this perspective, personality is a result of learned behavior patterns based on a person's environment. Behaviorism is deterministic, proposing that people begin as blank slates, and that environmental reinforcement and punishment completely determine an individual's subsequent behavior and personality",Psychology,Learning
+borderline personality,"characterized by enduring or recurrent instability in impulse control, mood, and image of self and others. impulsive and reckless behavior, together with extreme mood swings, reactivity, and anger, can lead to unstable relationships and to damage both of the person with the disorder and of others in his or her life",Psychology,Learning
+catatonic-type SCZ,psychological disorder characterized by psychosis in the form of catatonic behavior (including extremely retarded or excited motor activity),Psychology,Learning
+central executive,"Part of Alan Baddeley's model of working memory that oversees the visuospatial sketchpad, phonological loop, and episodic buffer. Responsible for shifting and dividing attention",Psychology,Learning
+chunking,memory technique in which information to be remembered is organized into discrete groups of data. this clustering allows more information to be remembered overall,Psychology,Learning
+cognitive behavioral therapy (CBT),therapy that addresses thoughts and behaviors that are maladaptive by using goal-oriented and systematic techniques,Psychology,Learning
+cognitive psychology,"tradition of psychology that focuses on the brain, cognitions, and thoughts as mediating learning and stimulus-response behaviors",Psychology,Learning
+conformity,phenomenon of adjusting behavior or thinking based on the behavior or thinking of others,Psychology,Learning
+death instinct,"according to the psychoanalytic theory, the death instinct drives aggressive behaviors fueled by an unconscious wish to die or to hurt oneself or others",Psychology,Learning
+echoic memory,"memory for sound, which lasts for about 3-4 seconds",Psychology,Learning
+encoding,process of transferring sensory information into the memory system,Psychology,Learning
+episodic buffer,part of Alan Baddeley's model of working memory that interacts with information in long-term memory,Psychology,Learning
+episodic memory,autobiographical memory for information of personal importance,Psychology,Learning
+escape learning,"through operant conditioning, this is the process of learning to engage in a particular behavior in order to get away from a negative or aversive stimulus",Psychology,Learning
+extinction,"classical conditioning, unpairing of conditioned and unconditioned stimuli, accomplished by introducing the conditioned stimulus repeatedly in the absences of the unconditioned stimulus",Psychology,Learning
+false memory,inaccurate memory created by the power of the imagination or suggestion,Psychology,Learning
+fixed-interval schedule,reinforcement schedule in which reward is offered after a set period of time has passed,Psychology,Learning
+fixed-ratio schedule,reinforcement schedule in which reward is offered after a set number of instances of a behavior,Psychology,Learning
+folkways,"norms that are more informal, yet shape everyday behavior (styles of dress, ways of greeting)",Psychology,Learning
+fundamental attribution error,when we tend to underestimate the impact of the situation and overestimate the impact of a person's character or personality on their behavior,Psychology,Learning
+general intelligence,foundational base of intelligence that supports more specialized abilities,Psychology,Learning
+generalization,"in classical conditioning, the process by which stimuli similar to conditioned stimulus also become conditioned stimulus that elicit the conditioned response",Psychology,Learning
+group pressure (peer pressure),"pressure exerted by a group that causes one to change behaviors, values, attitudes, or beliefs",Psychology,Learning
+heuristics,mental shortcuts used for problem solving and using them sacrifices accuracy for speed,Psychology,Learning
+iconic memory,"brief photographic memory for visual information, which decays in a few tenths of a second",Psychology,Learning
+illusory correlation,"perceived relationship between two things (people, events, or behaviors) even when none exists",Psychology,Learning
+implicit (procedural) memory,memory that involves conditioned associations and knowledge of how to do something,Psychology,Learning
+infantile amnesia,"lack of explicit memory for events that occurred before the age of roughly 3.5 years. While people are unable to recall memories from this part of their life, learning and memory still do occur even though the cause is unknown",Psychology,Learning
+instrumental conditioning,operant conditioning,Psychology,Learning
+justification of effort,"when people modify their attitudes to match their behaviors, specifically those involving effort",Psychology,Learning
+latent learning,learning that takes place in the absence of any observable behavior to show that it has occurred. This learning can later manifest and be demonstrated as observable behavior when it is required,Psychology,Learning
+libido,"according to psychoanalytic theory, the libido is the life instinct, which drives behaviors focused on survival, growth, creativity, pain avoidance, and seeking pleasure",Psychology,Learning
+long-term potentiation,persistent increase in synaptic strength between two neurons that occurs following brief periods of their stimulation. Leads to increase sensitivity of neurons recently stimulated. Believed to play a role in learning and the consolidation of memory from short-term memory to long-term memory,Psychology,Learning
+method of loci,"memory device that involves imagining moving through a familiar place, such as your home, and in each place, leaving a visual representation or a topic to be remembered",Psychology,Learning
+misinformation effect,"tendency to misremember an event, particularly when misleading information is presented between the event and the mental encoding of the event",Psychology,Learning
+mnemonic,any memory technique used to promote the retention and retrieval of information,Psychology,Learning
+mood-dependent memory,"when learning occurs during a particular emotional state, it is most easily recalled when one is again in that emotional state",Psychology,Learning
+negative punishment,removal of a positive or rewarding stimulus following a behavior. Tends to increase the frequency of that behavior,Psychology,Learning
+negative reinforcement,removal of a negative or aversive stimulus following a behavior and tends to increase the frequency of that behavior,Psychology,Learning
+nonassociative learning,learning that occurs in the absence of associating specific stimuli or events. Two types are habituation and sensitization,Psychology,Learning
+norms,visible and invisible rules of social conduct within a society. Norms help define what types of behaviors are acceptable and in accordance with a society's values and beliefs. Formal norms are generally written down; laws are examples of formal norms. Informal norms are generally understood but are less precise and often carry no specific punishments,Psychology,Learning
+"observational learning (vicarious, social learning)","type of learning that occurs when a person watches another person's behavior and its consequences, thereby learning rules, strategies, and expected outcomes in different situations",Psychology,Learning
+operant conditioning,"instrumental conditioning - a form of associative learning based on consequences, in which rewards increase the frequency of behaviors associated with them and punishments decrease their frequency",Psychology,Learning
+priming,"effect of implicit memory whereby exposure to a given stimulus ""primes"" or prepares the brain to respond to a later stimulus",Psychology,Learning
+principle of aggregation,"idea that an attitude affects a person's aggregate or average behavior, but cannot necessarily predict each isolated act",Psychology,Learning
+prison study (Stanford prison study),"experiment conducted by Philip Zimbardo designed to elucidate the extreme effects of role-playing on human behavior. 24 male students were isolated and asked to play the roles of prisoners and guards; the participants adapted to their roles well beyond Zimbardo's expectations. The ""guards"" enforced extreme measures, including psychological torture, and many of the prisoners passively accepted psychological abuse and readily harassed other prisoners who attempted to prevent it",Psychology,Learning
+proactive interference,type of memory interference that occurs when previously learned information interferes with the recall of information learned more recently,Psychology,Learning
+punishment,"in operant conditioning, a consequence that decreases the likelihood that a preceding behavior will be repeated and types include positive and negative punishment",Psychology,Learning
+recall,"retrieving information from memory and involves retrieval without any cues, whereas cued recall prompts retrieval with a cue",Psychology,Learning
+reciprocal determination,"reciprocal interaction between a person's behaviors (conscious actions), personal factors (cognitions, motivations, personality), and environmental factors",Psychology,Learning
+recognition,"retrieving information from memory with the use of cues, such as multiple-choice format",Psychology,Learning
+reflex,automatic behaviors that occur without thinking,Psychology,Learning
+rehearsal,technique of repeating verbal information in one's phonological loop to promote the encoding of sensory information into memory,Psychology,Learning
+reinforcement,consequence that increases the likelihood that a preceding behavior will be repeated. Two types are positive and negative reinforcement,Psychology,Learning
+reinforcement schedule,"frequency and regularity with which rewards are offered. Schedules can be based on a number of target behaviors (ratio) or on a time interval (interval). Types include fixed-ratio, variable-ratio, fixed-interval, and variable interval",Psychology,Learning
+relearning,process of learning material that was originally learned,Psychology,Learning
+retroactive interference,type of memory interference that occurs when newly learned information interferes with the recall of information learned previously,Psychology,Learning
+sanctions,rewards and punishments for behaviors that are in accord with or against norms,Psychology,Learning
+semantic memory,memory for factual information,Psychology,Learning
+sensory memory,initial recording of sensory information in the memory system; sensory memory is a very brief snapshots that quickly decay,Psychology,Learning
+shaping,"in operant conditioning, the process of reinforcing intermediate, proximal behaviors until a final, desired behavior is achieved",Psychology,Learning
+short-term memory,memory that is limited in duration and in capacity,Psychology,Learning
 social cognitive perspective,"personality is formed by a reciprocal interaction among behavioral, cognitive, and environmental factors",Psychology,Learning
-social construct,social mechanism or practice that is constructred by society; essentially everyone in society agrees to treat a certain aspect a certain way regardless of its inherent value,Sociology,Social Structure
+sociobiology,"study of how biology and evolution have affected human social behavior. Primarily, it applies Darwin's principle of natural selection to social behavior, suggesting there is a biological basis for many behaviors",Psychology,Learning
+source monitoring error,specific type of error of recollection where a memory is incorrectly attributed to the wrong source,Psychology,Learning
+source traits,factors underlying human personality and behavior,Psychology,Learning
+spontaneous recovery,"classical conditioning, a reoccurrence of a previously extinct conditioned response in the presence of a conditioned stimulus and often occurs after a period of time has passed since the initial extinction of the response",Psychology,Learning
+state,"situational factors that can influence personality and behavior; states are unstable, temporary, and variable",Psychology,Learning
+superego,"in Freud's psychoanalytic theory and it inhibits the id and influences the ego to follow moralistic behavior rather than realistic goals. Based on societal values as learned from one's parents, the superego makes judgments of right and wrong and strives for perfection. The superego seeks to gain psychological rewards such as feelings of pride and self-love, and to avoid psychological punishment such as feelings of guilty and inferiority",Psychology,Learning
+unconditioned response,"response that automatically follows an unconditioned stimulus, without necessitating learning and conditoning to create the link",Psychology,Learning
+unconditioned stimulus,"stimulus that elicits an unconditioned response automatically, without necessitating learning and conditioning to create the link",Psychology,Learning
+variable-interval schedule,reinforcement schedule in which reward is offered after an unpredictable number of occurrences of a behavior,Psychology,Learning
+variable-ratio schedule,reinforcement schedule in which reward is offered after an unpredictable time interval,Psychology,Learning
+visuospatial sketchpad,Part of Alan Baddeley's model of working memory that allows for the repetition of visuospatial information (images) to aid with encoding it into memory,Psychology,Learning
+working memory,"STM for information in immediate awareness. According to Alan Baddeley, working memory consists of four components: central executive, a phonological loop, a visuospatial sketchpad, and the episodic buffer",Psychology,Learning
+acetylcholine (ACh),"the neurotransmitter used at the neuromuscular junction, throughout the PNS and by the preganglionic neurons of the SNS",Psychology,Neuroscience
+acetylcholinesterase,the enzyme that breaks down ACh in the synaptic cleft,Psychology,Neuroscience
+adrenal cortex,outer region of the adrenal gland. the adrenal cortex produces cortisol in response to long-term chronic stress and aldosterone in response to low blood pressure and blood osmolarity,Psychology,Neuroscience
+adrenal medulla,"inner region of the adrenal gland, and part of the SNS and releases epinephrine and norepinephrine into the bloodstream when stimulated. Epi and norepi. prolong and enhance the effect of the sympathetic stimulation on the body",Psychology,Neuroscience
+adrenocorticotropic hormone (ACTH),"a tropic hormone produced by the anterior pituitary gland that targets the adrenal cortex, stimulating it to release cortisol and aldosterone",Psychology,Neuroscience
+alpha waves,"low amplitude, high frequency brain waves present in a relaxed state. alpha waves are the first indicator that a person is ready to drift off to sleep",Psychology,Neuroscience
+amygdala,almond-shaped structure deep within the brain that orchestrates emotional experiences,Psychology,Neuroscience
+anterior pituitary gland,"adenohypophysis and is made of glandular tissue and it makes and secretes six different hormones: FSH, LH, ACTH, TSH, prolactin, and growth hormone. it is controlled by releasing and inhibiting factors from the hypothalamus",Psychology,Neuroscience
+aqueous humor,"thin, watery fluid found in the anterior segment of the eye (between lens and cornea). The aqueous humor is constantly produced and drained, and helps brings nutrients to the lens and cornea, as well as remove metabolic wastes",Psychology,Neuroscience
+auditory cortex,area of the temporal lobe responsible for processing sound information,Psychology,Neuroscience
+auditory tube,Eustachian tube that connects the middle ear cavity with the pharynx and it functions to equality middle ear pressure with atmospheric pressure so that pressure on both sides of the tympanic membrane is equal,Psychology,Neuroscience
+autonomic ANS,division of the PNS that innervates and controls the visceral organs (everything but the skeletal muscles). It is also known as the involuntary nervous system and can be subdivided into sympathetic and parasympathetic branches,Psychology,Neuroscience
+avoidance learning,process by which one learns to perform a behavior in order to ensure that a negative or aversive stimulus will not be present,Psychology,Neuroscience
+axon,long projection off the cell body of a neuron down which an action potential can be propagated,Psychology,Neuroscience
+Babinski reflex,"in response to the sole of the foot being stroked, a baby's big toe moves upward or toward the top surface of the foot and the other toes fan out",Psychology,Neuroscience
+baroreceptor,"sensory receptor that responds to the changes in pressure, for example, there are baroreceptors on the carotid arteries and the aortic arch that monitor blood pressure",Psychology,Neuroscience
+basal nuclei,known as basal ganglia and these structures in the brain help to smooth coordinated movements by inhibiting excess movement,Psychology,Neuroscience
+basilar membrane,flexible membrane in the cochlea that supports the organ of Corti (structure that contains the hearing receptors). the fibers of the basilar membrane are short and stiff near the oval window and long and flexible near the apex of the cochlea. This difference in structure helps the basilar membrane to transduce pitch,Psychology,Neuroscience
+biofeedback,"means of recording and feeding back information about subtle autonomic responses to an individual in an attempt to train the individual to control previously involuntary responses (for example, muscle tension, heart rate, respiratory rate)",Psychology,Neuroscience
+bottom-up processing,type of sensory processing that begins with the sensory receptors and works up to the complex integration of information occurring in the brain; note that the brain in fact uses a combination of bottom-up processing and top-down processing,Psychology,Neuroscience
+Broca's area,"region of the brain located in the left-hemisphere of the frontal lobe. Involved with speech production and damage to this part of the brain results in Broca's aphasia, where individuals know what they want to say but are unable to express it verbally",Psychology,Neuroscience
+central nervous system,subdivision of the nervous system consisting of the brain and the spinal cord,Psychology,Neuroscience
+cerebellum,region of the brain that coordinates and smoothes skeletal muscle activity,Psychology,Neuroscience
+cerebral cortex,"thin (4 mm) layer of gray matter on the surface of the cerebral hemispheres. it is the conscious mind, and is functionally divided into four lobes: frontal, parietal, temporal, and occipital",Psychology,Neuroscience
+cerebrospinal fluid (CSF),a clear fluid that circulates around and through the brain and spinal cord. CSF helps to physically support the brain and acts as a shock absorber. It also exchanges nutrients and wastes with the brain and spinal cord.,Psychology,Neuroscience
+chemical synapse,"type of synapse at which a chemical (NT) is released from the axon of a neuron into the synaptic cleft, where it binds to receptors on the next structure (either another neuron or an organ)",Psychology,Neuroscience
+chemoreceptor,"sensory receptor that responds to specific chemicals. Some examples are gustatory, olfactory, and central chemoreceptors which respond to changes in CSF pH",Psychology,Neuroscience
+choroid,"darkly-pigmented middle layer of the eyeball, found between the sclera (outer layer) and the retina (inner layer)",Psychology,Neuroscience
+ciliary muscle,muscle that helps focus light on the retina by controlling the curvature of the lens of the eye,Psychology,Neuroscience
+classical conditioning,process in which two stimuli are paired in a way that changes a response to one of them,Psychology,Neuroscience
+cochlea,curled structure in the inner ear that contains the membranes and hair cells used to transduce sounds waves into action potentials,Psychology,Neuroscience
+conditioned response,a previously unconditioned response to an unconditioned stimulus that has become a learned response to a conditioned stimulus,Psychology,Neuroscience
+conditioned stimulus,originally a neutral stimulus that is paired with an unconditioned stimulus until it can produce the conditioned response without the unconditioned stimulus being present,Psychology,Neuroscience
+cones,photoreceptors in the retina of the eye that respond to bright light and provide color vision,Psychology,Neuroscience
+confirmation bias,tendency to search only for information that confirms a preconceived conclusion,Psychology,Neuroscience
+cornea,"clear portion of the tough outer layer of the eye-ball, found over the iris and the pupil",Psychology,Neuroscience
+corpus callosum,largest bundle of white matter (axons) connecting the two cerebral hemispheres,Psychology,Neuroscience
+cortisol,"steroid hormone is released during chronic stress; it shifts the body's use of fuel from glucose toward fats and proteins, thus ""sparing"" glucose for the brain's use. Prolonged release of cortisol is associated with suppressed immunity and increased susceptibility to illness",Psychology,Neuroscience
+deindividuation,an explanation of people's startling and often uncharacteristic behavior when situations provide a high degree of arousal and a very low sense of responsibility,Psychology,Neuroscience
+dendrite,projection off the cell body of a neuron that receives nerve impulses from a different neuron and sends the impulse to the cell body. Neurons can have one or several dendrites,Psychology,Neuroscience
+diencephalon,portion of the forebrain that includes the thalamus and hypothalamus,Psychology,Neuroscience
+dishabituation,restoration to full strength of a response to a stimulus that had previously become weakened through habituation,Psychology,Neuroscience
+disorganized type SCZ,"characterized by psychosis in the form of flat or inappropriate affect, disorganized speech, and disorganized behavior",Psychology,Neuroscience
+drive,"an urge originating from a physiological discomfort such as hunger, thirst, or sleepiness. Drives can be useful for alerting an organism that it is no longer in a state of homeostasis, an internal state of equilibrium",Psychology,Neuroscience
+effector,organ that carries out the command sent along a particular motor neuron,Psychology,Neuroscience
+efferent neurons,neuron that carries information (action potentials) away from the CNS; a motor neuron,Psychology,Neuroscience
+electrical synapse,"type of synapse in which the cells are connected by gap junctions, allowing ions (and therefore the action potentials) to spread easily from cell to cell",Psychology,Neuroscience
+Electroencephalogram (EEG),recording of electrical impulses in the brain,Psychology,Neuroscience
+electromyogram (EMG),recording of skeletal muscle movements,Psychology,Neuroscience
+electrooculogram (EOG),recording of eye movements,Psychology,Neuroscience
+endocrine gland,ductless gland that secretes hormones into the blood,Psychology,Neuroscience
+endocrine system,system of ductless glands that secrete chemical messengers (hormones) into the blood,Psychology,Neuroscience
+epinephrine,hormone produced and secreted by the adrenal medulla that prolongs and increases the effects of the SNS,Psychology,Neuroscience
+EPSP,"excitatory postsynaptic potential; a slight depolarization of a postsynaptic cell, bringing the membrane potential of a cell closer to the threshold for an action potential",Psychology,Neuroscience
+executive functions,"higher order thinking processes that include planning, organizing, inhibition, and decision making",Psychology,Neuroscience
+exocrine gland,"gland that secretes its products into a duct, which ultimately carries the product to the surface of the body or into a body cavity. An example of exocrine glands are sweat glands",Psychology,Neuroscience
+ganglion,clump of gray matter (unmyelinated neuron cell bodies) found in the PNS,Psychology,Neuroscience
+genotype,genetic makeup of an organism,Psychology,Neuroscience
+gestalt psychology,"theory that the brain processes information in a holistic manner; specifically, for visual information, the brain tends to make assumptions in order to detect the whole, instead of serially processing all of the individual parts",Psychology,Neuroscience
+glucagon,"peptide hormone produced and secreted by the alpha celsl of the pancreas. it primarily targets the liver, stimulating the breakdown of glycogen, thus increasing blood glucose levels",Psychology,Neuroscience
+gonadotropins,anterior pituitary tropic hormones; follicle stimulating hormone (FSH) and leutenizing hormone (LH) stimulate the gonads (ovaries and testes) to produce gametes and to secrete sex steroids,Psychology,Neuroscience
+gray matter,unmyelinated neuron cell bodies and short unmyelinated axons,Psychology,Neuroscience
+gustatory receptors,chemoreceptors on the tongue that respond to chemicals in food,Psychology,Neuroscience
+habituation,decrease in response to a stimulus after repeated presentations,Psychology,Neuroscience
+hair cells,"sensory receptors found in the inner ear. cochlear hair cells respond to vibrations in the cochlea caused by sound waves, and vestibular hair cells respond to changes in position and acceleration (used for balance)",Psychology,Neuroscience
+humanistic psychology,"perspective developed partially in response to Freud's psychoanalytic theory, which emphasizes an individual's inherent drive toward self-actualization. Carl Rogers is most associated with humanistic psychology",Psychology,Neuroscience
+hypochondriasis,characterized by a preoccupation with a fear of having a serious illness,Psychology,Neuroscience
+hypophysis,pituitary gland,Psychology,Neuroscience
+hypothalamus,"brain structure located above the brain stem that is involved in many autonomic processes including body temperature, hunger, thirst, fatigue, and sleep. It is also involved in the physiological aspects of emotion, including sweating and increased heart rate",Psychology,Neuroscience
+inclusive fitness,"theory that suggests that cooperation among organisms (including altruistic behaviors) promotes genetic success, meaning that even if not all of the organisms survive to reproduce, some of their genes will still be passed to the next generation",Psychology,Neuroscience
+insight learning,sudden flash of inspiration that provides solution to a problem (AHA moment where previously learned ideas or behaviors are suddenly combined in unique ways),Psychology,Neuroscience
+instinct,behaviors that are unlearned and present in fixed patterns throughout a species,Psychology,Neuroscience
+intelligence,"ability to learn from experience, problem solve, and use knowledge to adapt to new situations",Psychology,Neuroscience
+interneuron,"neuron found completely within the CNS. Interneurons typically connect sensory and motor neurons, especially in reflex arcs",Psychology,Neuroscience
+IPSP,"inhibitory postsynaptic potential; a slight hyperpolarization of a postsynaptic cell, moving the membrane potential of that cell further from threshold",Psychology,Neuroscience
+iris,"pigmented membrane found just in front of the lens of the eye. In the center of the iris is the pupil, a hole through which light enters the eyeball and the iris regulates the diameter of the pupil in response to the brightness of light",Psychology,Neuroscience
+learned helplessness,"condition where one has learned to behave helplessly, failing to respond even though there are opportunities to avoid unpleasant circumstances or gain positive rewards",Psychology,Neuroscience
+life expectancy,number of years that an individual at a given age can expect to live at present mortality rates,Psychology,Neuroscience
+medulla oblongata,"portion of the hindbrain that controls respiratory rate and blood pressure, and specialized digestive and respiratory functions such as vomiting, sneezing, and coughing",Psychology,Neuroscience
+melatonin,hormone produced by the pineal gland that affects sleep/wake cycles and seasonal functions,Psychology,Neuroscience
+meninges,"protective connective tissue wrappings of the central nervous system (dura mater, arachnoid mater, and pia mater)",Psychology,Neuroscience
+midbrain,portion of the brain responsible for visual and auditory startle reflexes,Psychology,Neuroscience
+mirror neurons,neurons that fire when a particular behavior or emotion is observed in another. May be responsible for vicarious emotions and a foundation for empathy,Psychology,Neuroscience
+multipolar neuron,neuron with a single axon and multiple dendrites; the most common type of neuron is the nervous system,Psychology,Neuroscience
+myelin,insulating layer of membranes wrapped around the axons of almost all neurons in the body. Myelin is essentially the plasma membranes of specialized cells. In the PNS they are Schwann cells and in the CNS they are oligodendrocytes,Psychology,Neuroscience
+neutral stimulus,stimulus that doesn't elicit any intrinsic response in the absence of outside interference,Psychology,Neuroscience
+neural plasticity,"process that refers to the malleability of the brain's pathways and synapses based on behavior, the environment, and neural processes",Psychology,Neuroscience
+neuron,basic functional and structural unit of the nervous system. Neuron is highly specialized cell designed to transmit action potentials,Psychology,Neuroscience
+neurotransmitter,"chemical released by the axon of a neuron in response to an action potential that binds to receptors on the postsynaptic cell and causes that cell to either depolarize slightly (EPSP) or hyperpolarize slightly (IPSP). Examples are ACth, norepinephrine, GABA, dopamine, and others.",Psychology,Neuroscience
+nocireceptors,pain receptors that are found everywhere in the body except the brain,Psychology,Neuroscience
+nodes of Ranvier,"gaps in the myelin sheath of the axons of peripheral neurons. Action potentials can ""jump"" from node to node, thus increasing the speed the conduction (saltatory conduction).",Psychology,Neuroscience
+norepinephrine (NE),neurotransmitter used by the sympathetic division of the autonomic nervous system at the post-ganglionic (organ-level) synapse,Psychology,Neuroscience
+nucleus accumbens,"structure located in the brainstem and part of the dopaminergic reward pathway. Releases dopamine in response to many drugs, contributing to addictive behavior",Psychology,Neuroscience
+olfactory receptors,chemoreceptors in the upper nasal cavity that respond to odor chemicals,Psychology,Neuroscience
+optic disk,"blind spot of the eye, this is where the axons of the ganglion cells exit the retina to form the optic nerve. There are no photoreceptors in the optic disk",Psychology,Neuroscience
+optic nerve,nerve extending from the back of the eyeball to the brain that carries visual information and is made up of axons of the ganglion cells of the retina,Psychology,Neuroscience
+organ of Corti,"structure in the Cochlea of the inner ear made up of the basilar membrane, the auditory hair cells, and the tectorial membrane. The organ of Corti is the site where auditory sensation is detected and transduced to action potentials",Psychology,Neuroscience
+ossicles,"three small bones found in the middle ear (malleus, incus, stapes) that help to amplify the sound vibration from sound waves. The malleus is attached to the tympanic membrane and the stapes is attached to the oval window of the cochlea",Psychology,Neuroscience
+outer ear,portion of the ear consisting of the pinna and the external auditory canal. The outer ear is separated from the middle ear by the tympanic membrane (the ear drum),Psychology,Neuroscience
+oval window,membrane that separates the middle ear from the inner ear,Psychology,Neuroscience
+palmar grasp reflex,"in response to stroking a baby's palm, the baby's hand will grasp and the reflex lasts a few months",Psychology,Neuroscience
+posterior pituitary gland,"neurohypophysis, made of nervous tissue (neurons) and stores and secretes two hormones made by the hypothalamus: oxytocin and ADH. The posterior pituitary is controlled by action potentials from the hypothalamus",Psychology,Neuroscience
+postganglionic neuron,"autonomic division of the PNS, a neuron that has its cells body located in an autonomic ganglion (where a preganglionic neuron synapses with it), and whose axon synapses with the target organ",Psychology,Neuroscience
+prefrontal cortex,"aneterior part of the frontal lobes of the brain involved in complex behaviors such as planning, sequencing, social responses, and decision making. Directs behavioral aspects of emotion including approach and avoidance behaviors. Damage to this area may lead to inappropriate social behavior, impulsivity, and trouble with initiation",Psychology,Neuroscience
+preganglionic neuron,"autonomic division of the PNS, and the neuron has its cell body located in the CNS, and whose axon extends into the PNS to synapse with a second neuron at an autonomic ganglion (second neuron's axon synapses with the target organ)",Psychology,Neuroscience
+progesterone,steroid hormone produced by the corpus luteum in the ovary during the second half of the menstrual cycle. Progesterone maintains and enhances the uterine lining for the possible implantation of a fertilized ovum. It is the primary hormone secreted during pregnancy,Psychology,Neuroscience
+prolactin,"hormone secreted by the anterior pituitary that targets the mammary glands, stimulating them to produce milk",Psychology,Neuroscience
+proprioceptor,"receptor that responds to changes in the body position, such as stretch on a tendon, or contraction of a muscle. The receptors allow us to be consciously aware of the position of our body parts",Psychology,Neuroscience
+pupil,hole in the center of the iris of the that allows light to enter the eyeball. The diameter of the pupil is controlled by the iris in response to the brightness of the eye,Psychology,Neuroscience
+rapid-eye movement (REM),bursts of quick eye movements present in the last stage of sleep,Psychology,Neuroscience
+rational - legal authority,form of leadership that is organized around rational legal rules,Psychology,Neuroscience
+reflex arc,"relatively direct connection between a sensory neuron and a motor neuron that allows an extremely rapid response to a stimulus, often without conscious brain involvement",Psychology,Neuroscience
+retention interval,amount of time elapsed since information was learned and when it must be recalled,Psychology,Neuroscience
+reticular formation,Reticular Activating System and structures in the brainstem that are important for alterness and arousal (as in wakefulness),Psychology,Neuroscience
+retina,"innermost layer of the eyeball and is made up of photoreceptors, bipolar cells, and a layer of ganglion cells",Psychology,Neuroscience
+rods,photoreceptors of the retina of the eye that respond to dim light and provide us with black and white vision,Psychology,Neuroscience
+rooting reflex,"in response to touching or stroking one of a baby's cheeks, the baby will turn its head in the direction of the stroke and open its mouth to ""root"" for a nipple",Psychology,Neuroscience
+saltatory conduction,rapid form of action potential conduction along the axod of a neuron in which the action potential appears to jump from node of Ranvier to node of Ranvier,Psychology,Neuroscience
+Schwann cell,one of the two peripheral nervous system supporting (glial) cells. Schwann cells form the myelin sheath on axons of peripheral neurons,Psychology,Neuroscience
+sclera,white portion of the tough outer layer of the eyeball,Psychology,Neuroscience
+secondary reinforcers,"conditioned reinforcers that are learned through their direct or indirect relationship with primary reinforcers. For example, money is a secondary reinforcer; it is not innately rewarding but we have learned that it can provide access to primary reinforcers",Psychology,Neuroscience
+semicircular canals,three loop-like structures in the inner ear that contain sensory receptors to monitor balance,Psychology,Neuroscience
+sensitization,an increase in the strength of a response with repeated presentations of a stimulus,Psychology,Neuroscience
+social cognition,ability of brain to store and process information regarding social perception,Psychology,Neuroscience
+spatial summation,integration by a postsynaptic neuron of inputs (EPSPs and IPSPs) from multiple sources,Psychology,Neuroscience
+stereotype threat,refers to a self-fulfilling fear that one will be evaluated based on a negative stereotype,Psychology,Neuroscience
+steroid hormone,"hormone derived from cholesterol. Steroids are generally hydrophobic and can easily cross the plasma membrane of cells, thus receptors for steroids are found intracellularly. Once the steroid binds to the receptor, the receptor-steroid complex acts to regulate transcription in the nucleus",Psychology,Neuroscience
+sucking reflex,"in response to anything touching the roof of the baby's mouth, it will begin to suck",Psychology,Neuroscience
+summation,"integration of input (EPSPs and IPSPs) from many presynaptic neurons by a single postsynaptic neuron, either temporally or spatially. Summation of input can either stimulate the postsynaptic neuron and possibly lead to an action potential, or it can inhibit the neuron, reducing the likelihood of an action potential",Psychology,Neuroscience
+SNS,"subdivision of the ANS directing what is known as flight or fight response to prepare the body for action. It increases heart rate, blood pressure, and blood sugar levels and directs the adrenal glands to release stress hormones",Psychology,Neuroscience
+synapse,"neuron-to-neuron, neuron-to-organ, or muscle-to-muscle cell junction",Psychology,Neuroscience
+synaptic cleft,microscopic space between the axon of one neuron and the cell body or dendrites of a second neuron or between the axon of a neuron and an organ,Psychology,Neuroscience
+temporal summation,summation by a postsynaptic cell of input (EPSPs or IPSPs) from a single source over time,Psychology,Neuroscience
+thalamus,central structure of the diencephalon of the brain. thalamus acts as a relay station and major integrating area for sensory impulses,Psychology,Neuroscience
+thermoreceptor,receptor that responds to changes in temperature,Psychology,Neuroscience
+tonic neck reflex,"in response to its head being turned to one side, a baby will stretch out its arm on the same side and the opposite arm bends up at the elbow and this reflex lasts about six to seven months",Psychology,Neuroscience
+top-down processing,type of info processing that occurs when the brain applies experience and expectations to interpret sensory information; note that the brain in fact uses a combination of bottom-up processing and top-down processing,Psychology,Neuroscience
+tropic hormone,hormone that controls the release of another hormone,Psychology,Neuroscience
+tympanic membrane,membrane that separates the outer ear from the middle ear and the tympanic membrane is also known as the eardrum,Psychology,Neuroscience
+universal emotions,"six major emotions that appear to be universal across cultures: happiness, sadness, surprise, fear, disgust, and anger",Psychology,Neuroscience
+vagus nerves,cranial nerve pair X. Vagus nerves are very large mixed nerves (they carry both sensory input and motor output) that innervate virtually every visceral organ. They are especially important in transmitting PS input to the heart and the digestive smooth muscle,Psychology,Neuroscience
+visual cortex,area of the occipital lobe responsible for processing visual information,Psychology,Neuroscience
+walking/stepping reflex,"In response to the soles of a baby's feet touching a flat surface, they will attempt to ""walk"" by placing one foot in front of the other. This reflex disappears around 6 weeks and reappears around 8-12 months when a baby learns to walk",Psychology,Neuroscience
+Wernicke's area,"area of the brain, located in the posterior section of the temporal lobe in the language dominant hemisphere of the brain (left for most people), that is involved with the comprehension of speech and written language. Individuals with damage to this area are unable to understand language and produce nonsensical sounds with the same rhythm and syntax as speech",Psychology,Neuroscience
+white matter,myelinated axons,Psychology,Neuroscience
+affirmative action,policies that take factors like race and sex into consideration to benefit underrepresented groups in admissions or job hiring decisions; these policies have been used to benefit those believed to be current or past victims of discrimination,Sociology,Social Behavior
+aggression,"behavior that is forceful, hostile, or attacking. in sociology, aggression is considered something that is intended to cause harm or promote social dominance within a group",Sociology,Social Behavior
+back stage,"dramaturgical approach where we can let down our guard and be ourselves, as opposed to front stage where we are playing a role for others",Sociology,Social Behavior
+front stage,"in the dramaturgical perspective, this is where we play a role and use impression management to craft the way we come across to other people",Sociology,Social Behavior
+groupthink,"phenomenon where, within a group, the desire for harmony or conformity results in an easy consensus, even if the final decision is not the best one",Sociology,Social Behavior
+hypnotism,"structured social interaction in which an individual is instructed to focus attention a particular way, relax, and let go (more susceptible to accepting suggestions)",Sociology,Social Behavior
+institutional discrimination,"refers to unjust and discriminatory practices employed by large organizations that have been codified into operations procedures, processes, or institutional objectives",Sociology,Social Behavior
+prejudice,"thoughts, attitudes, and feelings someone holds about a group that are not based on actual experience; a prejudgment or biased thinking about a group and its members",Sociology,Social Behavior
+residential segregation,"separation of groups into different neighborhoods; separation most often occurs due to racial difference, ethnic differences, and/or socieconomic. Residential segregation is not based on laws, but rather enduring social patterns, which are attributed to suburbanization, discrimination, and personal preferences",Sociology,Social Behavior
+scapegoat,"people or group who are unfairly blamed for something, or at whom displaced aggression is directed",Sociology,Social Behavior
+self-concept (self-identity),"broadly defined as the sum of an individuals' knowledge and understanding of his-or her-self including physical, psychological, and social attributes, which can be influenced by the individual's attitudes, habits, beliefs, and ideas",Sociology,Social Behavior
 social constructionsim,sociological theory that argues that people actively shape their reality through social interactions; it is therefore something that is constructed and not inherent. Social constructionism looks to uncover the ways in which individuals and groups participate in the construction of their perceived social reality,Sociology,Social Behavior
 social cues,verbal or nonverbal hints that guide social interactions,Sociology,Social Behavior
+socialization,"process through which people learn to be proficient in members of society; a lifelong process where people learn the attitudes, values, and beliefs that are reinforced by a particular culture",Sociology,Social Behavior
+stereotypes,"oversimplified ideas about groups of people, based on characteristics (race, gender, sexual orientation, religion, disability). Stereotypes can be positive or negative",Sociology,Social Behavior
+stigma,extreme disapproval of a person or a group based on the person or groups actual or perceived deviance from society,Sociology,Social Behavior
+absolute poverty,"inability to meet a bare minimum of basic necessities, including clean drinking water, food, safe housing, and reliable access to healthcare",Sociology,Social Structure
+achieved status,statuses that are considered to be due largely to an individual's efforts,Sociology,Social Structure
+amalgamation,occurs when majority and minority groups combine to form a new group,Sociology,Social Structure
+ascribed status,statuses that are assigned to a person by society regardless of the person's own efforts,Sociology,Social Structure
+assimilation,"process in which an individual forsakes aspects of his or her own cultural tradition to adopt those of a different culture. Generally, this individual is a member of a minority group who is attempting to conform to the culture of the dominant group",Sociology,Social Structure
+beliefs,convictions or principles that people within a culture hold,Sociology,Social Structure
+capitalism,an economic system in which resources and production are mainly privately owned and goods/services are produced for profit,Sociology,Social Structure
+caste system,closed social stratification where people can do nothing to change the category that they are born into,Sociology,Social Structure
+category,people who share similar characteristics but are not otherwise tied together as a group,Sociology,Social Structure
+church,"in sociology, a type of religious organization that is well-integrated into society and attempts to find an all-encompassing worldview for followers",Sociology,Social Structure
+class system,"social stratification where people are grouped together by similar wealth, income, education, and the like, but the classes are open, meaning that people can strive to reach a higher class or fall into a lower one",Sociology,Social Structure
+coercive organizations,organization in which members do not have a choice in joining,Sociology,Social Structure
+crude birth rate,annual number of live births per thousand people in a population,Sociology,Social Structure
+cult (new religious movement),religious organization that is far outside society's norms and often involves a very different lifestyle,Sociology,Social Structure
+culture,"shared way of life, including beliefs and practices that a group shares",Sociology,Social Structure
+cultural capital,non-financial social assets that promote social mobility,Sociology,Social Structure
+cultural relativism,judging another culture based on its own cultural standards,Sociology,Social Structure
+cultural universals,"patterns or traits that are common to all people; cultural universals tend to pertain to basic human survival and needs, such as securing food and shelter, and also pertain to events that every human experiences, including birth, death and illness",Sociology,Social Structure
+delusion,"a false belief that is not due to culture, and is not relinquished despite evidence that it is false",Sociology,Social Structure
+demography,"the study of human population dynamics, including the size, structure, and distribution of a population, and changes in the population over time due to birth, death, and migration",Sociology,Social Structure
+depressant,"class of drugs that depress or slow down neural activity, includes alcohol, barbiturates (tranquilizers), and opiates",Sociology,Social Structure
+deviance,violation of a society's standards of conduct or expectations,Sociology,Social Structure
+downward mobility,decrease in social class,Sociology,Social Structure
+dramaturgical approach,"assumes that people are theatrical performers and that everyday life is a stage; just as actors project a certain on-screen image, people in society choose what kind of image they want to communicate verbally and nonverbally to others. Also called the dramaturgical perspective",Sociology,Social Structure
+eccelesia,"dominant religious organization that includes most members of society, is recognized as the national or official religion, and tolerates no other religions",Sociology,Social Structure
+egalitarian family,family system where spouses are treated as equals and may be involved in more negotiation when making decisions,Sociology,Social Structure
+endogamy,practice of marrying within a particular group,Sociology,Social Structure
+ethnicity,socially defined concept referring to whether or not people identify with each other based on shared social experience or ancestry,Sociology,Social Structure
+ethnocentricism,tendency to judge people from another culture by the standards of one's own culture,Sociology,Social Structure
+exogamy,a requirement to marry outside a particular group with it being the norm in almost all cultures to prohibit sexual relationships between certain relatives,Sociology,Social Structure
+fecundity,potential reproductive capacity of a female in a population,Sociology,Social Structure
+feral children,neglected or abandoned children who grow up without human contact or care; much of our knowledge about socialization comes from these individuals who were not socialized,Sociology,Social Structure
+food desert,"an area, typically in a highly populated lower income urban environment, where healthy, fresh food is difficult to find",Sociology,Social Structure
+general fertility rate,annual number of live births per 1000 women of childbearing age within a population,Sociology,Social Structure
+generalized other,"when a person tries to imagine what is expected of them from society, they are taking on the perspective of the generalized other",Sociology,Social Structure
+global inequality,extent to which income and wealth is distributed in an uneven manner among the world's population,Sociology,Social Structure
+global stratification,"a comparison of the wealth, economic stability, and power of various countries",Sociology,Social Structure
+group polarization,phenomenon where groups tend to intensify the preexisting views of their members until the average view is more extreme than in initially was,Sociology,Social Structure
+hallucinogens,"class of drugs also know as psychedelics that distort perceptions in the absence of any sensory input, creating hallucinations or altered sensory perceptions; includes LSD and marijuana",Sociology,Social Structure
+Harry and Margaret Harlow,Researchers known for their controversial experiments with monkeys in which they showed that baby monkeys are drawn to mothers that provide comfort rather than simply food. Also showed that monkeys raised in isolation developed severe mental and social deficits,Sociology,Social Structure
+healthcare disparities,"population-specific differences in the presences of disease, health outcomes, and quality of healthcare across different social groups",Sociology,Social Structure
+ideal self,"constructed out of life experiences, societal expectations, and admirable traits from role models. The ideal self is the person you ought to be, while the real self is the person you actually are",Sociology,Social Structure
+in-group,a group that an individual belongs to and believes to be an integral part of who they are,Sociology,Social Structure
+informational social influence,the process of complying because we want to do the right thing and we feel like others know something I don't know,Sociology,Social Structure
+intergenerational mobility,change (increase or decrease) in social class between parents and children within a family,Sociology,Social Structure
+intragenerational mobility,describes differences in social class between different members of the same generation,Sociology,Social Structure
+kinship,"familial relationships including blood ties, family ties, and common ancestry",Sociology,Social Structure
+latency stage,"fourth of Freud's five psychosexual stages; in this stage sexual interest subsides and is replaced by interests in other areas such as school, friends, and sports",Sociology,Social Structure
+latent functions,"unintended or less recognizable consequences or a social structure; can be considered beneficial, neutral, or harmful",Sociology,Social Structure
+manifest functions,intended and obvious consequences of a social structure,Sociology,Social Structure
+master status,the one status that dominates the other statuses and determines that individual's general position,Sociology,Social Structure
+material culture,"consists of the physical objects that are particular to a culture, which helps to explain the relationship between artifacts and social relations",Sociology,Social Structure
+matriarchy,social system where females (especially mothers within families) are the primary authority figures,Sociology,Social Structure
+mechanoreceptor,"sensory receptor that responds to mechanical disturbances, such as shape changes (being squashed, bent, pulled). Mechanoreceptors include touch receptors in the skin, hair cells in the ear, muscle spindles, and others",Sociology,Social Structure
+meritocracy,social stratification where people's social standing are judged based on merit (or personal effort) alone; this is an idealized system -- no society solely stratifies based on effort,Sociology,Social Structure
+mindguarding,"pressure to conform within a group causes individuals to censor their own opinions in favor of consensus, which creates an illusion of unanimity",Sociology,Social Structure
+mores,norms that are highly important for the benefit of society and so are often strictly enforced. Mores are generally (but not always) formal norms,Sociology,Social Structure
+mortality,death rate in a population,Sociology,Social Structure
+multiculturalism (pluralism),"perspective that endorses equal standing for all cultural traditions. It promotes the idea of cultures coming together in a true melting pot, rather than in a hierarchy",Sociology,Social Structure
+normative social influence,when the motivation for compliance is a desire for the approval of others and to avoid rejection,Sociology,Social Structure
+normative organizations,an organization where membership is based on morally relevant goals,Sociology,Social Structure
+organization,"large group, more impersonal than a network, that comes together to pursue particular activities and meet goals efficiently",Sociology,Social Structure
+out-group,group that an individual does not belong to,Sociology,Social Structure
+reference group,"group that serves as a standard measure that people compare themselves to, such as a peer group",Sociology,Social Structure
+relative poverty,an inability to meet the average standard of living within a society,Sociology,Social Structure
+religiosity,extent that religion influences a person's life,Sociology,Social Structure
+replacement level fertility,number of children that a woman or couple must have in order to replace the number of the people in the population who die,Sociology,Social Structure
+role conflict,occurs when there is a conflict in society's expectations for multiple statuses held by the same person (example: male nurse),Sociology,Social Structure
+role exit,process of disengaging from a role that has become closely tied to one's self-identity to take on a new role,Sociology,Social Structure
+role strain,occurs when a single status results in conflicting expectations (for example a homosexual man may feel pressure to avoid being too gay or not being gay enough),Sociology,Social Structure
+secondary group,"larger and more impersonal group than a primary group, which usually interacts for specific reasons for relatively short periods of time; these groups serve pragmatic needs",Sociology,Social Structure
+sect,religious organization that is distinct from the parent religion from which it was formed,Sociology,Social Structure
+social behaviorism,idea that the mind and self emerge through the process of communicating with others,Sociology,Social Structure
+social capital,potential for social networks to allow for upward social mobility,Sociology,Social Structure
+social construct,social mechanism or practice that is constructred by society; essentially everyone in society agrees to treat a certain aspect a certain way regardless of its inherent value,Sociology,Social Structure
 social dysfunction,process that has undesirable consequences and may actually reduce the stability of society,Sociology,Social Structure
 social epidemiology,"study of the distribution of health and disease across a population, with the focus on using social concepts to explain patterns of health and illness in a population",Sociology,Social Structure
 social facilitation effect,"phenomenon that describes how people tend to perform simple, well-learned tasks better when other people are present",Sociology,Social Structure
@@ -485,81 +517,49 @@ social loafing,phenomenon where people tend to exert less effort if they are bei
 social mobility,ability to move up or down within the social stratification system,Sociology,Social Structure
 social network,"web of social relationships, including those in which a person is directly linked to others as well as those in which people are indirectly connected through others",Sociology,Social Structure
 social perception,ability to understand others in our social world; the initial information we process about other people in order to try to understand their mindsets and attentions,Sociology,Social Structure
-specific phobia,"persistent, strong, and unreasonable fear of a certain object or situation. Specific phobias are classified into 4 types: situational, natural environment, blood-injection, animal",Psychology,Disorders
 social reproduction,structures and activities in place in a society that serve to transmit and reinforce social inequality from one generation to the next - cultural and social capital are two mechanisms by which social reproduction occurs,Sociology,Social Structure
 social roles,expectations for people of a given social status,Sociology,Social Structure
 social stratification,"way that people are categorized in society; people can be categorized by race, education, wealth, and income (among other things)",Sociology,Social Structure
-social support,perception that one is cared for and part of a social network; supportive resources can be tangible or emotional,Psychology,Development
 socialism,economic system where resources and production are collectively owned. Socialism includes a system of production and distribution designed to satisfy human needs (goods/services are produced for direct use instead of for profit).,Sociology,Social Structure
-socialization,"process through which people learn to be proficient in members of society; a lifelong process where people learn the attitudes, values, and beliefs that are reinforced by a particular culture",Sociology,Social Behavior
 society,group of people who share a culture and live/interact with each other within a definable area,Sociology,Social Structure
-sociobiology,"study of how biology and evolution have affected human social behavior. Primarily, it applies Darwin's principle of natural selection to social behavior, suggesting there is a biological basis for many behaviors",Psychology,Learning
 SES,"often defined in terms of power, property, prestige because these three concepts tend to be related in U.S. society",Sociology,Social Structure
 sociology,"study of how individuals interact with, shape, and are subsequently shaped by, the society in which they live",Sociology,Social Structure
 social phobia,"unreasonable, paralyzing fear of feeling embarrassed or humiliated while one is watched by others, even while performing routing activities such as eating in public or using a public restroom",Sociology,Social Structure
-soma,cell body of a neuron,Psychology,Development
-somatization disorder,"characterized by a variety of physical symptoms over an extended period of time, including: pain, GI, sexual, and pseudoneurological symptoms",Psychology,Disorders
-somatoform disorder,"characterized primarily by physical symptoms and concerns, which many mimic physical (somatic) disease. However, the symptoms are not explainable medically and do not improve with medical treatment",Psychology,Disorders
-somnambulism,sleepwalking,Psychology,Development
-source monitoring error,specific type of error of recollection where a memory is incorrectly attributed to the wrong source,Psychology,Learning
-source traits,factors underlying human personality and behavior,Psychology,Learning
-spatial summation,integration by a postsynaptic neuron of inputs (EPSPs and IPSPs) from multiple sources,Psychology,Neuroscience
-spontaneous recovery,"classical conditioning, a reoccurrence of a previously extinct conditioned response in the presence of a conditioned stimulus and often occurs after a period of time has passed since the initial extinction of the response",Psychology,Learning
-spotlight model,"model for visual attention, with a spotlight representing one's attention and its ability to unlock from a current target, move focus, and lock onto a new target",Theories,
-spreading activation theory,"theory of information retrieval that involves a search process where specific nodes are activated, which leads to the activation of related nodes, and so on. A node doesn't become activated until it receives input signals from its neighbors that are strong enough to reach a response threshold. The effect of input signals is cummulative: the response threshold is reached by the summation of input signals from multiple nodes",Theories,
-state,"situational factors that can influence personality and behavior; states are unstable, temporary, and variable",Psychology,Learning
 state capitalism,"system in which companies are privately run, but work closely with the government in forming laws and regulations",Sociology,Social Structure
 status,sociological term that refers to all the socially defined positions within a society,Sociology,Social Structure
-stereotypes,"oversimplified ideas about groups of people, based on characteristics (race, gender, sexual orientation, religion, disability). Stereotypes can be positive or negative",Sociology,Social Behavior
-stereotype threat,refers to a self-fulfilling fear that one will be evaluated based on a negative stereotype,Psychology,Neuroscience
-steroid hormone,"hormone derived from cholesterol. Steroids are generally hydrophobic and can easily cross the plasma membrane of cells, thus receptors for steroids are found intracellularly. Once the steroid binds to the receptor, the receptor-steroid complex acts to regulate transcription in the nucleus",Psychology,Neuroscience
-stigma,extreme disapproval of a person or a group based on the person or groups actual or perceived deviance from society,Sociology,Social Behavior
 stimulants,"class of drugs that speed up body functions and neural activity and includes caffeine, nicotine, cocaine, and amphetamines",Sociology,Social Structure
-stranger anxiety,developmentally typical anxiety displayed by children from approximately 8 to 12 months of age toward close contact with strangers. May be expressed by crying and clinging to familiar caregivers,Psychology,Development
 subculture,segment of society that shares a distinct pattern of traditions and values that differs from that of the larger society,Sociology,Social Structure
-sucking reflex,"in response to anything touching the roof of the baby's mouth, it will begin to suck",Psychology,Neuroscience
-summation,"integration of input (EPSPs and IPSPs) from many presynaptic neurons by a single postsynaptic neuron, either temporally or spatially. Summation of input can either stimulate the postsynaptic neuron and possibly lead to an action potential, or it can inhibit the neuron, reducing the likelihood of an action potential",Psychology,Neuroscience
-superego,"in Freud's psychoanalytic theory and it inhibits the id and influences the ego to follow moralistic behavior rather than realistic goals. Based on societal values as learned from one's parents, the superego makes judgments of right and wrong and strives for perfection. The superego seeks to gain psychological rewards such as feelings of pride and self-love, and to avoid psychological punishment such as feelings of guilty and inferiority",Psychology,Learning
 symbolic culture,consists of symbols that carry a particular meaning and are recognized by people of the same culture. These symbols can communicate the values and norms of the culture,Sociology,Social Structure
-symbolic interactionism,"micro-level theory in sociology, which examines the relationship between individuals and society by focusing on communication, the exchange of information through language and symbols. Symbolic interactionism suggests that the mind and self emerge through the social process of communication or use of symbols",Theories,
-SNS,"subdivision of the ANS directing what is known as flight or fight response to prepare the body for action. It increases heart rate, blood pressure, and blood sugar levels and directs the adrenal glands to release stress hormones",Psychology,Neuroscience
-synapse,"neuron-to-neuron, neuron-to-organ, or muscle-to-muscle cell junction",Psychology,Neuroscience
-synaptic cleft,microscopic space between the axon of one neuron and the cell body or dendrites of a second neuron or between the axon of a neuron and an organ,Psychology,Neuroscience
-temperament,dispositional emotional excitability. Tends to be fairly stable through life span,Psychology,Development
-telencephalon,cerebral hemispheres,Psychology,Development
-temporal summation,summation by a postsynaptic cell of input (EPSPs or IPSPs) from a single source over time,Psychology,Neuroscience
-thalamus,central structure of the diencephalon of the brain. thalamus acts as a relay station and major integrating area for sensory impulses,Psychology,Neuroscience
-thermoreceptor,receptor that responds to changes in temperature,Psychology,Neuroscience
-theta waves,waves of low to moderate intensity and intermediate frequency present during stage 1 of sleep,Psychology,Development
-tonic neck reflex,"in response to its head being turned to one side, a baby will stretch out its arm on the same side and the opposite arm bends up at the elbow and this reflex lasts about six to seven months",Psychology,Neuroscience
-top-down processing,type of info processing that occurs when the brain applies experience and expectations to interpret sensory information; note that the brain in fact uses a combination of bottom-up processing and top-down processing,Psychology,Neuroscience
-trait,"internal, stable, and enduring aspects of personality that should be consistent across most situations",Psychology,Development
 traditional authority,"form of leadership where power is due to custom, tradition, or accepted practice",Sociology,Social Structure
-trial and error,strategy of problem-solving that involves trying different alternatives sequentially until success is achieved,Psychology,Development
-tropic hormone,hormone that controls the release of another hormone,Psychology,Neuroscience
-tympanic membrane,membrane that separates the outer ear from the middle ear and the tympanic membrane is also known as the eardrum,Psychology,Neuroscience
-unconditioned response,"response that automatically follows an unconditioned stimulus, without necessitating learning and conditoning to create the link",Psychology,Learning
-unconditioned stimulus,"stimulus that elicits an unconditioned response automatically, without necessitating learning and conditioning to create the link",Psychology,Learning
-undifferentiated-type SCZ,"characterized by the basic criteria, but symptoms that don't fit into one of the other subtypes",Psychology,Development
-universal emotions,"six major emotions that appear to be universal across cultures: happiness, sadness, surprise, fear, disgust, and anger",Psychology,Neuroscience
-universal grammar,"basic rules of language, presumed to be innate, that allow the human mind to gain mastery of language from limited exposure during sensitive developmental years in early childohod",Psychology,Development
 upward mobility,increase in social class,Sociology,Social Structure
 urbanization,"growth of urban areas (as people move from rural to urban areas) as the result of global change. Urbanization is tied to industrialization, and industrialized countries have more people living in urban areas than non-industrialized countries do",Sociology,Social Structure
 utilitarian organization,"organization in which members get paid for their efforts, such as businesses",Sociology,Social Structure
-vagus nerves,cranial nerve pair X. Vagus nerves are very large mixed nerves (they carry both sensory input and motor output) that innervate virtually every visceral organ. They are especially important in transmitting PS input to the heart and the digestive smooth muscle,Psychology,Neuroscience
 values,culture's standard for evaluating what is good or bad,Sociology,Social Structure
-variable-interval schedule,reinforcement schedule in which reward is offered after an unpredictable number of occurrences of a behavior,Psychology,Learning
-variable-ratio schedule,reinforcement schedule in which reward is offered after an unpredictable time interval,Psychology,Learning
-visual cortex,area of the occipital lobe responsible for processing visual information,Psychology,Neuroscience
-visuospatial sketchpad,Part of Alan Baddeley's model of working memory that allows for the repetition of visuospatial information (images) to aid with encoding it into memory,Psychology,Learning
-vitreous humor,"thick, gelatinous fluid found in the posterior segment of the eye (between the lens and the retina). The vitreous humor is only produced during a fetal development and helps maintain intraocular pressure (pressure inside the eye)",Psychology,Development
-walking/stepping reflex,"In response to the soles of a baby's feet touching a flat surface, they will attempt to ""walk"" by placing one foot in front of the other. This reflex disappears around 6 weeks and reappears around 8-12 months when a baby learns to walk",Psychology,Neuroscience
-Max Weber,"Weber agreed with Marx's ideas about conflict theory, but he did not believe that the collapse of capitalism was inevitable; rather, he argued that there could be more than one source of conflict such as conflict over inequalities in political power and social status. Max Weber, along with Emile Durkheim and Karl Marx, is considered the founding father of sociology",People,
-Weber's Law,law pertains to sensory perception and dictates that two stimuli must differ by a constant proportion in order for their difference to be perceptible,Psychology,Development
 welfare capitalism,system in which most of the economy is private with the exception of extensive social welfare programs to serve certain needs within society,Sociology,Social Structure
-Wernicke's area,"area of the brain, located in the posterior section of the temporal lobe in the language dominant hemisphere of the brain (left for most people), that is involved with the comprehension of speech and written language. Individuals with damage to this area are unable to understand language and produce nonsensical sounds with the same rhythm and syntax as speech",Psychology,Neuroscience
-white matter,myelinated axons,Psychology,Neuroscience
-withdrawal,uncomfortable and often painful experience that may accompany the discontinuing of a drug. Withdrawal is immediately alleviated if the user takes the substance (thus reinforcing the addiction) or dissipates slowly over time (like in the case of detoxification),Psychology,Disorders
-working memory,"STM for information in immediate awareness. According to Alan Baddeley, working memory consists of four components: central executive, a phonological loop, a visuospatial sketchpad, and the episodic buffer",Psychology,Learning
+term,definition,tag1,tag2
+activation-synthesis theory,theory that dreams are simply byproducts of brain activation during REM sleep. Suggests that the content of dreams is not purposeful or meaningful,Theories,
+Attenuation model of selective attention,"model of selective attention in which the mind has an attentuator, like a volume knob, that can tune up inputs to be attended and tune down unattended inputs, rather than totally eliminating them (accounts for the cocktail party effect)",Theories,
+attribution theory,theory that attempts to explain how individuals view behavior - both our own behavior and the behavior of others - by attributing behavior to either internal or external cues,Theories,
+Cannon-Bard Theory,theory of emotion that asserts that the physiological and cognitive aspects of emotion occur simultaneously and collectively lead to the behavioral reaction,Theories,
+cognitive dissonance theory,"explains that we feel tension (dissonance) whenever we hold two thoughts or beliefs (cognition) that are incompatible, or when attitudes and behaviors don't match. When this occurs, we try to reduce this unpleasant feeling of tension by making our views of the world match how we feel or what we've done",Theories,
+conflict theory,"views society as being in competition for limited resources and society is a place where there will be inequality in resources, so individuals will compete for social, political, and material resources, like money, land, power, and leisure",Theories,
+Drive Reduction Theory,theory about the impact of motivation on human behavior that suggests that a physiological need (a drive) creates an aroused state that motivated the organisms to reduce that need by engaging in some behavior,Theories,
+elaboration likelihood model,"model that explains when people may be persuaded by just the content of an argument, and when they may be persuaded by more superficial characteristics such as the appearance of a person delivering the message or the length of the argument",Theories,
+feature detection theory,"theory of visual perception that proposes that certain neurons fire for individual and specific features of a visual stimulus, such as shape, color, line, movements, etc.",Theories,
+filter model,model of selective attention that suggests that information from a sensory buffer is put through a filter that allows only selected inputs through,Theories,
+Five-Factor Model (Costa and McCrae's Five Factor Model),"a model developed to explain personality using five overarching personality traits, which include: extroversion, neuroticism, openness to experience, agreeableness, and conscientiousness",Theories,
+functionalism (structural functionalism),"oldest of the main theories of sociology, this theory conceptualizes society as a living organism with many different parts and organs, each of which has a distinct purpose",Theories,
+game theory,"theory used to try and predict large, complex systems, such as the overall behavior of a population",Theories,
+incentive theory,theory that suggests that incentives (objects and events in the environment that either help induce or discourage certain behaviors) motivate human behavior,Theories,
+information-processing models,"models for cognition that assume that information from the environment is processed by our computer-like minds through a series of steps including attention, perception, and storage into memory",Theories,
+James-Lange Theory,theory of emotion that claims that emotional experience is the result of physiological and behavioral responses,Theories,
+Maslow's Hierarchy of Needs,"Abraham Maslow sought to explain human behavior by creating a heirarchy of needs (pyramid). At the base of this pyramid are physiological needs, or the basic elements necessary to sustain human life. In order, the rest of the needs include: safety, love and belongingness, esteem, and self-actualization. Lower level needs must be met before higher level needs",Theories,
+modeling,mechanism behind observational learning in which an observer sees a behavior being performed by another person. This model is utilized to allow the observer to later imitate the behavior,Theories,
+psychoanalytic theory,"according to this theory, personality is shaped by a person's unconscious motives, and to gain insight into the emotional issues and conflicts that are causing difficulties",Theories,
+resource model of attention,"since attention is a limited resource, if multiple tasks do not exceed this limit, they can be done simultaneously. If they do, they they interfere with each other an dare difficult to do simultaneously",Theories,
+Schacter-Singer theory,theory of emotion that asserts that the experience of physiological arousal occurs first and is followed by a conscious cognitive interpretation or appraisal that allows for the identification of the experience emotion,Theories,
+signal detection theory,"theory that attempts to predict how and when someone will detect the presence of a given sensory stimuli (""signal"") amidst all of the other sensory stimuli in the background (considered the noise). There are four possible outcomes: a hit (signal is present and was detected), a miss (signal was present but not detected), a false alarm (signal was not present but the person thought it was), and a correct rejection (signal was not present and the person did not think it was).",Theories,
+spotlight model,"model for visual attention, with a spotlight representing one's attention and its ability to unlock from a current target, move focus, and lock onto a new target",Theories,
+spreading activation theory,"theory of information retrieval that involves a search process where specific nodes are activated, which leads to the activation of related nodes, and so on. A node doesn't become activated until it receives input signals from its neighbors that are strong enough to reach a response threshold. The effect of input signals is cummulative: the response threshold is reached by the summation of input signals from multiple nodes",Theories,
+symbolic interactionism,"micro-level theory in sociology, which examines the relationship between individuals and society by focusing on communication, the exchange of information through language and symbols. Symbolic interactionism suggests that the mind and self emerge through the social process of communication or use of symbols",Theories,
 Yerkes-Dodson Law,law that describes an upside down U-shaped relationship between arousal and performance. It asserts that a moderate level of arousal creates optimal performance and too little arousal leads to complacency and too much arousal can be overwhelming,Theories,
-Philip Zimbardo,"psychologist best known for his prison study which elucidated the extreme effects of role playing on human behavior and a group of 24 male students were isolated and asked to play the roles of prisoners and guards; the participants adapted to their roles well beyond Zimbardo's expectations. The ""guards"" enforced extreme measures, including psychological torture, and many of the ""prisoner"" passively accepted psychological abuse and readily harassed other ""prisoner"" who attempted to prevent it",People,

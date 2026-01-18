@@ -9,6 +9,7 @@ export default function StudyInterface({ terms }) {
   // Filter states
   const [mainFilter, setMainFilter] = useState('all'); // 'all', 'Psychology', 'Sociology'
   const [subFilter, setSubFilter] = useState('all'); // 'all', 'Neuroscience', 'Learning', etc.
+  const [subsectionFilter, setSubsectionFilter] = useState('all'); // 'all', 'Cognition, language & intelligence', etc.
   
   // Stats tracking
   const [stats, setStats] = useState({
@@ -16,32 +17,51 @@ export default function StudyInterface({ terms }) {
     total: 0
   });
   
-    // Get unique subcategories for current main filter
-    const getSubcategories = () => {
-        const filtered = mainFilter === 'all' 
-          ? terms 
-          : terms.filter(t => t.tag1 === mainFilter);
-        const subs = [...new Set(filtered.map(t => t.tag2).filter(Boolean))];
-        // Filter out "tag1" and "tag2" if they exist
-        return subs.filter(sub => sub !== 'tag1' && sub !== 'tag2').sort();
-      };
-    // Filter terms based on selected filters
-    const filteredTerms = terms.filter(term => {
-        // Exclude terms with "tag1" or "tag2" as actual category/subcategory values
-        if (term.tag1 === 'tag1' || term.tag1 === 'tag2' || 
-            term.tag2 === 'tag1' || term.tag2 === 'tag2') {
-          return false;
-        }
-        
-        const matchesMain = mainFilter === 'all' || term.tag1 === mainFilter;
-        const matchesSub = subFilter === 'all' || term.tag2 === subFilter;
-        return matchesMain && matchesSub;
-      });
+  // Get unique subcategories for current main filter
+  const getSubcategories = () => {
+    const filtered = mainFilter === 'all' 
+      ? terms 
+      : terms.filter(t => t.tag1 === mainFilter);
+    const subs = [...new Set(filtered.map(t => t.tag2).filter(Boolean))];
+    // Filter out "tag1" and "tag2" if they exist
+    return subs.filter(sub => sub !== 'tag1' && sub !== 'tag2').sort();
+  };
+  
+  // Get unique subsections for current main filter and subcategory
+  const getSubsections = () => {
+    let filtered = terms;
+    if (mainFilter !== 'all') {
+      filtered = filtered.filter(t => t.tag1 === mainFilter);
+    }
+    if (subFilter !== 'all') {
+      filtered = filtered.filter(t => t.tag2 === subFilter);
+    }
+    const subsections = [...new Set(filtered.map(t => t.subsection).filter(Boolean))];
+    return subsections.sort();
+  };
+  // Filter terms based on selected filters
+  const filteredTerms = terms.filter(term => {
+    // Exclude terms with "tag1" or "tag2" as actual category/subcategory values
+    if (term.tag1 === 'tag1' || term.tag1 === 'tag2' || 
+        term.tag2 === 'tag1' || term.tag2 === 'tag2') {
+      return false;
+    }
+    
+    const matchesMain = mainFilter === 'all' || term.tag1 === mainFilter;
+    const matchesSub = subFilter === 'all' || term.tag2 === subFilter;
+    const matchesSubsection = subsectionFilter === 'all' || term.subsection === subsectionFilter;
+    return matchesMain && matchesSub && matchesSubsection;
+  });
   
   // Reset to first term when filter changes
   useEffect(() => {
     setCurrentIndex(0);
     setShowDefinition(false);
+  }, [mainFilter, subFilter, subsectionFilter]);
+  
+  // Reset subsection filter when main or sub filter changes
+  useEffect(() => {
+    setSubsectionFilter('all');
   }, [mainFilter, subFilter]);
   
   const currentTerm = filteredTerms[currentIndex];
@@ -114,7 +134,7 @@ export default function StudyInterface({ terms }) {
         
         {/* Filter Controls */}
         <div className="bg-white rounded-lg shadow p-4 mb-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {/* Main Category Filter */}
             <div>
               <label className="block text-sm font-medium mb-2">Category</label>
@@ -146,6 +166,22 @@ export default function StudyInterface({ terms }) {
                 ))}
               </select>
             </div>
+            
+            {/* Subsection Filter */}
+            <div>
+              <label className="block text-sm font-medium mb-2">Subsection</label>
+              <select
+                value={subsectionFilter}
+                onChange={(e) => setSubsectionFilter(e.target.value)}
+                className="w-full p-2 border rounded-lg"
+                disabled={mainFilter === 'all' || subFilter === 'all'}
+              >
+                <option value="all">All Subsections</option>
+                {getSubsections().map(subsection => (
+                  <option key={subsection} value={subsection}>{subsection}</option>
+                ))}
+              </select>
+            </div>
           </div>
           
           {/* Stats Display */}
@@ -171,7 +207,7 @@ export default function StudyInterface({ terms }) {
         {/* Study Card */}
         <div className="bg-white rounded-lg shadow-lg p-8 mb-6 min-h-[400px] flex flex-col">
           {/* Category Tags */}
-          <div className="flex gap-2 mb-4">
+          <div className="flex flex-wrap gap-2 mb-4">
             {currentTerm.tag1 && (
               <span className="px-3 py-1 text-sm bg-blue-100 text-blue-800 rounded-full">
                 {currentTerm.tag1}
@@ -180,6 +216,11 @@ export default function StudyInterface({ terms }) {
             {currentTerm.tag2 && (
               <span className="px-3 py-1 text-sm bg-green-100 text-green-800 rounded-full">
                 {currentTerm.tag2}
+              </span>
+            )}
+            {currentTerm.subsection && (
+              <span className="px-3 py-1 text-sm bg-purple-100 text-purple-800 rounded-full">
+                {currentTerm.subsection}
               </span>
             )}
           </div>
@@ -191,7 +232,7 @@ export default function StudyInterface({ terms }) {
             {/* Definition (shown/hidden) */}
             {showDefinition && (
               <div className="mt-6 p-4 bg-zinc-100 rounded-lg">
-                <p className="text-lg text-gray-700">{currentTerm.definition}</p>
+                <p className="text-lg text-gray-900">{currentTerm.definition}</p>
               </div>
             )}
           </div>
@@ -209,14 +250,14 @@ export default function StudyInterface({ terms }) {
             <button
               onClick={handlePrevious}
               disabled={currentIndex === 0}
-              className="flex-1 py-3 px-6 bg-gray-200 text-gray-800 rounded-lg font-semibold hover:bg-gray-300 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+              className="flex-1 py-3 px-6 bg-gray-200 text-gray-900 rounded-lg font-semibold hover:bg-gray-300 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
             >
               ← Previous
             </button>
             <button
               onClick={handleNext}
               disabled={currentIndex === filteredTerms.length - 1}
-              className="flex-1 py-3 px-6 bg-gray-200 text-gray-800 rounded-lg font-semibold hover:bg-gray-300 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+              className="flex-1 py-3 px-6 bg-gray-200 text-gray-900 rounded-lg font-semibold hover:bg-gray-300 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
             >
               Next →
             </button>
