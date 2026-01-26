@@ -339,14 +339,28 @@ const getAllCategories = () => {
       return;
     }
     
-    // Check if all terms have been shown
-    if (shownTerms.size >= quizTerms.length) {
+    // In retake mode, check if all wrong answers have been corrected
+    if (retakeWrongMode && wrongAnswerTerms.size === 0) {
+      setQuizComplete(true);
+      return;
+    }
+    
+    // Check if all terms have been shown (for normal mode)
+    if (!retakeWrongMode && shownTerms.size >= quizTerms.length) {
       setQuizComplete(true);
       return;
     }
     
     // Get terms that haven't been shown yet
-    const availableTerms = quizTerms.filter(term => !shownTerms.has(term.term));
+    // In retake mode, also filter by terms still in wrongAnswerTerms
+    const availableTerms = quizTerms.filter(term => {
+      if (retakeWrongMode) {
+        // In retake mode, only show terms that are still wrong
+        return wrongAnswerTerms.has(term.term);
+      }
+      // Normal mode: show terms that haven't been shown
+      return !shownTerms.has(term.term);
+    });
     
     if (availableTerms.length === 0) {
       setQuizComplete(true);
@@ -409,6 +423,23 @@ const getAllCategories = () => {
     setIsCorrect(correct);
     setShowResult(true);
     
+    // Track wrong answer terms and handle retake mode completion
+    if (!correct) {
+      // Add term to wrongAnswerTerms set for retake feature
+      setWrongAnswerTerms(prev => new Set([...prev, currentQuestion.term]));
+    } else if (retakeWrongMode) {
+      // If in retake mode and answer is correct, remove from wrongAnswerTerms
+      setWrongAnswerTerms(prev => {
+        const newSet = new Set(prev);
+        newSet.delete(currentQuestion.term);
+        // Check if quiz is complete (all wrong answers corrected)
+        if (newSet.size === 0) {
+          setQuizComplete(true);
+        }
+        return newSet;
+      });
+    }
+    
     setQuizStats(prev => {
       const newStats = {
         ...prev,
@@ -436,9 +467,12 @@ const getAllCategories = () => {
         localStorage.setItem('mcatStats', JSON.stringify(saved));
       }
       
-      // Check if quiz is complete after this answer
-      if (shownTerms.size + 1 >= filteredTerms.length) {
-        setQuizComplete(true);
+      // Check if quiz is complete after this answer (for normal mode)
+      if (!retakeWrongMode) {
+        const quizTerms = getQuizTerms();
+        if (shownTerms.size + 1 >= quizTerms.length) {
+          setQuizComplete(true);
+        }
       }
       
       return newStats;
@@ -856,19 +890,23 @@ const getAllCategories = () => {
           )}
           
           {/* Next Question Button */}
-          {showResult && (
+          {showResult && !quizComplete && (
             <button
               onClick={() => {
-                if (shownTerms.size + 1 >= filteredTerms.length) {
-                  // This was the last question, completion will be handled
-                  generateQuestion();
-                } else {
-                  generateQuestion();
-                }
+                generateQuestion();
               }}
               className="w-full py-3 px-6 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors"
             >
-              {shownTerms.size + 1 >= filteredTerms.length ? 'Finish Quiz' : 'Next Question →'}
+              {(() => {
+                const quizTerms = getQuizTerms();
+                if (retakeWrongMode) {
+                  // In retake mode, show remaining wrong answers
+                  return wrongAnswerTerms.size <= 1 ? 'Finish Quiz' : `Next Question → (${wrongAnswerTerms.size - 1} remaining)`;
+                }
+                // Normal mode: show remaining questions
+                const remaining = quizTerms.length - shownTerms.size - 1;
+                return remaining <= 0 ? 'Finish Quiz' : `Next Question → (${remaining} remaining)`;
+              })()}
             </button>
           )}
         </div>
