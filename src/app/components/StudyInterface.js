@@ -118,7 +118,7 @@ export default function StudyInterface({ terms }) {
   
   if (filteredTerms.length === 0) {
     return (
-      <div className="min-h-screen p-8 bg-zinc-50">
+      <div className="min-h-screen p-8 bg-zinc-50 dark:bg-gray-900">
         <main className="max-w-4xl mx-auto">
           <h1 className="text-3xl font-bold mb-4">MCAT Psychology & Sociology Study App</h1>
           <p className="text-lg">No terms match your filters. Try adjusting your selection.</p>
@@ -128,12 +128,12 @@ export default function StudyInterface({ terms }) {
   }
   
   return (
-    <div className="min-h-screen p-8 bg-zinc-50">
+    <div className="min-h-screen p-8 bg-zinc-50 dark:bg-gray-900">
       <main className="max-w-4xl mx-auto">
         <h1 className="text-3xl font-bold mb-4">MCAT Psychology & Sociology Study App</h1>
         
         {/* Filter Controls */}
-        <div className="bg-white rounded-lg shadow p-4 mb-6">
+        <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 mb-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {/* Main Category Filter */}
             <div>
@@ -153,11 +153,11 @@ export default function StudyInterface({ terms }) {
             
             {/* Subcategory Filter */}
             <div>
-              <label className="block text-sm font-medium mb-2">Subcategory</label>
+              <label className="block text-sm font-medium mb-2 dark:text-gray-200">Subcategory</label>
               <select
                 value={subFilter}
                 onChange={(e) => setSubFilter(e.target.value)}
-                className="w-full p-2 border rounded-lg"
+                className="w-full p-2 border dark:border-gray-700 rounded-lg dark:bg-gray-700 dark:text-gray-200"
                 disabled={mainFilter === 'all'}
               >
                 <option value="all">All Subcategories</option>
@@ -186,9 +186,9 @@ export default function StudyInterface({ terms }) {
           
           {/* Stats Display */}
           {stats.total > 0 && (
-            <div className="mt-4 p-3 bg-yellow-50 rounded">
-              <p className="text-sm font-semibold mb-2">Your Stats:</p>
-              <div className="text-xs space-y-1">
+            <div className="mt-4 p-3 bg-yellow-50 dark:bg-yellow-900/20 rounded">
+              <p className="text-sm font-semibold mb-2 dark:text-gray-200">Your Stats:</p>
+              <div className="text-xs space-y-1 dark:text-gray-300">
                 <p>Total wrong: {stats.total}</p>
                 {Object.entries(stats.wrong)
                   .filter(([_, count]) => count > 0)
@@ -202,24 +202,24 @@ export default function StudyInterface({ terms }) {
           )}
         </div>
         
-        <p className="text-lg mb-6">Progress: {progress}</p>
+        <p className="text-lg text-gray-900 dark:text-gray-100 mb-6">Progress: {progress}</p>
         
         {/* Study Card */}
-        <div className="bg-white rounded-lg shadow-lg p-8 mb-6 min-h-[400px] flex flex-col">
+        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 mb-6 min-h-[400px] flex flex-col">
           {/* Category Tags */}
           <div className="flex flex-wrap gap-2 mb-4">
             {currentTerm.tag1 && (
-              <span className="px-3 py-1 text-sm bg-blue-100 text-blue-800 rounded-full">
+              <span className="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200 rounded-full">
                 {currentTerm.tag1}
               </span>
             )}
             {currentTerm.tag2 && (
-              <span className="px-3 py-1 text-sm bg-green-100 text-green-800 rounded-full">
+              <span className="px-3 py-1 text-sm bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-200 rounded-full">
                 {currentTerm.tag2}
               </span>
             )}
             {currentTerm.subsection && (
-              <span className="px-3 py-1 text-sm bg-purple-100 text-purple-800 rounded-full">
+              <span className="px-3 py-1 text-sm bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-200 rounded-full">
                 {currentTerm.subsection}
               </span>
             )}
@@ -227,12 +227,12 @@ export default function StudyInterface({ terms }) {
           
           {/* Term */}
           <div className="flex-1 flex flex-col justify-center">
-            <h2 className="text-3xl font-bold mb-6 text-center">{currentTerm.term}</h2>
+            <h2 className="text-3xl font-bold mb-6 text-center dark:text-gray-100">{currentTerm.term}</h2>
             
             {/* Definition (shown/hidden) */}
             {showDefinition && (
-              <div className="mt-6 p-4 bg-zinc-100 rounded-lg">
-                <p className="text-lg text-gray-900">{currentTerm.definition}</p>
+              <div className="mt-6 p-4 bg-zinc-100 dark:bg-gray-700 rounded-lg">
+                <p className="text-lg text-gray-900 dark:text-gray-100">{currentTerm.definition}</p>
               </div>
             )}
           </div>
@@ -250,14 +250,14 @@ export default function StudyInterface({ terms }) {
             <button
               onClick={handlePrevious}
               disabled={currentIndex === 0}
-              className="flex-1 py-3 px-6 bg-gray-200 text-gray-900 rounded-lg font-semibold hover:bg-gray-300 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+              className="flex-1 py-3 px-6 bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-gray-200 rounded-lg font-semibold hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
             >
               ← Previous
             </button>
             <button
               onClick={handleNext}
               disabled={currentIndex === filteredTerms.length - 1}
-              className="flex-1 py-3 px-6 bg-gray-200 text-gray-900 rounded-lg font-semibold hover:bg-gray-300 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+              className="flex-1 py-3 px-6 bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-gray-200 rounded-lg font-semibold hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
             >
               Next →
             </button>
@@ -265,7 +265,7 @@ export default function StudyInterface({ terms }) {
         </div>
         
         {/* Progress Bar */}
-        <div className="w-full bg-gray-200 rounded-full h-2">
+        <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
           <div
             className="bg-blue-600 h-2 rounded-full transition-all duration-300"
             style={{ width: `${filteredTerms.length > 0 ? ((currentIndex + 1) / filteredTerms.length) * 100 : 0}%` }}

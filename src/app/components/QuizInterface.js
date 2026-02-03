@@ -486,13 +486,13 @@ const getAllCategories = () => {
     const termCount = filteredTerms.length;
     
     return (
-      <div className="min-h-screen p-8 bg-zinc-50">
+      <div className="min-h-screen p-8 bg-zinc-50 dark:bg-gray-900">
         <main className="max-w-4xl mx-auto">
-          <h1 className="text-3xl font-bold mb-6">Configure Your Quiz</h1>
+          <h1 className="text-3xl font-bold mb-6 dark:text-gray-100">Configure Your Quiz</h1>
           
-          <div className="bg-white rounded-lg shadow-lg p-6 mb-6">
+          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-6">
             {/* All Categories Option */}
-            <div className="mb-6 pb-6 border-b">
+            <div className="mb-6 pb-6 border-b dark:border-gray-700">
               <label className="flex items-center cursor-pointer">
                 <input
                   type="checkbox"
@@ -500,24 +500,24 @@ const getAllCategories = () => {
                   onChange={(e) => handleAllCategoriesToggle(e.target.checked)}
                   className="w-5 h-5 text-blue-600 rounded"
                 />
-                <span className="ml-3 text-lg font-semibold">All Categories</span>
+                <span className="ml-3 text-lg font-semibold dark:text-gray-200">All Categories</span>
               </label>
-              <p className="ml-8 text-sm text-gray-750 mt-1">
+              <p className="ml-8 text-sm text-gray-800 dark:text-gray-300 mt-1">
                 Quiz will include terms from all categories
               </p>
             </div>
             
             {/* Category Selection */}
             <div className="mb-6">
-              <h3 className="text-lg font-semibold mb-3">Select Categories:</h3>
+              <h3 className="text-lg font-semibold mb-3 dark:text-gray-200">Select Categories:</h3>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
                 {availableCategories.map(category => (
                   <label
                     key={category}
-                    className={`flex items-center p-3 border-2 rounded-lg cursor-pointer transition-colors ${
+                    className={`flex items-center p-3 border-2 rounded-lg cursor-pointer transition-colors dark:text-gray-200 ${
                       selectedCategories.includes(category)
-                        ? 'border-blue-500 bg-blue-50'
-                        : 'border-gray-200 hover:border-gray-300'
+                        ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/30 dark:border-blue-400'
+                        : 'border-gray-200 dark:border-gray-700 hover:border-gray-300 dark:hover:border-gray-600'
                     } ${useAllCategories ? 'opacity-50 cursor-not-allowed' : ''}`}
                   >
                     <input
@@ -535,18 +535,18 @@ const getAllCategories = () => {
             
             {/* Subcategory Selection */}
             <div className="mb-6">
-              <h3 className="text-lg font-semibold mb-3">Select Subcategories (Optional):</h3>
-              <p className="text-sm text-gray-600 mb-3">
+              <h3 className="text-lg font-semibold mb-3 dark:text-gray-200">Select Subcategories (Optional):</h3>
+              <p className="text-sm text-gray-800 dark:text-gray-300 mb-3">
                 Leave empty to include all subcategories from selected categories
               </p>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-2 max-h-64 overflow-y-auto">
                 {availableSubcategories.map(subcategory => (
                   <label
                     key={subcategory}
-                    className={`flex items-center p-2 border-2 rounded-lg cursor-pointer transition-colors text-sm ${
+                    className={`flex items-center p-2 border-2 rounded-lg cursor-pointer transition-colors text-sm dark:text-gray-200 ${
                       selectedSubcategories.includes(subcategory)
-                        ? 'border-green-500 bg-green-50'
-                        : 'border-gray-200 hover:border-gray-300'
+                        ? 'border-green-500 bg-green-50 dark:bg-green-900/30 dark:border-green-400'
+                        : 'border-gray-200 dark:border-gray-700 hover:border-gray-300 dark:hover:border-gray-600'
                     }`}
                   >
                     <input
@@ -563,18 +563,18 @@ const getAllCategories = () => {
             
             {/* Subsection Selection */}
             <div className="mb-6">
-              <h3 className="text-lg font-semibold mb-3">Select Subsections (Optional):</h3>
-              <p className="text-sm text-gray-600 mb-3">
+              <h3 className="text-lg font-semibold mb-3 dark:text-gray-200">Select Subsections (Optional):</h3>
+              <p className="text-sm text-gray-800 dark:text-gray-300 mb-3">
                 Leave empty to include all subsections from selected subcategories
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-2 max-h-64 overflow-y-auto">
                 {getAllSubsections().map(subsection => (
                   <label
                     key={subsection}
-                    className={`flex items-center p-2 border-2 rounded-lg cursor-pointer transition-colors text-sm ${
+                    className={`flex items-center p-2 border-2 rounded-lg cursor-pointer transition-colors text-sm dark:text-gray-200 ${
                       selectedSubsections.includes(subsection)
-                        ? 'border-purple-500 bg-purple-50'
-                        : 'border-gray-200 hover:border-gray-300'
+                        ? 'border-purple-500 bg-purple-50 dark:bg-purple-900/30 dark:border-purple-400'
+                        : 'border-gray-200 dark:border-gray-700 hover:border-gray-300 dark:hover:border-gray-600'
                     }`}
                   >
                     <input
@@ -590,7 +590,7 @@ const getAllCategories = () => {
             </div>
             
             {/* Inverse Mode Toggle */}
-            <div className="mb-6 pb-6 border-b">
+            <div className="mb-6 pb-6 border-b dark:border-gray-700">
               <label className="flex items-center cursor-pointer">
                 <input
                   type="checkbox"
@@ -598,9 +598,9 @@ const getAllCategories = () => {
                   onChange={(e) => setInverseMode(e.target.checked)}
                   className="w-5 h-5 text-purple-600 rounded"
                 />
-                <span className="ml-3 text-lg font-semibold">Inverse Mode</span>
+                <span className="ml-3 text-lg font-semibold dark:text-gray-200">Inverse Mode</span>
               </label>
-              <p className="ml-8 text-sm text-gray-600 mt-1">
+              <p className="ml-8 text-sm text-gray-800 dark:text-gray-300 mt-1">
                 {inverseMode 
                   ? 'Term will be shown as question, definitions as multiple choice answers'
                   : 'Definition will be shown as question, terms as multiple choice answers (default)'}
@@ -608,8 +608,8 @@ const getAllCategories = () => {
             </div>
             
             {/* Summary */}
-            <div className="bg-blue-50 p-4 rounded-lg mb-6">
-              <p className="font-semibold text-blue-900">
+            <div className="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg mb-6">
+              <p className="font-semibold text-blue-900 dark:text-blue-200">
                 Selected: {termCount} term{termCount !== 1 ? 's' : ''} will be included in the quiz
               </p>
             </div>
@@ -643,11 +643,11 @@ const getAllCategories = () => {
     }
     
     return (
-      <div className="min-h-screen p-8 bg-zinc-50">
+      <div className="min-h-screen p-8 bg-zinc-50 dark:bg-gray-900">
         <main className="max-w-4xl mx-auto">
-          <div className="bg-white rounded-lg shadow-lg p-8 text-center">
-            <h1 className="text-4xl font-bold mb-4 text-green-600">Quiz Complete! 🎉</h1>
-            <p className="text-xl text-gray-800 mb-8">
+          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 text-center">
+            <h1 className="text-4xl font-bold mb-4 text-green-600 dark:text-green-400">Quiz Complete! 🎉</h1>
+            <p className="text-xl text-gray-900 dark:text-gray-100 mb-8">
               {retakeWrongMode 
                 ? wrongAnswerTerms.size === 0
                   ? 'Perfect! All wrong answers are now correct! 🎯'
@@ -656,35 +656,35 @@ const getAllCategories = () => {
             </p>
             
             {/* Score Display */}
-            <div className="bg-gradient-to-r from-blue-50 to-green-50 rounded-lg p-6 mb-6">
-              <div className="text-6xl font-bold text-blue-600 mb-2">{accuracy}%</div>
-              <p className="text-lg text-gray-900">Overall Score</p>
+            <div className="bg-gradient-to-r from-blue-50 to-green-50 dark:from-blue-900/20 dark:to-green-900/20 rounded-lg p-6 mb-6">
+              <div className="text-6xl font-bold text-blue-600 dark:text-blue-400 mb-2">{accuracy}%</div>
+              <p className="text-lg text-gray-900 dark:text-gray-100">Overall Score</p>
             </div>
             
             {/* Detailed Stats */}
             <div className="grid grid-cols-2 gap-4 mb-8">
-              <div className="bg-green-50 rounded-lg p-4">
-                <div className="text-3xl font-bold text-green-800 mb-1">{correctCount}</div>
-                <p className="text-sm text-gray-900">Correct</p>
+              <div className="bg-green-50 dark:bg-green-900/20 rounded-lg p-4">
+                <div className="text-3xl font-bold text-green-800 dark:text-green-300 mb-1">{correctCount}</div>
+                <p className="text-sm text-gray-900 dark:text-gray-100">Correct</p>
               </div>
-              <div className="bg-red-50 rounded-lg p-4">
-                <div className="text-3xl font-bold text-red-800 mb-1">{wrongCount}</div>
-                <p className="text-sm text-gray-800">Incorrect</p>
+              <div className="bg-red-50 dark:bg-red-900/20 rounded-lg p-4">
+                <div className="text-3xl font-bold text-red-800 dark:text-red-300 mb-1">{wrongCount}</div>
+                <p className="text-sm text-gray-900 dark:text-gray-100">Incorrect</p>
               </div>
             </div>
             
             {/* Wrong by Category (if any) */}
             {Object.keys(quizStats.wrongByCategory).length > 0 && (
               <div className="mb-6 text-left">
-                <h3 className="text-lg font-semibold mb-3">Areas to Review:</h3>
+                <h3 className="text-lg font-semibold mb-3 dark:text-gray-200">Areas to Review:</h3>
                 <div className="space-y-2">
                   {Object.entries(quizStats.wrongByCategory)
                     .sort(([_, a], [__, b]) => b - a)
                     .slice(0, 5)
                     .map(([category, count]) => (
-                      <div key={category} className="flex justify-between items-center p-2 bg-yellow-50 rounded">
-                        <span className="text-sm font-medium">{category}</span>
-                        <span className="text-sm text-red-600 font-semibold">{count} wrong</span>
+                      <div key={category} className="flex justify-between items-center p-2 bg-yellow-50 dark:bg-yellow-900/20 rounded">
+                        <span className="text-sm font-medium text-gray-900 dark:text-gray-200">{category}</span>
+                        <span className="text-sm text-red-600 dark:text-red-400 font-semibold">{count} wrong</span>
                       </div>
                     ))}
                 </div>
@@ -712,7 +712,7 @@ const getAllCategories = () => {
                     });
                     generateQuestion();
                   }}
-                  className="px-6 py-3 bg-gray-200 text-gray-700 rounded-lg font-semibold hover:bg-gray-300 transition-colors"
+                  className="px-6 py-3 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-200 rounded-lg font-semibold hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
                 >
                   Retake Same Quiz
                 </button>
@@ -737,10 +737,10 @@ const getAllCategories = () => {
   // Quiz Interface (shown after configuration)
   if (filteredTerms.length === 0) {
     return (
-      <div className="min-h-screen p-8 bg-zinc-50">
+      <div className="min-h-screen p-8 bg-zinc-50 dark:bg-gray-900">
         <main className="max-w-4xl mx-auto">
-          <h1 className="text-3xl font-bold mb-4">MCAT Quiz Mode</h1>
-          <p className="text-lg">No terms match your selection.</p>
+          <h1 className="text-3xl font-bold mb-4 dark:text-gray-100">MCAT Quiz Mode</h1>
+          <p className="text-lg dark:text-gray-300">No terms match your selection.</p>
           <button
             onClick={resetConfiguration}
             className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
@@ -753,7 +753,7 @@ const getAllCategories = () => {
   }
   
   if (!currentQuestion) {
-    return <div>Loading...</div>;
+    return <div className="dark:text-gray-100">Loading...</div>;
   }
   
   const totalAnswered = quizStats.correct + quizStats.wrong;
@@ -762,46 +762,46 @@ const getAllCategories = () => {
     : 0;
   
   return (
-    <div className="min-h-screen p-8 bg-zinc-50">
+    <div className="min-h-screen p-8 bg-zinc-50 dark:bg-gray-900">
       <main className="max-w-4xl mx-auto">
         <div className="flex justify-between items-center mb-6">
           <div>
-            <h1 className="text-3xl font-bold">MCAT Quiz Mode</h1>
+            <h1 className="text-3xl font-bold dark:text-gray-100">MCAT Quiz Mode</h1>
             {retakeWrongMode && (
-              <p className="text-sm text-red-600 mt-1">Retaking wrong answers only</p>
+              <p className="text-sm text-red-600 dark:text-red-400 mt-1">Retaking wrong answers only</p>
             )}
             {inverseMode && (
-              <p className="text-sm text-purple-600 mt-1">Inverse Mode: Term → Definition</p>
+              <p className="text-sm text-purple-600 dark:text-purple-400 mt-1">Inverse Mode: Term → Definition</p>
             )}
           </div>
           <button
             onClick={resetConfiguration}
-            className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition-colors"
+            className="px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-200 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
           >
             Change Settings
           </button>
         </div>
         
         {/* Quiz Stats */}
-        <div className="bg-white rounded-lg shadow p-4 mb-6">
+        <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 mb-6">
           <div className="flex justify-between items-center">
             <div>
-              <p className="text-sm text-gray-800">Questions: {quizStats.questionNumber}</p>
-              <p className="text-sm text-gray-800">
+              <p className="text-sm text-gray-900 dark:text-gray-100">Questions: {quizStats.questionNumber}</p>
+              <p className="text-sm text-gray-900 dark:text-gray-100">
                 Score: {quizStats.correct} / {totalAnswered} ({accuracy}%)
               </p>
-              <p className="text-xs text-gray-900 mt-1">
+              <p className="text-xs text-gray-900 dark:text-gray-300 mt-1">
                 Terms in quiz: {getQuizTerms().length}
               </p>
             </div>
             {Object.keys(quizStats.wrongByCategory).length > 0 && (
               <div className="text-right">
-                <p className="text-xs font-semibold mb-1">Wrong by Category:</p>
+                <p className="text-xs font-semibold mb-1 dark:text-gray-200">Wrong by Category:</p>
                 {Object.entries(quizStats.wrongByCategory)
                   .sort(([_, a], [__, b]) => b - a)
                   .slice(0, 3)
                   .map(([category, count]) => (
-                    <p key={category} className="text-xs text-red-600">
+                    <p key={category} className="text-xs text-red-600 dark:text-red-400">
                       {category}: {count}
                     </p>
                   ))}
@@ -811,21 +811,21 @@ const getAllCategories = () => {
         </div>
         
         {/* Question Card */}
-        <div className="bg-white rounded-lg shadow-lg p-8 mb-6">
+        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 mb-6">
           {/* Category Tags */}
           <div className="flex flex-wrap gap-2 mb-4">
             {currentQuestion.tag1 && (
-              <span className="px-3 py-1 text-sm bg-blue-100 text-blue-800 rounded-full">
+              <span className="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200 rounded-full">
                 {currentQuestion.tag1}
               </span>
             )}
             {currentQuestion.tag2 && (
-              <span className="px-3 py-1 text-sm bg-green-100 text-green-800 rounded-full">
+              <span className="px-3 py-1 text-sm bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-200 rounded-full">
                 {currentQuestion.tag2}
               </span>
             )}
             {currentQuestion.subsection && (
-              <span className="px-3 py-1 text-sm bg-purple-100 text-purple-800 rounded-full">
+              <span className="px-3 py-1 text-sm bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-200 rounded-full">
                 {currentQuestion.subsection}
               </span>
             )}
@@ -833,8 +833,8 @@ const getAllCategories = () => {
           
           {/* Question (Definition or Term based on mode) */}
           <div className="mb-6">
-            <p className="text-sm text-gray-500 mb-2">Question:</p>
-            <p className="text-xl font-medium text-gray-900">
+            <p className="text-sm text-gray-800 dark:text-gray-300 mb-2">Question:</p>
+            <p className="text-xl font-medium text-gray-900 dark:text-gray-100">
               {inverseMode ? currentQuestion.term : currentQuestion.definition}
             </p>
           </div>
@@ -849,16 +849,16 @@ const getAllCategories = () => {
               
               if (showResult) {
                 if (option === correctAnswer) {
-                  buttonClass += "bg-green-100 border-green-500 text-green-800";
+                  buttonClass += "bg-green-100 dark:bg-green-900/30 border-green-500 dark:border-green-400 text-green-800 dark:text-green-200";
                 } else if (option === selectedAnswer && option !== correctAnswer) {
-                  buttonClass += "bg-red-100 border-red-500 text-red-800";
+                  buttonClass += "bg-red-100 dark:bg-red-900/30 border-red-500 dark:border-red-400 text-red-800 dark:text-red-200";
                 } else {
-                  buttonClass += "bg-gray-50 border-gray-300 text-gray-600";
+                  buttonClass += "bg-gray-50 dark:bg-gray-700 border-gray-300 dark:border-gray-600 text-gray-900 dark:text-gray-200";
                 }
               } else {
                 buttonClass += selectedAnswer === option
-                  ? "bg-blue-100 border-blue-500 text-blue-800"
-                  : "bg-white border-gray-300 hover:border-blue-400 hover:bg-blue-50";
+                  ? "bg-blue-100 dark:bg-blue-900/30 border-blue-500 dark:border-blue-400 text-blue-800 dark:text-blue-200"
+                  : "bg-white dark:bg-gray-700 border-gray-300 dark:border-gray-600 hover:border-blue-400 dark:hover:border-blue-500 hover:bg-blue-50 dark:hover:bg-blue-900/20 dark:text-gray-200";
               }
               
               return (
@@ -877,12 +877,12 @@ const getAllCategories = () => {
           
           {/* Result Message */}
           {showResult && (
-            <div className={`p-4 rounded-lg mb-4 ${isCorrect ? 'bg-green-50' : 'bg-red-50'}`}>
-              <p className={`font-semibold ${isCorrect ? 'text-green-800' : 'text-red-800'}`}>
+            <div className={`p-4 rounded-lg mb-4 ${isCorrect ? 'bg-green-50 dark:bg-green-900/20' : 'bg-red-50 dark:bg-red-900/20'}`}>
+              <p className={`font-semibold ${isCorrect ? 'text-green-800 dark:text-green-200' : 'text-red-800 dark:text-red-200'}`}>
                 {isCorrect ? '✓ Correct!' : '✗ Incorrect'}
               </p>
               {!isCorrect && (
-                <p className="text-sm text-red-700 mt-1">
+                <p className="text-sm text-red-700 dark:text-red-300 mt-1">
                   The correct answer is: <strong>{inverseMode ? currentQuestion.definition : currentQuestion.term}</strong>
                 </p>
               )}
